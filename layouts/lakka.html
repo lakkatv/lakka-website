@@ -1,9 +1,40 @@
-<html>
-  <head>
-    <title><%= @item[:title] %></title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Floréal Toumikian, Zacharie Juillard" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index,follow" />
+  
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+  <link rel="icon" type="image/jpg" href="favicon/favicon.jpg" />
+  <link rel="icon" type="image/png" href="favicon/favicon.png" />
+  <link rel="icon" type="image/gif" href="favicon/favicon.gif" />
+  <link rel="apple-touch-icon" href="favicon/favicon.png" />
+  
+  <title><%= @item[:title] %></title>
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+ </head>
+
   <body>
-    <p>Hi, I'm a new layout. Please customize me!</p>
-<%= yield %>
+   <header></header>
+   
+   <p>Hi, I'm a new layout. Please customize me!</p>
+   <section>
+    <%= yield %>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </section>
+    
+   <footer></footer>
   </body>
 </html>
