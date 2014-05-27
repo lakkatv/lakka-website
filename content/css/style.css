@@ -1,0 +1,368 @@
+@charset "utf-8";
+/*css du site Lakka*/
+/*authors : Jean-André Santoni, Morgane Alonso, Zacharie Juillard*/
+
+/* -------------------- general -------------------- */
+
+body {
+  margin: 0px;
+  font-family: 'Asap', sans-serif;
+  background-color:  #ecf0f1
+}
+
+.clearer:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* -------------------- banner -------------------- */
+
+header {
+  color: white;
+  background-color: #1abc9c;
+}
+
+#menubar {
+  height: 60px;
+  background-color: #354B60;
+}
+
+h1 {
+  display: inline-block;
+  width: 100px;
+  margin: 0px;
+  height: 60px;
+  font-size: 30px;
+  float: left;
+}
+
+h1 img {
+  height: 60px;
+}
+
+header h2 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+header a.getlakka {
+  background-color: #354B60;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header .subtitle {
+  font-size: 35px;
+}
+
+#menubar nav {
+  float: right;
+}
+
+#menubar nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menubar nav li {
+  display: inline-block;
+  line-height: 60px;
+}
+
+#menubar nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  width: 45%;
+}
+
+header .column {
+  padding-top: 110px;
+}
+
+.tv {
+  margin-top: 235px;
+  float: right;
+  background-image: url("../images/tv.png");
+  background-size: 100%;
+  width: 600px;
+  height: 420px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.tv video {
+  margin-top: 20px;
+  margin-left: 36px;
+  background-color: #9b59b6;
+  width: 544px;
+  height: 320px;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation: fadeIn ease-in 1;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-duration: 1s;
+  -ms-animation: fadeIn ease-in 1;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-duration: 1s;
+  -o-animation: fadeIn ease-in 1;
+  -o-animation-fill-mode: forwards;
+  -o-animation-duration: 1s;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+/* -------------------- menu -------------------- */
+
+/* -------------------- content -------------------- */
+
+section#about {
+  padding: 60px 0;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+section#about article {
+  width: 580px;
+  float: left;
+  padding: 20px;
+}
+
+section#about article i {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 100px;
+  padding-right: 20px;
+  font-size: 80px;
+  text-align: center;
+  color: #bdc3c7;
+}
+
+section#about article div {
+  float: left;
+  width: 480px;
+}
+
+section#about article h3 {
+  color: #1abc9c;
+  font-size: 30px;
+}
+
+section#about article p {
+  color: #7f8c8d;
+}
+
+#contact{
+  display: block;
+  margin: auto auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  width:  1000px;
+  height: 650px;
+}
+
+#contact #left{
+  display: block;
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
+#contact #left #icon{
+  font-size: 150px;
+}
+
+#contact #left #title{
+  font-size: 20px;
+}
+
+#contact #right{
+  display: block;
+  float: left;
+  width: 700px;
+}
+
+#contact .form-input{
+  width: 560px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#bdc3c7;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 15px; 
+}
+
+#contact input[type="submit"]{
+  width: 585px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#bdc3c7;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px; 
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+}
+
+#contact input[type="text"]{
+  width: 540px;
+  background-color: white;
+  border: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+}
+
+#contact textarea{
+  width: 540px;
+  background-color: white;
+  border: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+  resize:none;
+}
+
+/* -------------------- footer -------------------- */
+
+/* -------------------- media queries -------------------- */
+/* ---------- iPad portrait ---------- */
+
+@media ony screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .container {
+    width: 668px;
+  }
+   
+  section#about {
+    width: 708px;
+    padding: 30px 0;
+  }
+  
+  header .column {
+    padding-top: 100px;
+  }
+  
+  .tv {
+    margin-top: 180px;
+    width: 300px;
+    height: 210px
+  }
+  
+  .tv video {
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 272px;
+    height: 160px;
+  }
+  
+  header h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 40px;
+  }
+  
+  header .subtitle {
+    font-size: 18px;
+  }
+  
+  header a.getlakka {
+    font-size: 1em;
+    margin-top: 2px;
+  }
+  
+  section#about article {
+    width: 698px;
+    padding: 0 20px;
+  }
+  
+  section#about article div {
+    width: 578px;
+  }
+  
+  section#about article i {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+  }
+  
+  section#about article h3 {
+    margin: 15px 0;
+    font-size: 25px;
+  }
+}
+
+/* ---------- iPad landscape ---------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .container {
+    width: 924px;
+  }
+   
+  section#about {
+    width: 964px;
+    padding: 60px 0;
+  }
+  
+  header .column {
+    padding-top: 200px;
+  }
+  
+  .tv {
+    margin-top: 200px;
+    width: 450px;
+    height: 315px
+  }
+  
+  .tv video {
+    margin-top: 15px;
+    margin-left: 27px;
+    width: 408px;
+    height: 240px;
+  }
+  
+  header h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 50px;
+  }
+  
+  header .subtitle {
+    font-size: 20px;
+  }
+  
+  header a.getlakka {
+    margin-top: 10px;
+  }
+  
+  section#about article {
+    width: 440px;
+    height: 220px;
+    padding: 0 20px;
+  }
+  
+  section#about article div {
+    width: 340px;
+  }
+}
