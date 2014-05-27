@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/wizzard.css" />
   <link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -19,7 +20,7 @@
   <link rel="icon" type="image/gif" href="/favicon/fav64.gif" />
   <link rel="apple-touch-icon" href="/favicon/fav64.png" />
   
-  <title>Lakka - The DIY retro emulation console</title>
+  <title><%= @item[:title] %></title>
   
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,9 +28,17 @@
   
 </head>
  
-<body>
+<body class="wizzard">
   <%= render 'partials/menu' %>
-  <%= yield %>
+
+  <%= render 'partials/wizzard-progress' %>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <%= render 'partials/wizzard-progress' %>
+
   <footer></footer>
 </body>
 </html>

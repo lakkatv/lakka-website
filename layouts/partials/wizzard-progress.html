@@ -1,0 +1,10 @@
+  <nav class="wizzard <%= "step#{@item[:step]}" %>">
+    <div class="container" >
+      <% if @item[:previous] %>
+      <%= link_to 'Previous', '..', :class => 'previous' %>
+      <% end %>
+      <% if @item[:next] %>
+      <%= link_to 'Next', @item[:next], :class => 'next' %>
+      <% end %>
+    </div>
+  </nav>

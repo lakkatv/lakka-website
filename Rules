@@ -13,6 +13,11 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+compile '/get*'do
+  filter :erb
+  layout 'wizzard'
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
@@ -23,7 +28,7 @@ compile '*' do
     layout 'lakka'
   else
     filter :erb
-    layout 'lakka'
+    layout 'lakka' 
   end
 end
 
