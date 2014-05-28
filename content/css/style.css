@@ -195,7 +195,7 @@ section#about article p {
 
 #clouds {
   background-color: #3498db;
-  background-image: url("../images/form_background.png");
+  background-image: url("/images/form_background.png");
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-size: 960px 220px;
@@ -204,7 +204,7 @@ section#about article p {
 
 #contact{
   padding-top: 60px;
-  background-image: url("../images/form_paperplane2.png");
+  background-image: url("/images/form_paperplane2.png");
   background-repeat: no-repeat;
   background-position: top right;
 
