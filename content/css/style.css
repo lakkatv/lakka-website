@@ -390,7 +390,7 @@ a.next.disabled, a.previous.disabled {
   cursor: default;
 }
 
-code pre {
+pre code {
   color: #7f8c8d;
 }
 
