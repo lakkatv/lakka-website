@@ -19,8 +19,15 @@ compile '/get*'do
   layout 'wizzard'
 end
 
+
 compile '/sitemap' do
   filter :erb
+end
+
+compile '/doc*' do
+  filter :erb if item[:extension] == "html"
+  filter :kramdown if item[:extension] == "md"
+  layout 'doc'
 end
 
 compile '*' do
