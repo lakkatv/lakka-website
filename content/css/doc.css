@@ -1,0 +1,14 @@
+/* Layout */
+
+body.doc > .container {
+    color: #2C3E50;
+    margin: 60px auto
+}
+
+body.doc h2 {
+    font-size: 40px;
+}
+
+body.doc h3 {
+    font-size: 30px;
+}
