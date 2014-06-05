@@ -65,11 +65,11 @@ data_sources:
   -
     type: video
     videos:
-      - id: videos/menu.webm
+      - id: video/menu.webm
         url: http://www.lakka.tv/videos/menu.webm
 
-      - id: videos/menu.mp4
+      - id: video/menu.mp4
         url: http://www.lakka.tv/videos/menu.mp4
 
-      - id: videos/menu.ogv
+      - id: video/menu.ogv
         url:  http://www.lakka.tv/videos/menu.ogv
