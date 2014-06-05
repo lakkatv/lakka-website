@@ -19,6 +19,10 @@ compile '/get*'do
   layout 'wizzard'
 end
 
+compile '/sitemap' do
+  filter :erb
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
@@ -37,6 +41,8 @@ route '*' do
   if item[:extension] == 'css'
     # Write item with identifier /foo/ to /foo.css
     item.identifier.chop + '.css'
+  elsif item[:extension] == 'xml'
+    item.identifier.chop + '.xml'
   elsif item.binary?
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
