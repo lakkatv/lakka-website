@@ -1,51 +1,4 @@
-.oses {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-nav.wizzard.step1 {
-    background-image: url('/images/step1.png');
-}
-
-nav.wizzard.step2 {
-    background-image: url('/images/step2.png');
-}
-
-nav.wizzard.step3 {
-    background-image: url('/images/step3.png');
-}
-
-nav.wizzard.step4 {
-    background-image: url('/images/step4.png');
-}
-
-nav.wizzard.step5 {
-    background-image: url('/images/step5.png');
-}
-
-nav.wizzard.step6 {
-    background-image: url('/images/step6.png');
-}
-
-nav.wizzard {
-    background: none no-repeat scroll 50% center #BDC3C7;
-    height: 68px;
-}
-
-nav.wizzard.step1 {
-    background-image: url('../images/step1.png');
-}
-
-.oses li {
-    display: inline-block;
-    background: none repeat scroll 0% 0% #FFF;
-    margin: 0px 20px;
-}
-
-body.wizzard .oses img {
-    max-width: 100%;
-}
+/* Layout */
 
 body.wizzard > .container {
     color: #2C3E50;
@@ -60,23 +13,60 @@ body.wizzard h3 {
     font-size: 30px;
 }
 
-a.next, a.previous {
-    background-color: #1ABC9C;
-    color: #FFF;
-    padding: 15px 30px;
-    display: inline-block;
-    margin: 10px auto;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
+/* Navigation */
+
+nav.wizzard.step1 { background-image: url("../images/step1.png"); }
+nav.wizzard.step2 { background-image: url("../images/step2.png"); }
+nav.wizzard.step3 { background-image: url("../images/step3.png"); }
+nav.wizzard.step4 { background-image: url("../images/step4.png"); }
+nav.wizzard.step5 { background-image: url("../images/step5.png"); }
+nav.wizzard.step6 { background-image: url("../images/step6.png"); }
+
+nav.wizzard {
+    background: none no-repeat scroll 50% center #BDC3C7;
+    height: 68px;
 }
 
 a.previous {
-    float: left;
+  float: left;
 }
 
 a.next {
-    float: right;
+  float: right;
+}
+
+a.next, a.previous {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a.next.disabled, a.previous.disabled {
+  background-color: #7f8c8d;
+  cursor: default;
+}
+
+/* OS choice */
+
+.oses {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.oses img {
+    max-width: 100%;
+}
+
+.oses li {
+    display: inline-block;
+    background: none repeat scroll 0% 0% #FFF;
+    margin: 0px 20px;
 }
 
 .oses li a {
@@ -92,20 +82,68 @@ a.next {
     outline: 3px solid #1ABC9C;
 }
 
+/* Platform choice */
+
 .platforms {
-    width: 1260px;
-    padding: 0px;
-    margin: 15px -15px;
+  width: 1260px;
+  padding: 0;
+  margin: 15px -15px;
+}
+
+.platforms li {
+  width: 280px;
+  display: block;
+  float: left;
+  background: white;
+  margin: 15px;
 }
 
 .platforms li a {
-    display: block;
-    text-decoration: none;
-    color: #2C3E50;
-    outline: 1px solid #BDC3C7;
-    padding-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  color: #2c3e50;
+  outline: 1px solid #bdc3c7;
+  padding-bottom: 10px;
+}
+.platforms li a:hover {
+  outline: 3px solid #1abc9c;
+}
+.platforms li.disabled a:hover {
+  outline: 1px solid #bdc3c7;
+  cursor: default;
 }
 
-.platforms li a:hover {
-    outline: 3px solid #1ABC9C;
+.platforms li img {
+  width: 100%;
+}
+
+.platforms li h3, .platforms li p {
+  padding: 0 20px;
+}
+
+.plaforms li.disabled h3 {
+  color: #bdc3c7 !important;
+}
+
+/* Download button */
+
+p.dl {
+  text-align: center;
+}
+
+p.dl a {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+p.dl a span.details {
+  display: block;
+  font-size: small;
 }
