@@ -11,10 +11,21 @@ This website is based on nanoc, a static generator CMS.
 Requirement:
 
 - Ruby: 2.0.0 or newer
-- Gems:
-  - nanoc
-  - kramdown
-  - adsf (optionnal but useful)
+- gem bundler
+
+In order to setup your development environement, run:
+
+    bundle install
+
+### Running commands
+
+Don't forget running commands with bundler:
+
+example:
+
+    bundle exec nanoc #wil compile the whole website
+
+    bundle exec guard #starts autocompilation on disk change
 
 ## Licence
 
