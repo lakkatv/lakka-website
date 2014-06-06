@@ -25,8 +25,8 @@ end
 
 ['/about', '/doc*'].each do |it|
   compile it do
-    filter :erb if item[:extension] == "html"
-    filter :kramdown if item[:extension] == "md"
+    filter :kramdown 
+    filter :doc_links if it == '/doc*'
     layout 'doc'
   end
 end
