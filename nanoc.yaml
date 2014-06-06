@@ -60,3 +60,16 @@ data_sources:
     # will have the identifier “/about/” when turned off, but when turned on
     # it will become “/about.html/” instead.
     allow_periods_in_identifiers: false
+
+  # Downloads videos content which shouldn't be includet un source repository
+  -
+    type: video
+    videos:
+      - id: videos/menu.webm
+        url: http://static.kivutar.me/lakka/videos/menu.webm
+
+      - id: videos/menu.mp4
+        url: http://static.kivutar.me/lakka/videos/menu.mp4
+
+      - id: videos/menu.ogv
+        url: http://static.kivutar.me/lakka/videos/menu.ogv
