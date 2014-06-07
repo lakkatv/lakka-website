@@ -7,9 +7,14 @@ GEM
     celluloid (0.15.2)
       timers (~> 1.1.0)
     coderay (1.1.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.7.0)
     colored (1.2)
     cri (2.6.1)
       colored (~> 1.2)
+    execjs (2.2.0)
     ffi (1.9.3)
     formatador (0.2.5)
     guard (2.6.1)
@@ -57,6 +62,7 @@ PLATFORMS
 DEPENDENCIES
   adsf
   builder
+  coffee-script
   guard
   guard-nanoc
   kramdown

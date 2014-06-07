@@ -33,6 +33,8 @@ end
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
+  elsif item[:extension] == 'coffee'
+    filter :coffeescript
   elsif item.binary?
     # don’t filter binary items
   elsif item[:extension] == "md"
@@ -50,6 +52,8 @@ route '*' do
     item.identifier.chop + '.css'
   elsif item[:extension] == 'xml'
     item.identifier.chop + '.xml'
+  elsif item[:extension] == 'coffee'
+    item.identifier.chop + '.js'
   elsif item.binary?
     # Write item with identifier /foo/ to /foo.ext
     suffix = (item[:extension].nil? )? '' : ('.' + item[:extension])
