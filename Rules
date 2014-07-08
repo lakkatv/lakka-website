@@ -23,7 +23,7 @@ compile '/sitemap' do
   filter :erb
 end
 
-['/about', '/doc*'].each do |it|
+['/about', '/doc*', '/contact'].each do |it|
   compile it do
     filter :kramdown 
     filter :doc_links if it == '/doc*'
