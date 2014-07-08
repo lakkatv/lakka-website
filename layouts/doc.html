@@ -20,7 +20,7 @@
   <link rel="icon" type="image/gif" href="/favicon/fav64.gif" />
   <link rel="apple-touch-icon" href="/favicon/fav64.png" />
   
-  <title>Lakka documentation - <%= @item[:title] %></title>
+  <title>Lakka documentation - <%= doc_title @item%></title>
   
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,7 +32,7 @@
   <%= render 'partials/menu' %>
 
   <div class="container">
-    <h2><%= @item[:title] %></h2>
+    <h1><%= doc_title @item %></h1>
     <%= yield %>
   </div>
 
