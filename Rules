@@ -19,7 +19,6 @@ compile '/get*'do
   layout 'wizzard'
 end
 
-
 compile '/sitemap' do
   filter :erb
 end
