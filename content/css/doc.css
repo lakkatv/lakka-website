@@ -1,0 +1,20 @@
+/* Layout */
+
+body.doc > .container {
+    color: #2C3E50;
+    margin: 60px;
+}
+
+body.doc > .container h1 {
+    float: none;
+    width: 100%;
+    font-size: 40px;
+}
+
+body.doc h2 {
+    font-size: 30px;
+}
+
+body.doc h3 {
+    font-size: 20px;
+}

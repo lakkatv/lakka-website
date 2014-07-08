@@ -23,6 +23,14 @@ compile '/sitemap' do
   filter :erb
 end
 
+['/about', '/doc*'].each do |it|
+  compile it do
+    filter :kramdown 
+    filter :doc_links if it == '/doc*'
+    layout 'doc'
+  end
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets

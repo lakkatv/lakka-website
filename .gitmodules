@@ -1,0 +1,3 @@
+[submodule "content/doc"]
+	path = content/doc
+	url = git@github.com:lakkatv/Lakka.wiki.git
