@@ -1,6 +1,6 @@
 module DocHelper
   def doc_title item
-    item.identifier.split('/')[2]
+    item[:title] || item.identifier.split('/')[2]
   end
 end
 
