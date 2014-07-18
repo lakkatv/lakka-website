@@ -1,11 +1,18 @@
 ---
-title: Blog
+title: News
 ---
 
-<h1>Latest news</h1>
+<h2>Latest articles</h2>
 
 <ul>
 <% sorted_articles.each do |article| %>
   <li><%= article[:created_at] %> - <%= link_to article[:title], article.identifier %></li>
+<% end %>
+</ul>
+
+<h2>Tags</h2>
+<ul>
+<% all_tags.each do |tag| %>
+  <li><%= link_for_tag(tag, '/tags/' )%></li>
 <% end %>
 </ul>

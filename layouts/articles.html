@@ -33,7 +33,10 @@
 
   <div class="container">
     <h1><%= @item[:title] %></h1>
-    <p class="article-infos">Posted on <%= @item[:created_at] %> by <%= @item[:author] %></p>
+    <p class="article-infos">
+      Posted on <%= @item[:created_at] %> by <%= @item[:author] %>,
+      Tags: <%= tags_for @item, :base_url => '/tags/' %>.
+    </p>
     <%= yield %>
   </div>
 
