@@ -74,6 +74,9 @@ data_sources:
       - id: videos/menu.ogv
         url: http://static.kivutar.me/lakka/videos/menu.ogv
 
+      - id: images/evolix.png
+        url: http://gcolpart.evolix.net/pics/newLogo/img/newLogo-Evolix-debconf.png
+
 deploy:
   public:
     kind: rsync

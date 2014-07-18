@@ -20,3 +20,9 @@ We also do not include third party scripted social network share widget.
 Any content on this website is Licencied under
 [Creative Commons 4.0 By Share Alike Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 That means you can reuse, share, and remix it, provided you just mention the authors.
+
+### Hosting
+
+We would like to thank [Evolix](http://www.evolix.com/) for offering this website hosting.
+
+![Evolix](/images/evolix.png)

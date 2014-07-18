@@ -18,3 +18,9 @@ body.doc h2 {
 body.doc h3 {
     font-size: 20px;
 }
+
+body.doc p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
