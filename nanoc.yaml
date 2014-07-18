@@ -73,3 +73,9 @@ data_sources:
 
       - id: videos/menu.ogv
         url: http://static.kivutar.me/lakka/videos/menu.ogv
+
+deploy:
+  public:
+    kind: rsync
+    options: [ '-avz', '--delete-after', '-e', 'ssh' ]
+    dst:  "lakka-website:/home/lakka/www"
