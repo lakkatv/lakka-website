@@ -1,11 +1,11 @@
 require 'yaml'
 require 'net/http'
 
-class RemoteDatasource < Nanoc::DataSource
-  identifier :video
+class MediaDatasource < Nanoc::DataSource
+  identifier :media
   
   def items
-    list = config[:videos]
+    list = config[:items]
     list.map do |video|
       id = video[:id]
       filename = get_video id, video[:url]

@@ -20,7 +20,7 @@ index_filenames: [ 'index.html' ]
 enable_output_diff: false
 
 # Sitemap requires url to be specified
-base_url: http://lakka.tv
+base_url: http://www.lakka.tv
 
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
@@ -63,8 +63,8 @@ data_sources:
 
   # Downloads videos content which shouldn't be includet un source repository
   -
-    type: video
-    videos:
+    type: media
+    items:
       - id: videos/menu.webm
         url: http://static.kivutar.me/lakka/videos/menu.webm
 
