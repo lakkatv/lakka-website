@@ -11,6 +11,10 @@ body > .container h1 {
     font-size: 40px;
 }
 
+p.article-infos {
+  font-size: 13px;
+}
+
 body h2 {
     font-size: 30px;
 }
