@@ -31,6 +31,19 @@ end
   end
 end
 
+compile '/articles/*/' do
+  unless item.binary?
+    filter :kramdown if item[:extension] == 'md'
+    filter :erb if item[:extension] == 'html'
+    layout 'articles'
+  end
+end
+
+compile '/' do
+   filter :erb
+   layout 'home'
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets

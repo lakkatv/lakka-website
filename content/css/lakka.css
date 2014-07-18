@@ -1,0 +1,26 @@
+/* Layout */
+
+body > .container {
+    color: #2C3E50;
+    margin: 60px;
+}
+
+body > .container h1 {
+    float: none;
+    width: 100%;
+    font-size: 40px;
+}
+
+body h2 {
+    font-size: 30px;
+}
+
+body h3 {
+    font-size: 20px;
+}
+
+body p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

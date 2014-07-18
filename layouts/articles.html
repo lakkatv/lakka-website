@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Jean-André Santoni, Morgane Alonso, Zacharie Juillard" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="Lakka is a lightweight Linux distribution that transforms a credit card sized computer called Raspberry Pi into a full blown emulation console." />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/doc.css" />
+  <link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/favicon/fav64.ico" />
+  <link rel="icon" type="image/x-icon" href="/favicon/fav64.ico" />
+  <link rel="icon" type="image/jpg" href="/favicon/fav64.jpg" />
+  <link rel="icon" type="image/png" href="/favicon/fav64.png" />
+  <link rel="icon" type="image/gif" href="/favicon/fav64.gif" />
+  <link rel="apple-touch-icon" href="/favicon/fav64.png" />
+  
+  <title>News - <%= @item[:title] %></title>
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+ 
+<body class="doc">
+  <%= render 'partials/menu' %>
+
+  <div class="container">
+    <h1><%= @item[:title] %></h1>
+    <p>Posted on <%= @item[:created_at] %> by <%= @item[:author] %></p>
+    <%= yield %>
+  </div>
+
+  <footer></footer>
+</body>
+</html>
