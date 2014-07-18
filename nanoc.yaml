@@ -77,6 +77,19 @@ data_sources:
       - id: images/evolix.png
         url: http://gcolpart.evolix.net/pics/newLogo/img/newLogo-Evolix-debconf.png
 
+      - id: favicon/fav64.ico
+        url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.ico
+      
+      - id: favicon/fav64.gif
+        url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.gif
+
+      - id: favicon/fav64.jpg
+        url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.jpg
+
+      - id: favicon/fav64.png
+        url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.png
+
+
 deploy:
   public:
     kind: rsync
