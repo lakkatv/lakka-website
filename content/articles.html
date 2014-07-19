@@ -6,7 +6,7 @@ title: News
 
 <ul>
 <% sorted_articles.each do |article| %>
-  <li><%= article[:created_at] %> - <%= link_to article[:title], article.identifier %></li>
+  <li><%= date_for article[:created_at] %> - <%= link_to article[:title], article.identifier %></li>
 <% end %>
 </ul>
 

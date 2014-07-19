@@ -43,8 +43,8 @@ end
 compile '/articles/*/' do
   unless item.binary?
     filter :kramdown if item[:extension] == 'md'
-    filter :erb if item[:extension] == 'html'
-    layout 'articles'
+    filter :erb if ['html', 'xml'].include? item[:extension]
+    layout 'articles' unless item[:extension] == 'xml'
   end
 end
 

@@ -1,0 +1,1 @@
+<%= atom_feed title: "Lakka News", author_name: "Lakka", author_uri: "#{@site.config[:base_url]}/articles"  %>

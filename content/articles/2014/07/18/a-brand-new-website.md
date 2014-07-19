@@ -1,8 +1,8 @@
 ---
 kind: article
 title: A brand new website
-created_at: '2014-07-18'
-author: floreal
+created_at: '2014-07-18 21:33:51'
+author_name: floreal
 tags:
   - website
   - RaspberryPi
@@ -35,7 +35,7 @@ listen to your suggestions.
 
 Oh, and you might also have noticed, we added a “News” section.
 
-## Bonus - About Lakka itself
+## About Lakka itself
 
 It has been a long time since we last released. We are working hard integrating adding
 the XBM-like menu. Though it is not yet fully functionnal (some feature are missing).
@@ -50,5 +50,5 @@ without noticeable issues concerning framerate.
 We also started to port the system to cubieboard. It still has the RGUI menu, but we
 managed to run a few roms.
 
-Here you can get one [those image](http://sources.lakka.tv/nightly/) if you want to
-give a try.
+Here you can get one of [those image](http://sources.lakka.tv/nightly/) if you want to
+give a try. Just do not forget these are prototypes.
