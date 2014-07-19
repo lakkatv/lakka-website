@@ -8,7 +8,7 @@ It is fully static. and generated with [nanoc](http://nanoc.ws/).
 
 ### Analytics and Privacy
 
-We do not use any cookie. We do not track your browsing on our nor
+We do not use any cookie. We do not track your browsing nor
 provide your navigation information to a third party Analytics service
 because we don't need them, because we don't care, and because we respect your
 privacy.
