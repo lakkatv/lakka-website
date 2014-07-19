@@ -7,7 +7,7 @@ tags:
   - website
   - RaspberryPi
   - PC
-  - Cubiebourd
+  - Cubieboard
 ---
 
 We finally managed to remake our website with a fully static content management
@@ -38,7 +38,7 @@ Oh, and you might also have noticed, we added a “News” section.
 ## About Lakka itself
 
 It has been a long time since we last released. We are working hard integrating adding
-the XBM-like menu. Though it is not yet fully functionnal (some feature are missing).
+the XMB-like menu. Though it is not yet fully functionnal (some feature are missing).
 But it is just a matter of week until we release it.
 
 We got some prototype version, and kivutar released a
