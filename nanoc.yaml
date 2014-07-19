@@ -91,7 +91,7 @@ data_sources:
 
 
 deploy:
-  public:
+  default:
     kind: rsync
     options: [ '-avz', '--delete-after', '-e', 'ssh' ]
     dst:  "lakka-website:/home/lakka/www"
