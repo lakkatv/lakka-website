@@ -3,6 +3,9 @@ title: Graphical contributions
 created_at: '2014-07-30 22:49:51'
 author_name: floreal
 kind: article
+tags:
+  - Contributions
+  - Menu
 ---
 
 Today we are going to talk about [bibalox](http://www.calcium-studio.fr/)'s awesome contribution to Lakka.
