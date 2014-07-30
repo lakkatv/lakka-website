@@ -38,4 +38,4 @@ It is not completely done yet, but the result will sure be a great eye-candy. We
 
 ## Next release
 
-The menu still lacks some entries to be fully usable. Yet, It is not as simple as adding graphics elements. It is rather a matter of [Retroarch](http://www.libretro.com/). It is not easy. But it is being taken care of. We think it is a matter of week since we tag a new version of Lakka.
+The menu still lacks some entries to be fully usable. Yet, It is not as simple as adding graphics elements. It is rather a matter of implmenting the menu settings API in [Retroarch](http://www.libretro.com/). It is not easy, but it is being taken care of. We think it is a matter of week since we tag a new version of Lakka.
