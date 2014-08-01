@@ -67,6 +67,10 @@ compile '*' do
   end
 end
 
+route '/robots' do
+  "#{item.identifier.chop}.#{item[:extension]}"
+end
+
 route '*' do
   if item[:extension] == 'css'
     # Write item with identifier /foo/ to /foo.css
