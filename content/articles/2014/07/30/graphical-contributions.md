@@ -6,6 +6,8 @@ kind: article
 tags:
   - Contributions
   - Menu
+social:
+  thumbnail: media/menu2.png
 ---
 
 Today we are going to talk about [bibalox](http://www.calcium-studio.fr/)'s awesome contribution to Lakka.

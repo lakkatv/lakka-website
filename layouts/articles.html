@@ -6,13 +6,22 @@
   <meta name="keywords" content="" />
   <meta name="description" content="Lakka is a lightweight Linux distribution that transforms a credit card sized computer called Raspberry Pi into a full blown emulation console." />
   <meta name="robots" content="index,follow" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@lakkatv" />
+  <meta name="twitter:creator" content="@lakkatv" />
+  <meta property="og:url" content="<%= item_full_url %>" />
+  <meta property="og:title" content="<%= @item[:title] %>" />
+  <meta property="og:description" content="<%= excerptize strip_html(yield), :length => 150 %>" />
+  <% if item_has_thumbnail? %><meta property="og:image" content="<%= item_thumbnail %>"><% end %>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/lakka.css" />
   <link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+  
   <link rel="shortcut icon" href="/favicon/fav64.ico" />
   <link rel="icon" type="image/x-icon" href="/favicon/fav64.ico" />
   <link rel="icon" type="image/jpg" href="/favicon/fav64.jpg" />
