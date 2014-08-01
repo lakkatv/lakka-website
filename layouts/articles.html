@@ -7,9 +7,14 @@
   <meta name="description" content="Lakka is a lightweight Linux distribution that transforms a credit card sized computer called Raspberry Pi into a full blown emulation console." />
   <meta name="robots" content="index,follow" />
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@lakkatv" />
-  <meta name="twitter:creator" content="@lakkatv" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="@lakkatv" />
+  <meta property="twitter:creator" content="@lakkatv" />
+  <meta property="twitter:url" content="<%= item_full_url %>" />
+  <meta property="twitter:title" content="<%= @item[:title] %>" />
+  <meta property="twitter:description" content="<%= excerptize strip_html(yield), :length => 150 %>" />
+  <% if item_has_thumbnail? %><meta property="twitter:image" content="<%= item_thumbnail %>"><% end %>
+
   <meta property="og:url" content="<%= item_full_url %>" />
   <meta property="og:title" content="<%= @item[:title] %>" />
   <meta property="og:description" content="<%= excerptize strip_html(yield), :length => 150 %>" />
