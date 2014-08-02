@@ -1,8 +1,8 @@
-# Lakka news Wadsite
+# Lakka website
 
 ## Synopsis
 
-This project is the news website for Lakka
+This project is the website for Lakka
 
 ## Development environment
 
