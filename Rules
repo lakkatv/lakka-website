@@ -27,7 +27,7 @@ compile '/sitemap' do
   filter :erb
 end
 
-['/about', '/doc*', '/contact'].each do |it|
+['/about', '/doc*'].each do |it|
   compile it do
     filter :kramdown 
     filter :doc_links if it == '/doc*'
@@ -38,6 +38,11 @@ end
 compile '/tags/*/' do
   filter :erb if item[:extension] == 'html'
   layout 'tag'
+end
+
+compile '/contact' do
+  filter :erb if item[:extension] == 'html'
+  layout 'contact'
 end
 
 compile '/articles/*/' do
@@ -54,7 +59,7 @@ compile '/' do
 end
 
 compile '*' do
-  if item[:extension] == 'css'
+  if item[:extension] == 'css' || item[:extension] == 'js' || item[:extension] == 'php'
     # don’t filter stylesheets
   elsif item.binary?
     # don’t filter binary items
@@ -75,6 +80,10 @@ route '*' do
   if item[:extension] == 'css'
     # Write item with identifier /foo/ to /foo.css
     item.identifier.chop + '.css'
+  elsif item[:extension] == 'php'
+    item.identifier.chop + '.php'
+  elsif item[:extension] == 'js'
+    item.identifier.chop + '.js'
   elsif item[:extension] == 'xml'
     item.identifier.chop + '.xml'
   elsif item.binary?
