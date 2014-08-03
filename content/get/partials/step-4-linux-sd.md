@@ -1,10 +1,3 @@
----
-title: Get Lakka - Installation
-step: 4
-previous: true
-next: first-boot
----
-
 ## Install Lakka to the SD card
 
 ### Determine your SD card drive
