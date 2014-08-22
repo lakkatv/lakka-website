@@ -4,4 +4,6 @@ step: 6
 previous: true
 ---
 
-<%= @items['/get/partials/step-6-macos/'].compiled_content %>
+<% filter :kramdown do %>
+<%= partial 'step-6-macos.md' %>
+<% end %>

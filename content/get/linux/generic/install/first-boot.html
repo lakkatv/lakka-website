@@ -5,4 +5,6 @@ previous: true
 next: games
 ---
 
-<%= @items['/get/partials/step-5-generic/'].compiled_content %>
+<% filter :kramdown do %>
+<%= partial 'step-5-generic.md' %>
+<% end %>
