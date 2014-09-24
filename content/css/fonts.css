@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap'), local('Asap-Regular'), url(/fonts/asap-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Asap Bold'), local('Asap-Bold'), url(/fonts/asap-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Asap Italic'), local('Asap-Italic'), url(/fonts/asap-italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Asap Bold Italic'), local('Asap-BoldItalic'), url(/fonts/asap-bold-italic.ttf) format('truetype');
+}
