@@ -6,7 +6,7 @@ class DocLinksFilter < Nanoc::Filter
     filtered = "#{content}"
     needles = filtered.scan /href="wiki[^"]*"/
     needles.each do |needle|
-      replacement = needle.gsub(' ', '-').sub '="wiki', '="/doc'
+      replacement = needle.gsub(' ', '%20').sub '="wiki', '="/doc'
       filtered.sub! needle, replacement
     end 
     filtered
