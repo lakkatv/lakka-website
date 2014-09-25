@@ -19,7 +19,7 @@
   <article class="clearer">
     <i class="fa fa-bolt"></i>
     <div>
-      <h3>Powerfull</h3>
+      <h3>Powerful</h3>
       <p>Built on top of the famous RetroArch emulator, Lakka is able to emulate a large range of hardware and has some usefull features such as Braid-like rewinding, joypad hotplug and video streaming.</p>
     </div>
   </article>
