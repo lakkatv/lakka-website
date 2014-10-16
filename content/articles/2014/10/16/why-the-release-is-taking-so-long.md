@@ -34,7 +34,7 @@ Here is how this new implementation looks like for now, the horizontal icons are
 
 ![Hummingboard](media/hummingboard.jpg)
 
-The port to SolidRun devboards is coming nicely. We ported RetroArch to these devices, which required the developement of a Vivante fbdev context driver. In fact it was pretty easy, since maister already did a mali context driver, I just had to adapt his code and everything is working like a charm, good performances, no glitches, etc.
+The port to [SolidRun](http://www.solid-run.com) devboards is coming nicely. We ported RetroArch to these devices, which required the developement of a [Vivante fbdev context driver](https://github.com/libretro/RetroArch/blob/master/gfx/context/vivante_fbdev_ctx.c). In fact it was pretty easy, since maister already did a mali context driver, I just had to adapt his code and everything is working like a charm, good performances, no glitches, etc.
 
 The pcsx_rearmed core can run at full speed on my hummingboard-i2ex, with threaded video enabled. The snes9x-next core is also running at full speed. It's a good thing because it has a lot more features compared to the pocketsnes core that we package in the Raspberry Pi version. However, the mupen64plus core is still slow and we have cross compiling issues with the latest versions.
 
@@ -48,7 +48,7 @@ RetroArch team is well aware of this bug, and will help us to find a fix, howeve
 
 ## Increasing joypad support
 
-Since we are collaborating more with the libretro organisation, we moved our github repo containing the joypad configurations to their github group. People around the world then started contributing their configs, so the next release of Lakka will support a lot more joypads.
+Since we are collaborating more with the [libretro organisation](https://github.com/libretro), we moved our [github repo](https://github.com/libretro/retroarch-joypad-autoconfig) containing the joypad configurations to their github group. People around the world then started contributing their configs, so the next release of Lakka will support a lot more joypads.
 
 RetroArch use to choose which config file to use for inputs by matching the joypad name. It was problematic, since some joypads like wireless dualshock 3, and duarlshock 4 have the same name... Using vendor_id/product_id is a better idea, and this is being implemented right now in the differents inputs drivers in RetroArch.
 
@@ -58,17 +58,17 @@ The next release of Lakka should include this new way of matching joypads, so al
 
 ![BananaPi](media/bananapi.jpg)
 
-We've spend a lot of time working on these ports, and got a big help from a contributor called Alex Recio who did the BananaPi port and activated neon optimisation, allowing pcsx_rearmed to run at full speed on these devices.
+We've spend a lot of time working on these ports, and got a big help from a contributor called Alex Recio who did the [BananaPi](http://www.bananapi.org) port and activated neon optimisation, allowing pcsx_rearmed to run at full speed on these devices.
 
-So pcsx is working, snes9x-next is full speed on almost all roms... these devices are cheap... so far so good. Except that the software support of linux for these Allwinner devices sucks. We are stuck with old 3.4 kernels, and systemd just droped support for pre 3.7 kernels, thanks a lot systemd, very best way to fix a bug ever. So wifi is no more working, and it's only a start. We may not be able to maintain this port if systemd go on breaking things without caring in the future.
+So pcsx is working, snes9x-next is full speed on almost all roms... these devices are cheap... so far so good. Except that the software support of linux for these Allwinner devices sucks. We are stuck with old 3.4 kernels, and [systemd just droped support for pre 3.7 kernels](https://www.mail-archive.com/systemd-devel@lists.freedesktop.org/msg22454.html), thanks a lot systemd, very best way to fix a bug ever. So wifi is no more working, and it's only a start. We may not be able to maintain this port if systemd go on breaking things without caring in the future.
 
 ## RetroBox
 
-If you're a follower of #retroarch on freenode, you may have noticed that RetroArch devs are sometime speaking of RetroBox. Some people have been sending us emails to know what the future of Lakka will be, if we're discontinuing it or not, etc.
+If you're a follower of #retroarch on freenode, you may have noticed that RetroArch devs are sometime speaking about [RetroBox](http://www.libretro.com/index.php/after-retroarch-v1-1-retrobox/). Some people have been sending us emails to know what the future of Lakka will be, is Lakka going to become RetroBox, etc.
 
-We cannot reply for now, since we've not spoken with RetroArch team about it. They are busy with getting their next release. So we are. We will discuss it one day when our minds will be free of all this releasing work.
+It is too early to ask this kind of questions. RetroBox is still a young idea. We've not spoken in detail with Squarepusher, the developer of RetroArch, about it. He is busy with getting the next release of RetroArch. So are we with Lakka. We will discuss after RetroArch 1.1 release, when our minds are free of all this tedious releasing work.
 
-There is no reason to be afraid about the future of Lakka. We just need to focus on implementing features, fixing bugs, and releasing. First things first.
+Lakka is more than ever under active development. We are focused on implementing features, fixing bugs, and releasing. First things first.
 
 ## Contributing
 
