@@ -1,0 +1,32 @@
+/* Layout */
+
+body.blog > .container {
+    color: #2C3E50;
+    max-width: 668px;
+    margin: 60px auto;
+}
+
+body.blog > .container h1 {
+    float: none;
+    width: 100%;
+    font-size: 40px;
+}
+
+body.blog h2 {
+    font-size: 30px;
+}
+
+body.blog h3 {
+    font-size: 20px;
+}
+
+body.blog p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+body.blog p {
+    font-size: 18px;
+}
