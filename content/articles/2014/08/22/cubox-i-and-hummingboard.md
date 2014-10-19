@@ -15,8 +15,8 @@ social:
 
 ![Cubox-i and HummingBoard](media/cbx_hb.jpg)
 
-So Lakka is being ported to these and the result is already very promizing. They can both run smoothly snes9xnext, pcsx_rearmed, and sometimes vba-next.
+So Lakka is being ported to these and the result is already very promizing. They can both run snes9xnext smoothly, pcsx_rearmed, and sometimes vba-next.
 
-There are still some rough edges that need to be polished before we can release, but you can already grab a nightly build from [here](http://sources.lakka.tv/nightly).
+There are still some rough edges that need to be polished before release, but you can already grab a nightly build from [here](http://sources.lakka.tv/nightly).
 
-Feel free to try it and report the bugs you found!
+Feel free to try it and report bugs you find!
