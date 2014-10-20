@@ -20,7 +20,7 @@ Dear Lakka users, it has been a long time since we've posted something on this d
 
 ## Rewrite of the menu from scratch
 
-Our GUI, called "lakka-menu", has improved a lot, most of the settings have been implemented, it can launch roms, save and load state, take screenshots, reset a game, and more important, it is now thread safe (thanks to aliaspider from RetroArch) so threaded videos can be played, which means significant performance improvements.
+Our GUI, called "lakka-menu", has improved a lot, most of the settings have been implemented, it can launch roms, save and load state, take screenshots, reset a game, and more important, it is now thread safe (thanks to aliaspider from RetroArch) so the threaded_video setting can be enabled, which means significant performance improvements.
 
 ![Lakka settings interface](media/lakkasettings.png)
 
