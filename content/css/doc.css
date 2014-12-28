@@ -20,6 +20,32 @@ body.doc h3 {
     font-size: 20px;
 }
 
+body.doc table {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+body.doc table th {
+    padding: 20px 10px;
+    border-bottom: 4px solid #1abc9c;
+    text-align: left;
+}
+
+body.doc table td {
+    padding: 10px;
+}
+
+body.doc table tr:nth-child(odd) td {
+    background: #ecf0f1;
+}
+
+body.doc table img {
+    max-width: 50px;
+}
+
 body.doc p img {
     display: block;
     margin-left: auto;
