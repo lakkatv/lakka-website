@@ -28,10 +28,6 @@ a {
   text-decoration: none;
 }
 
-pre code {
-  color: #7f8c8d;
-}
-
 /* -------------------- banner -------------------- */
 
 header {
@@ -101,7 +97,7 @@ header .subtitle {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .column {
