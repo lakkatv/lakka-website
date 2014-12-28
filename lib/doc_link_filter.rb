@@ -6,7 +6,7 @@ class DocLinksFilter < Nanoc::Filter
     filtered = "#{content}"
     needles = filtered.scan /href="[^http|irc][^"]*"/
     needles.each do |needle|
-      replacement = needle.gsub(' ', '%20').sub '="', '="/doc/'
+      replacement = needle.sub '="', '="/doc/'
       filtered.sub! needle, replacement
     end 
     filtered
