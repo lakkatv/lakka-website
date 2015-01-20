@@ -41,7 +41,8 @@ class CreateArticle < ::Nanoc::CLI::CommandRunner
       "Hi, I'm a new article!\n",
       { :title => title, 
         :created_at => "#{now.strftime '%F %T'}",
-        :author_name => ENV['USER'] },
+        :author_name => ENV['USER'],
+        :kind => 'article' },
       identifier,
       :extension => ".md"
     )
