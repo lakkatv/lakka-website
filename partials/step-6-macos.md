@@ -15,18 +15,22 @@ Copy your games under the *roms* folder. This step can take some time, as the ga
 
 ### Launching a game
 
-Using your joypad, go to the *Load Content (Detect Core)* entry:
+Using your joypad, go to the *Quit RetroArch* entry:
 
-![Content](/images/rguiloadcontent.png)
+![Reload content](/images/lakkamenuquit.png)
 
-You should now be able to browse your ROM collection:
+This will reload the graphical interface, and you should now be able to browse your rom collection:
 
-![Roms](/images/rguifindrom.png)
+![Browse roms](/images/lakkamenufindrom.png)
+
+Select the rom you want to run:
+
+![Run](/images/lakkamenurunrom.png)
 
 The game should be starting:
 
 ![Game start](/images/rguiromlaunched.png)
 
-If you need more informations on how RGUI works, please refer to [RetroArch Wiki](https://github.com/libretro/RetroArch/wiki/RGUI)
+If you need more informations, please read our [FAQ](/doc/FAQ), join us on [IRC](irc://irc.freenode.org/#lakkatv) or send a [mail](/contact).
 
 Happy gaming!
