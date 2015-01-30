@@ -22,6 +22,10 @@ enable_output_diff: false
 # Sitemap requires url to be specified
 base_url: http://www.lakka.tv
 
+site_name: "Lakka"
+site_slogan: "The DIY retro emulation console"
+site_description: "Lakka is a lightweight Linux distribution that transforms a small computer into a full blown game console."
+
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
   # directory. For safety reasons, this is turned off by default.
