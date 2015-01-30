@@ -15,9 +15,9 @@ You should see our splash screen:
 
 The system will expand the filesystems and reboot after 30 seconds. This happens only on the first boot, the next one should be fast.
 
-If everything went OK, you should now be able to navigate RGUI, the interface of RetroArch:
+If everything went OK, you should now be able to navigate Lakka Menu, our graphical interface:
 
-![RGUI](/images/rgui.png)
+![Lakka menu](/images/lakkamenu.png)
 
 Congratulations, you have successfully installed Lakka!
 

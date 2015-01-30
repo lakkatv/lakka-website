@@ -42,9 +42,9 @@ At the end of this process, you will be asked to reboot. Choose *Reboot* and unp
 
 The system will expand the filesystems and reboot after 30 seconds. This happens only on the first boot. The system will automatically reboot and this time it should be fast.
 
-If everything went OK, you should now be able to navigate RGUI, the interface of RetroArch:
+If everything went OK, you should now be able to navigate Lakka Menu, our graphical interface:
 
-![RGUI](/images/rgui.png)
+![Lakka menu](/images/lakkamenu.png)
 
 Congratulations, you have successfully installed Lakka!
 
