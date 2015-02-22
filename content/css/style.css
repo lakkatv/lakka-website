@@ -28,8 +28,17 @@ a {
   text-decoration: none;
 }
 
+pre {
+    margin: 25px 0;
+}
+
 pre code {
-  color: #7f8c8d;
+  color: #2ecc71;
+  background: #2c3e50;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 /* -------------------- banner -------------------- */
@@ -101,7 +110,7 @@ header .subtitle {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .column {
