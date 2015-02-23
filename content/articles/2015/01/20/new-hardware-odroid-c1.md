@@ -9,7 +9,7 @@ social:
 
 ## We received a package
 
-Lately we had several request for an odroid port, so we asked [Hardkernel](http://hardkernel.com/) if they'd like to provide us some of their awesome board.
+Lately we had several request for an odroid port, so we asked [Hardkernel](http://hardkernel.com/) if they'd like to provide us with some of their awesome boards.
 
 And then, yesterday we recieved this package :
 
@@ -21,7 +21,7 @@ Two [Odroid C1](http://odroid.com/dokuwiki/doku.php?id=en:odroid-c1) boards and 
 
 ![Package content](media/content.jpg)
 
-So, we got twice, as we were told :
+So we got, twice, as we were told :
 
 > - ODROID-C1 Revision2 Board : the only difference is EMI/ESD optimisation and IR receiver location. The software is 100% same. 
 > - HDMI Cable
@@ -32,7 +32,7 @@ So, we got twice, as we were told :
 
 ![A board](media/board.jpg)
 
-And once the board in it's case.
+And once the board is in it's case.
 
 ![In it's case](media/in-case.jpg)
 
@@ -40,9 +40,9 @@ Thanks a lot to Hardkernel. Now we will start working on the odroid C1 ports.
 
 ## News about the development
 
-As the C1 has a Mali chipset for video acceleration, we worked on the last day fixing it For Allwiner boards (Cubieboard 2 and Cubitruck). The black flickering and black bacground issue when using lakka / xbm menu are fixed.
+As the C1 has a Mali chipset for video acceleration, we worked these last days fixing it For Allwiner boards (Cubieboard 2 and Cubitruck). The black flickering and black bacground issue when using lakka / xbm menu are now fixed.
 
-Here is what changed since last Update:
+Here is what changed since the last Update:
 
 - Improvement: Merged OpenELEC 5 build system
 - Fix: Lakka menu bug on Allwinner
@@ -57,4 +57,4 @@ Here is what changed since last Update:
 - Updated: mupen64plus, fceumm, ppsspp
 - Improvement: Package reorganization
 
-The release is getting closer and closer !!
+The release is getting closer and closer!!
