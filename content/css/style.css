@@ -15,6 +15,10 @@ body {
   min-height: 100%;
 }
 
+iframe {
+  border: 0;
+}
+
 .clearer:after{
   content: "";
   display: block;

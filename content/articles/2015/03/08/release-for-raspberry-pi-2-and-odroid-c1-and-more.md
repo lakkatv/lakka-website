@@ -21,7 +21,7 @@ We ship the snes9x-next core, which has better sound and compatibility than pock
 
 Here is a video make by one of our users, demonstrating the result:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R8FuEXmL34s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R8FuEXmL34s" allowfullscreen></iframe>
 
 Known bugs for the RPi2 build:
 
@@ -38,7 +38,7 @@ This powerfull device was donated by Hardkernel. It is incredibly fast, for the 
 
 A video of the Odroid-C1 running Lakka:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFWbEIA7w8Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFWbEIA7w8Q" allowfullscreen></iframe>
 
 Known bugs for the Odroid-C1 build:
 
@@ -66,7 +66,7 @@ With this core, you can develop your own games for Lakka in Lua. Lua is a very e
 
 This video shows a sample platformer game running on lutro in RetroArch:
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/n6eLX_GPXGg" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/n6eLX_GPXGg" allowfullscreen></iframe>
 
 Lutro is still experimental and lacks ogg/vorbis support to play background music, but all the other features to develop a small retro games are there, and we provide some demo games to get you started on the libretro github page.
 
