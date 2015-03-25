@@ -3,7 +3,8 @@
 body.doc > .container {
     color: #2C3E50;
     max-width: 900px;
-    margin: 60px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 body.doc > .container h1 {

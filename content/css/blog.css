@@ -4,6 +4,13 @@ body.blog > .container {
     color: #2C3E50;
     max-width: 668px;
     margin: 60px auto;
+    padding: 0 50px;
+}
+
+body.blog > .container h1 {
+    float: none;
+    width: 100%;
+    font-size: 40px;
 }
 
 body.blog > .container h1 {
@@ -29,4 +36,5 @@ body.blog p img {
 
 body.blog p {
     font-size: 18px;
+    text-align: justify;
 }

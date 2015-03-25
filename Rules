@@ -27,9 +27,10 @@ compile '/sitemap' do
   filter :erb
 end
 
-['/about', '/doc*'].each do |it|
+['/about', '/doc*', '/articles'].each do |it|
   compile it do
-    filter :kramdown 
+    filter :erb if item[:extension] == 'html'
+    filter :kramdown if item[:extension] == 'md'
     filter :doc_links if it == '/doc*'
     layout 'doc'
   end

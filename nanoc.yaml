@@ -83,7 +83,7 @@ data_sources:
 
       - id: favicon/fav64.ico
         url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.ico
-      
+
       - id: favicon/fav64.gif
         url: https://raw.githubusercontent.com/lakkatv/lakka-website/master/favicon/fav64.gif
 

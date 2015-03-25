@@ -1,16 +1,18 @@
 /* Layout */
 
 body.wizzard > .container {
-    color: #2C3E50;
-    margin: 60px auto
+  color: #2C3E50;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 1240px;
 }
 
 body.wizzard h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 body.wizzard h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* Navigation */
@@ -23,8 +25,8 @@ nav.wizzard.step5 { background-image: url("../images/step5.png"); }
 nav.wizzard.step6 { background-image: url("../images/step6.png"); }
 
 nav.wizzard {
-    background: none no-repeat scroll 50% center #BDC3C7;
-    height: 68px;
+  background: none no-repeat scroll 50% center #BDC3C7;
+  height: 68px;
 }
 
 a.previous {
@@ -66,7 +68,7 @@ a.next.disabled, a.previous.disabled {
 .oses li {
     display: inline-block;
     background: none repeat scroll 0% 0% #FFF;
-    margin: 0px 20px;
+    margin: 20px;
 }
 
 .oses li a {
@@ -85,9 +87,9 @@ a.next.disabled, a.previous.disabled {
 /* Platform choice */
 
 .platforms {
-  width: 1260px;
+  width: 100%;
   padding: 0;
-  margin: 15px -15px;
+  margin: 0 auto;
 }
 
 .platforms li {

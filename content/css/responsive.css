@@ -1,0 +1,200 @@
+/* ---------- iPad portrait ---------- */
+
+@media screen and (max-width : 950px) {
+  .container {
+    width: auto;
+    margin: 0 50px;
+  }
+
+  body.wizzard > .container {
+    width: calc(100% - 80px);
+  }
+
+  section#about {
+    width: auto;
+    padding: 30px 50px;
+  }
+  
+  header .column {
+    padding-top: 100px;
+  }
+  
+  .tv {
+    margin-top: 180px;
+    width: 300px;
+    height: 210px
+  }
+  
+  .tv video {
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 272px;
+    height: 160px;
+  }
+  
+  header h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 40px;
+  }
+  
+  header .subtitle {
+    font-size: 18px;
+  }
+  
+  header a.getlakka {
+    font-size: 1em;
+    margin-top: 2px;
+  }
+  
+  section#about article {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section#about article div {
+    width: calc(100% - 100px);
+  }
+  
+  section#about article i {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+  }
+  
+  section#about article h3 {
+    margin: 15px 0;
+    font-size: 25px;
+  }
+
+  section#libretro {
+    padding: 60px;
+    background-image: none;
+  }
+
+  section#libretro article p {
+    font-size: 18px;
+  }
+
+  section#libretro article {
+    width: auto;
+  }
+
+  section#libretro article #libretrologo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  nav.getlakka {
+    background-size: 25%;
+  }
+
+  #menubar nav li a {
+    padding: 10px;
+  }
+
+  .platforms {
+    width: 698px;
+  }
+
+  .platforms>li {
+    width: 318px;
+  }
+
+  nav.wizzard {
+    background-size: auto 20px;
+  }
+}
+
+/* ---------- iPad landscape ---------- */
+@media screen and (max-width : 1280px) and (min-width: 950px) {
+  .container {
+    width: auto;
+    margin: 0 50px;
+  }
+
+  body.wizzard > .container {
+    width: calc(100% - 80px);
+  }
+
+  section#about {
+    width: auto;
+    padding: 60px 30px;
+  }
+  
+  header .column {
+    padding-top: 200px;
+  }
+  
+  .tv {
+    margin-top: 200px;
+    width: 450px;
+    height: 315px
+  }
+  
+  .tv video {
+    margin-top: 15px;
+    margin-left: 27px;
+    width: 408px;
+    height: 240px;
+  }
+  
+  header h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 50px;
+  }
+  
+  header .subtitle {
+    font-size: 20px;
+  }
+  
+  header a.getlakka {
+    margin-top: 10px;
+  }
+  
+  section#about article {
+    width: calc(50% - 40px);
+    height: 220px;
+    padding: 0 20px;
+  }
+  
+  section#about article div {
+    width: calc(100% - 100px);
+  }
+
+  section#libretro {
+    padding: 60px;
+    background-size: 50%;
+  }
+
+  section#libretro article p {
+    font-size: 18px;
+  }
+
+  section#libretro article {
+    width: 400px;
+  }
+
+  section#libretro article #libretrologo {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  nav.getlakka {
+    background-size: 50%;
+  }
+
+  .platforms {
+    width: 954px;
+  }
+
+  .platforms>li {
+    width: 288px;
+  }
+
+  nav.wizzard {
+    background-size: auto 30px;
+  }
+}
