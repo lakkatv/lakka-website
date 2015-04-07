@@ -292,6 +292,29 @@ section#libretro article p {
   border-color: #48c9b0;
 }
 
+/* Download button */
+
+p.dl {
+  text-align: center;
+}
+
+p.dl a {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+p.dl a span.details {
+  display: block;
+  font-size: small;
+}
+
 /* -------------------- footer -------------------- */
 
 footer {
