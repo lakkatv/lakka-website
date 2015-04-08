@@ -5,6 +5,8 @@ author_name: floreal
 kind: article
 social:
   thumbnail: media/in-case.jpg
+tags:
+  - Odroid-c1
 ---
 
 ## We received a package

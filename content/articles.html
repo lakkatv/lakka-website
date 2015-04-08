@@ -11,8 +11,8 @@ title: News
 </ul>
 
 <h2>Tags</h2>
-<ul>
+<ul class="tags clearer">
 <% all_tags.each do |tag| %>
-  <li><%= link_for_tag(tag, '/tags/' )%></li>
+  <li class="tag"><%= link_for_tag(tag, '/tags/' )%> × <%= items_with_tag(tag).length %></li>
 <% end %>
 </ul>

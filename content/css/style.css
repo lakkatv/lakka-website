@@ -1,5 +1,4 @@
 @charset "utf-8";
-/*css du site Lakka*/
 /*authors : Jean-André Santoni, Morgane Alonso, Zacharie Juillard*/
 
 /* -------------------- general -------------------- */
@@ -43,6 +42,7 @@ pre code {
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
+  overflow-x: auto;
 }
 
 /* -------------------- banner -------------------- */
@@ -313,6 +313,26 @@ p.dl a {
 p.dl a span.details {
   display: block;
   font-size: small;
+}
+
+/* Tags */
+
+ul.tags {
+  padding: 0;
+}
+
+li.tag {
+  font-size: 13px;
+  border-radius: 4px;
+  list-style-type: none;
+  display: inline-block;
+  background-color: #1abc9c;
+  margin: 5px 10px 5px 0;
+  padding: 8px 16px;
+}
+
+li.tag a {
+  color: #fff;
 }
 
 /* -------------------- footer -------------------- */

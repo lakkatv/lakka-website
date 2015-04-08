@@ -3,6 +3,8 @@ title: Providing and asking for help
 created_at: '2015-01-07 00:03:51'
 author_name: kivutar, floreal
 kind: article
+tags:
+  - Help
 ---
 
 Hello everyone! Here is the first article in 2015. I've been wanting to write about this 
