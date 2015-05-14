@@ -33,7 +33,7 @@ I would like to thanks the support team of Hardkernel here, they helped us with 
 
 # mupen64plus works on MALI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f9zfYee9f6g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f9zfYee9f6g" allowfullscreen></iframe>
 
 There was this segfault when launching mupen on MALI GPUs. It's gone now, thanks to the work of the libretro developpers. We can now play Nintendo 64 games on Bananapi, Cubieboard2, Cubietruck, Odroid-C1, and Odroid-XU3. This is a big step forward. However, some regressions affects the Raspberry Pi 2. So I will upgrade this package on our development builds, and wait for this RPi2 regression to be fixed before releasing a new version of Lakka.
 
