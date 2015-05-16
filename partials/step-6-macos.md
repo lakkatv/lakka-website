@@ -13,6 +13,8 @@ If LAKKA is there, clicking on it will lead you to a list of folders:
 
 Copy your games under the *roms* folder. This step can take some time, as the games are transfered to the Lakka Box through your local network.
 
+It is a good idea to start testing a Super Nintendo game, because they require no BIOS to run.
+
 ### Launching a game
 
 Using your joypad, go to the *Quit RetroArch* entry:
@@ -31,6 +33,8 @@ The game should be starting:
 
 ![Game start](/images/rguiromlaunched.png)
 
-If you need more informations, please read our [FAQ](/doc/FAQ), join us on [IRC](irc://irc.freenode.org/#lakkatv) or send a [mail](/contact).
+If you need more informations, please read our [FAQ](/doc/FAQ) and our [documentation](/doc/Home).
+
+If you need help, join us on [IRC](irc://irc.freenode.org/#lakkatv), register on our [forum](http://libretro.com/forums/forumdisplay.php?f=26) or send a [mail](/contact).
 
 Happy gaming!
