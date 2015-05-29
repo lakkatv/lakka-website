@@ -17,7 +17,7 @@ It is a good idea to start testing a Super Nintendo game, because they require n
 
 ### Launching a game
 
-Using your joypad, go to the *Quit RetroArch* entry:
+Using your joypad, go to the *Restart RetroArch* entry:
 
 ![Reload content](/images/lakkamenuquit.png)
 
