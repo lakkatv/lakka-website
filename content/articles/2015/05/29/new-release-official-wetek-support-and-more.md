@@ -30,7 +30,7 @@ This new release uses the XMB menu. The database and scanning is not present yet
 
 ## WeTek Play official support
 
-For a few months now, we've been providing some development builds for [WeTek Play](https://wetek.com/product/wetek-play). A contributor named **snifferdsx** contacted the **WeTek team** and asked for a free sample. We received one yesterday and the port works well. We can now officially support this nice box. Thanks a lot to snifferdsx and the folks at WeTek for this donation!
+For a few months now, we've been providing some development builds for the [WeTek Play](https://wetek.com/product/wetek-play). A contributor named **snifferdsx** contacted the **WeTek team** and asked for a free sample. We received one yesterday and the port works well. We can now officially support this nice box. Thanks a lot to snifferdsx and the folks at WeTek for this donation!
 
 ![WeTek Play](media/wetekplay.jpg)
 
