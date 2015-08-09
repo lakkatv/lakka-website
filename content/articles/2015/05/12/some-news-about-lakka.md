@@ -15,21 +15,21 @@ tags:
 
 # Lakka is not dead
 
-I received a lot of messages on IRC asking if this project was dead or on stand by. Mostly because the questions on IRC remained unreplied for some time.
+I received a lot of messages on IRC asking if this project was dead or on stand by, mostly because the questions on IRC remained unreplied for some time.
 
-The reason here, is that I'm travelling in South East Asia, mainly Vietnam, where the timezone is different and where the internet connection is not very stable.
+The reason here, is that I'm travelling to South East Asia, mainly Vietnam, where the timezone is different and where the internet connection is very unstable.
 
-The development of Lakka continue. It's even accelerated, and I will list here the things I've been working on.
+The development of Lakka continues, it's even accelerated, and I will list the things I've been working on here.
 
-I apologise for not being very present on IRC lately, I will try to do an effort about it. But I also think that the community should begin to self support.
+I apologise for not being very present on IRC lately, I will try to make an effort about it, but I also think that the community should begin to self support.
 
-# The XU3 port is there
+# The XU3 port is here
 
 ![Odroid-XU3](media/odroid-xu3.jpg)
 
-Lakka have been ported to the Odroid-XU3. We currently support installation to the SD card. I've not yet tried the eMMC module, but it could work. The port is not stable yet, so no need to release it right now. I prefer to let it mature a little bit. Some vsync bugs need to be fixed, and some cores performs weirdly. However, the most difficult part is done now and you can get the development builds [here](http://sources.lakka.tv/nightly/OdroidXU3.arm/) as usual.
+Lakka have been ported to the Odroid-XU3. We currently support installation to the SD card. I've not yet tried the eMMC module, but it could work. The port is not stable yet, so there's no need to release it right now. I prefer to let it mature little bit more. Some vsync bugs need to be fixed, and some cores perform weirdly, however, the most difficult part is done now and you can get the development builds [here](http://sources.lakka.tv/nightly/OdroidXU3.arm/) as usual.
 
-I would like to thanks the support team of Hardkernel here, they helped us with this port and they are trying hard to find a good fix for the vsync issues on the C1 and the XU3.
+I would like to thanks the support team of Hardkernel, they helped us with this port and they are trying hard to find a good fix for the vsync issues on the C1 and the XU3.
 
 # mupen64plus works on MALI
 
@@ -39,7 +39,7 @@ There was this segfault when launching mupen on MALI GPUs. It's gone now, thanks
 
 # XMB used by default
 
-XMB, our new menu codebase, is now stable enough to be used instead of the old codebase. Our development builds now ship this new menu. It looks exactly like the previous Lakka Menu, with the white icons and the red background. There are still some display bugs, and the Settings menu is not where it should be. But we need to go forward. With this new XMB menu, we can now edit all the settings, use the file browser, edit the core options, remap the inputs for each core.
+XMB, our new menu codebase, is now stable enough to be used instead of our old codebase. Our development builds now ship this new menu. It looks exactly like the previous Lakka Menu, with the white icons and the red background. There are still some display bugs, and the Settings menu is not where it should be, but we need to move forward. With this new XMB menu, we can now edit all the settings, use the file browser, edit the core options, and remap the inputs for each core.
 
 # Some work done for RetroArch
 
@@ -53,7 +53,7 @@ Based on our old good GLUI menu, the GL rewrite of RGUI, improved with some back
 
 # Some work done on RetroArch for Lakka
 
-Twinaphex and his team have been working on some code for the future of Lakka. They implemented non blocking background image loading. This will open the ability to display some background fanarts for each core or each game, as this feature has been requested many times by some users on Youtube.
+Twinaphex and his team have been working on some code for the future of Lakka. They implemented non-blocking background image loading. This will open the ability to display some background fanarts for each core or each game, as this feature has been requested many times by some users on Youtube.
 
 They are also working on a big game database. This database is very fast, and very compact. We will ship it in offline mode, so some scanning of your ROM collection will be possible without an internet connexion.
 
@@ -67,7 +67,7 @@ Bibalox has been experimenting some new menu design, based on hexagons. It's cut
 
 You can clone the love2d prototype [here](https://github.com/lakkatv/lakka-menu-hexa).
 
-After RetroArch 1.1 gets released, we will try to improve the menu abstraction in RetroArch to make this kind of completely different UI possible.
+After RetroArch 1.1 is released, we will try to improve the menu abstraction in RetroArch to make this kind of different UI possible.
 
 # Some problems with OpenELEC
 
@@ -75,4 +75,4 @@ OpenELEC, which Lakka is based on, will soon drop support of BIOS and 32bit PCs.
 
 # DualShock 3
 
-I bought a DualShock 3, in order to improve the support for this wireless joypad on Lakka. My goal is to automate the bluetooth pairing. I still need to put my hands on a working bluetooth dongle..
+I bought a DualShock 3, in order to improve the support for this wireless joypad on Lakka. My goal is to automate the bluetooth pairing, but I still need to get my hands on a working bluetooth dongle…

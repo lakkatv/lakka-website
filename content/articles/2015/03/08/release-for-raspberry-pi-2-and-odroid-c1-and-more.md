@@ -12,7 +12,7 @@ tags:
   - Port
 ---
 
-A new release of Lakka is out. All the builds for all platforms have been updated, and we can finally add official support for the Odroid-C1 and the Raspberry Pi 2.
+A new release of Lakka is out. All the platform builds have been updated, and we can finally add official support for the Odroid-C1 and the Raspberry Pi 2.
 
 ## Raspberry Pi 2
 
@@ -34,7 +34,7 @@ Those bugs are not blocking, we will fix them in the next weeks.
 
 ## Odroid-C1
 
-This powerfull device was donated by Hardkernel. It is incredibly fast, for the same price as the Raspberry Pi 2. It can run snes9x-next and pcsx_rearmed with absolutely no lag.
+This powerfull device was donated by Hardkernel. It is incredibly fast, and at the same price as the Raspberry Pi 2. It can run snes9x-next and pcsx_rearmed with absolutely no lag.
 
 A video of the Odroid-C1 running Lakka:
 
@@ -47,7 +47,7 @@ Known bugs for the Odroid-C1 build:
  * No N64 emulation, it segfaults on launch
  * The menu is too fast (130fps)
 
-Those bugs are tought ones, we may not be able to fix them
+Those bugs are tought, we may not be able to fix them… 
 
 ## What's new in this release?
 
@@ -68,6 +68,6 @@ This video shows a sample platformer game running on lutro in RetroArch:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/n6eLX_GPXGg" allowfullscreen></iframe>
 
-Lutro is still experimental and lacks ogg/vorbis support to play background music, but all the other features to develop a small retro games are there, and we provide some demo games to get you started on the libretro github page.
+Lutro is still experimental and lacks ogg/vorbis support to play background music, but all the other features to develop small retro games are there, and we provide some demo games to get you started, available on the libretro github page.
 
 Have fun :)
