@@ -3,6 +3,8 @@ title: Cubieboard port
 created_at: '2015-08-18 20:03:25'
 author_name: kivutar
 kind: article
+social:
+  thumbnail: media/cubieboard.jpg
 tags:
   - Cubieboard
   - Allwinner
