@@ -29,10 +29,13 @@ end
 
 ['/about', '/doc*', '/articles', '/disclaimer'].each do |it|
   compile it do
-    filter :erb if item[:extension] == 'html'
-    filter :kramdown if item[:extension] == 'md'
-    filter :doc_links if it == '/doc*'
-    layout 'doc'
+    unless item.binary?
+      filter :erb if item[:extension] == 'html'
+      filter :kramdown if item[:extension] == 'md'
+      filter :doc_links if it == '/doc*'
+      filter :doc_images if it == '/doc*'
+      layout 'doc'
+    end
   end
 end
 
