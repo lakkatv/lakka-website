@@ -12,9 +12,9 @@ tags:
 
 # ARM Mali released a new driver for the XU3 GPU
 
-I got an email from Hardkernel a week ago, and I'm happy to inform that there is a new MALI driver is out for the Odroid-XU3. The previous drivers were very slow on fbdev due to a tiling problem. This is no more the case. The new driver is very fast, I was able to play some heavy PSP games (Tekken 6) without lag!
+I got an email from Hardkernel a week ago, informing me that there is a new MALI driver out for the Odroid-XU3. The previous drivers were very slow on fbdev due to a tiling problem. This is no more the case. The new driver is very fast, I was able to play some heavy PSP games (Tekken 6) without lag!
 
-The XU3 nightly builds have been updated. They contain the newer blobs and the updated kernel (thanks @memeka).
+The XU3 nightly builds have been updated. They contain the new blobs and the updated kernel (thanks @memeka).
 
 The only issue is that on my display, RetroArch is capped to 55 fps instead of 60 fps, but we may be able to fix it (and then release).
 
