@@ -38,3 +38,7 @@ body.blog p {
     font-size: 18px;
     text-align: justify;
 }
+
+body.blog p.article-infos {
+    color: #8c9899;
+}

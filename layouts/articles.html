@@ -50,7 +50,7 @@
 
   <div class="container">
     <h1><%= @item[:title] %></h1>
-    <p class="article-infos">Posted on <%= date_for @item[:created_at] %> by <%= @item[:author_name] %></p>
+    <p class="article-infos"><i class="fa fa-clock-o"></i> Posted on <%= date_for @item[:created_at] %> by <%= @item[:author_name] %></p>
     <ul class="clearer tags">
       <% @item[:tags].each do |tag| %>
         <li class="tag"><%= link_for_tag(tag, '/tags/' )%></li>
