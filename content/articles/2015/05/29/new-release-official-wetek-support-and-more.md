@@ -12,7 +12,7 @@ tags:
   - MALI
 ---
 
-# New release
+## New release
 
 We are releasing new stable versions of Lakka.
 
@@ -26,15 +26,15 @@ The Odroid-XU3 port is currently too unstable to be released, we tried the r5p0 
 
 This new release uses the XMB menu. The database and scanning is not present yet in the RetroArch that we ship. It is a choice, we will include this new feature in the next release if possible, since it still needs to mature before being usable and integrated.
 
-# Some hardware donation
+## Some hardware donation
 
-## WeTek Play official support
+### WeTek Play official support
 
 For a few months now, we've been providing some development builds for the [WeTek Play](https://wetek.com/product/wetek-play). A contributor named **snifferdsx** contacted the **WeTek team** and asked for a free sample. We received one yesterday and the port works well. We can now officially support this nice box. Thanks a lot to snifferdsx and the folks at WeTek for this donation!
 
 ![WeTek Play](media/wetekplay.jpg)
 
-## Cubieboard 1
+### Cubieboard 1
 
 **Kozimodo**, a generous contributor on the libretro forums is sending us a free [Cubieboard](http://cubieboard.org/model/cb1/). We will receive it by the end of June and port Lakka to it.
 
@@ -42,7 +42,7 @@ I took a look at the specs, and the port should be feasible. Thanks again!
 
 ![Cubieboard](media/cubieboard.jpg)
 
-## KADE miniConsole+
+### KADE miniConsole+
 
 **Bootsector** from the **KADE** team contacted us to talk about the compatibility of their [miniConsole+](https://www.kickstarter.com/projects/kadevice/kade-miniconsole-a-smart-open-source-retro-gaming) and Lakka. Their project is very interesting, it allows you to use all your good old pads on most modern platforms.
 

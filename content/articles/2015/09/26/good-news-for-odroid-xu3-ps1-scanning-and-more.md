@@ -10,7 +10,7 @@ tags:
   - Database
 ---
 
-# ARM Mali released a new driver for the XU3 GPU
+## ARM Mali released a new driver for the XU3 GPU
 
 I got an email from Hardkernel a week ago, informing me that there is a new MALI driver out for the Odroid-XU3. The previous drivers were very slow on fbdev due to a tiling problem. This is no more the case. The new driver is very fast, I was able to play some heavy PSP games (Tekken 6) without lag!
 
@@ -20,13 +20,13 @@ The only issue is that on my display, RetroArch is capped to 55 fps instead of 6
 
 More good news, Hardkernel is sending us an Odroid-XU4. This sample will go to Twinaphex, the main developer, or RetroArch.
 
-# PS1 Games scanning
+## PS1 Games scanning
 
 The new menu system in our nightly builds are now based off of an offline database, and you need to scan your game collections to build the playlists on our XMB-like menu. This new scanning system is still a work in progress (that's why we didn't release a new stable version yet). Some special ROMs, like Arcade ROMs and CDs, are incompatible with our checksum scanning approach.
 
 Last week, I implemented the scanning of PlayStation CDs in RetroArch. This is a step forward, but there are still many systems lacking scanning, like PCE-CD, PSP, Sega-CD, and Saturn...
 
-# Moving our development servers
+## Moving our development servers
 
 Lakka takes time to build (about 2h on a powerful machine). We were using a server hosted in France, lent by a generous friend, but the server had to be closed, and so I had to find another solution.
 

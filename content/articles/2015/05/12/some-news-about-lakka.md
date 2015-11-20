@@ -13,7 +13,7 @@ tags:
   - OpenELEC
 ---
 
-# Lakka is not dead
+## Lakka is not dead
 
 I received a lot of messages on IRC asking if this project was dead or on stand by, mostly because the questions on IRC remained unreplied for some time.
 
@@ -23,7 +23,7 @@ The development of Lakka continues, it's even accelerated, and I will list the t
 
 I apologise for not being very present on IRC lately, I will try to make an effort about it, but I also think that the community should begin to self support.
 
-# The XU3 port is here
+## The XU3 port is here
 
 ![Odroid-XU3](media/odroid-xu3.jpg)
 
@@ -31,17 +31,17 @@ Lakka have been ported to the Odroid-XU3. We currently support installation to t
 
 I would like to thanks the support team of Hardkernel, they helped us with this port and they are trying hard to find a good fix for the vsync issues on the C1 and the XU3.
 
-# mupen64plus works on MALI
+## mupen64plus works on MALI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f9zfYee9f6g" allowfullscreen></iframe>
 
 There was this segfault when launching mupen on MALI GPUs. It's gone now, thanks to the work of the libretro developpers. We can now play Nintendo 64 games on Bananapi, Cubieboard2, Cubietruck, Odroid-C1, and Odroid-XU3. This is a big step forward. However, some regressions affects the Raspberry Pi 2. So I will upgrade this package on our development builds, and wait for this RPi2 regression to be fixed before releasing a new version of Lakka.
 
-# XMB used by default
+## XMB used by default
 
 XMB, our new menu codebase, is now stable enough to be used instead of our old codebase. Our development builds now ship this new menu. It looks exactly like the previous Lakka Menu, with the white icons and the red background. There are still some display bugs, and the Settings menu is not where it should be, but we need to move forward. With this new XMB menu, we can now edit all the settings, use the file browser, edit the core options, and remap the inputs for each core.
 
-# Some work done for RetroArch
+## Some work done for RetroArch
 
 I've been working on some touch friendly menu for the iOS and Android ports of RetroArch. This work does not affect Lakka directly, however it shows that our fusion with libretro is effective: we are doing code for them, and they are doing code for us.
 
@@ -59,7 +59,7 @@ They are also working on a big game database. This database is very fast, and ve
 
 Once this database stuff will be ready, we will adapt XMB so the game list will result from queries on the database. This means that the extact name of the game will be displayed instead of the file name. This also mean that some fanart scraping will be easy to implement cleanly.
 
-# Some experiments
+## Some experiments
 
 Bibalox has been experimenting some new menu design, based on hexagons. It's cute, and I would love to see it implemented in RetroArch (however RetroArch menu code is not yet ready for that).
 
@@ -73,6 +73,6 @@ After RetroArch 1.1 is released, we will try to improve the menu abstraction in 
 
 OpenELEC, which Lakka is based on, will soon drop support of BIOS and 32bit PCs. So we will have a lot of work to do if we want to support those in Lakka.
 
-# DualShock 3
+## DualShock 3
 
 I bought a DualShock 3, in order to improve the support for this wireless joypad on Lakka. My goal is to automate the bluetooth pairing, but I still need to get my hands on a working bluetooth dongle…

@@ -45,6 +45,10 @@ pre code {
   overflow-x: auto;
 }
 
+p, li, code {
+  line-height: 1.5em;
+}
+
 /* -------------------- banner -------------------- */
 
 header {
@@ -88,6 +92,7 @@ header a.getlakka {
 
 header .subtitle {
   font-size: 35px;
+  line-height: normal;
 }
 
 #menubar nav {
