@@ -10,9 +10,10 @@ next: install
 <p>This step is independant of your OS choice, the downloaded image can be used on any OS.</p> 
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
-<%= render 'partials/dl-button', 
-    :url => 'http://sources.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20150529174656-r21027-g43f71a8.img.gz',
-    :detail => 'for Banana Pi ~ 89MB' %>
+<p class="dl">
+  <a href="<%= @config[:release][:bpi] %>">Download Lakka
+  <span class="details">for Banana Pi ~ 127MB</span></a>
+</p>
 
 <p>On Linux, you can use the command line tool gunzip to extract Lakka.</p>
 

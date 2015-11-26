@@ -10,9 +10,10 @@ next: install
 <p>This step is independant of your OS choice, the downloaded image can be used on any OS.</p>
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
-<%= render 'partials/dl-button',
-      :url => 'ttp://sources.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20150529175053-r21027-g43f71a8.img.gz',
-      :detail => "for WeTek Play ~ 93MB" %>
+<p class="dl">
+  <a href="<%= @config[:release][:wtk] %>">Download Lakka
+  <span class="details">for WeTek Play ~ 132MB</span></a>
+</p>
 
 <p>On Windows, please use <a href="http://www.7-zip.org">7zip</a> to unzip Lakka.</p>
 

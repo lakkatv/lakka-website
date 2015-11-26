@@ -10,8 +10,9 @@ next: install
 <p>This step is independant of your OS choice, the downloaded image can be used on any OS.</p>
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
-<%= render 'partials/dl-button',
-    :url => 'http://sources.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20150529174817-r21027-g43f71a8.img.gz',
-    :detail => "for Odroid-C1 ~ 95MB" %>
+<p class="dl">
+  <a href="<%= @config[:release][:c1] %>">Download Lakka
+  <span class="details">for Odroid-C1 ~ 133MB</span></a>
+</p>
 
 <p>On MacOS, you just have to double click on the downloaded archive to unzip Lakka.</p>

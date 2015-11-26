@@ -11,13 +11,15 @@ next: install
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 <p>Choose one of the following images depending on your PC architecture.</p>
 
-<%= render 'partials/dl-button', 
-    :url => 'http://sources.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20150529174328-r21027-g43f71a8.img.gz',
-    :detail => 'for 32 bits CPU ~ 139MB' %>
-  
-<%= render 'partials/dl-button', 
-    :url => 'http://sources.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20150529174118-r21027-g43f71a8.img.gz',
-    :detail => 'for 64 bits CPU ~ 142MB' %>
+<p class="dl">
+  <a href="<%= @config[:release][:i386] %>">Download Lakka
+  <span class="details">for 32 bits CPU ~ 172MB</span></a>
+</p>
+
+<p class="dl">
+  <a href="<%= @config[:release][:x86_64] %>">Download Lakka
+  <span class="details">for 64 bits CPU ~ 175MB</span></a>
+</p>
 
 <p>On Linux, you can use the command line tool gunzip to extract Lakka.</p>
 

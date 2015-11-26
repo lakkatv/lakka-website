@@ -65,6 +65,19 @@ data_sources:
     # it will become “/about.html/” instead.
     allow_periods_in_identifiers: true
 
+release:
+  i386: http://sources.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20151125102524-r21205-g3c89451.img.gz
+  x86_64: http://sources.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20151125102217-r21205-g3c89451.img.gz
+  a10: http://sources.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20151125103539-r21205-g3c89451.img.gz
+  a20: http://sources.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20151125103337-r21205-g3c89451.img.gz
+  imx6: http://sources.lakka.tv/nightly/imx6.arm/Lakka-imx6.arm-devel-20151125101928-r21205-g3c89451.img.gz
+  rpi: http://sources.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20151125100551-r21205-g3c89451.img.gz
+  rpi2: http://sources.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20151125101555-r21205-g3c89451.img.gz
+  bpi: http://sources.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20151125103744-r21205-g3c89451.img.gz
+  c1: http://sources.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20151125104003-r21205-g3c89451.img.gz
+  xu3: http://sources.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20151125104201-r21205-g3c89451.img.gz
+  wtk: http://sources.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20151125104452-r21205-g3c89451.img.gz
+
 deploy:
   default:
     kind: rsync
