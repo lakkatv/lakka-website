@@ -16,17 +16,27 @@ If Lakka is there, clicking on it will lead you to a list of folders:
 
 ![Share](/images/linuxsamba2.png)
 
-Copy your games under the *roms* folder. This step can take some time, as the games are transfered to the Lakka Box through your local network.
+Copy your games under the **roms** folder. This step can take some time, as the games are transfered to the Lakka Box through your local network.
 
 It is a good idea to start testing a Super Nintendo game, because they require no BIOS to run.
 
+We recommand games from the **no-intro** sets, because they are clean, tested, and will scan properly.
+
+### Scanning your games
+
+Using your joypad, go to the last tab with the + icon.
+
+Choose the directory to scan. If you added your game directly to the *roms* folder, then just choose **Scan This Directory**.
+
+![Scanning content](/images/lakkamenuscan.png)
+
+Yellow messages will appear at the bottom of the screen, informing you about the progress of the scanning task.
+
+Once finished, you will see a new tab at the right end of the menu.
+
 ### Launching a game
 
-Using your joypad, go to the *Restart RetroArch* entry:
-
-![Reload content](/images/lakkamenuquit.png)
-
-This will reload the graphical interface, and you should now be able to browse your rom collection:
+Go to the new tab you just created. You should see your games in the list.
 
 ![Browse roms](/images/lakkamenufindrom.png)
 
