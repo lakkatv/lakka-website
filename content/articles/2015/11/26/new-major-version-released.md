@@ -95,6 +95,6 @@ The config files of RetroArch and the directory structure of the storage partiti
 
 ## Conclusion
 
-Please remember that the new features are very young. They certainly need polishing and we already know where are most of the rough edges. I will spend the next weeks fixing the bugs and you will certainly have a new bugfix verion in the next month. I also need to spend some time updating the documentation.
+Please remember that the new features are very young. They certainly need polishing and we already know where are most of the rough edges. I will spend the next weeks fixing the bugs and you will certainly have a new bugfix version in the next month. I also need to spend some time updating the documentation.
 
 Happy gaming!
