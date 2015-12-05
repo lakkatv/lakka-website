@@ -38,6 +38,6 @@ If you get this error:
 
 You have to unmount every partitions of your SD card:
 
-    diskutil unmount /dev/diskNs1
+    diskutil unmountDisk /dev/diskN
 
 And retry the dd step.
