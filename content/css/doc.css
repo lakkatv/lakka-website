@@ -57,3 +57,9 @@ body.doc p img {
 body.blog p {
     font-size: 16px;
 }
+
+body.doc ul.articles {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}

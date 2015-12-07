@@ -319,6 +319,10 @@ p.dl a span.details {
   font-size: small;
 }
 
+.article-infos {
+    color: #8c9899;
+}
+
 /* Tags */
 
 ul.tags {
