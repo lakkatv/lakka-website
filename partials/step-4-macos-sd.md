@@ -24,7 +24,7 @@ Now that you know your SD card drive, go where you extracted Lakka, and flash th
 
 Please note that dd is a very dangerous command: if you give it the wrong drive identifier, it could erase your hard drive instead of the SD card!
 
-    $ sudo dd if=Lakka-*.img of=/dev/diskN
+    $ sudo dd if=Lakka-*.img of=/dev/rdiskN
 
 Where diskN is your SD card drive.
 
