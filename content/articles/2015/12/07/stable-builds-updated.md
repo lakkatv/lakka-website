@@ -9,6 +9,8 @@ tags:
   - PPSSPP
   - Release
   - Port
+social:
+  thumbnail: media/zero.jpg
 ---
 
 Two weeks have passed since the latest major release. It is time to issue a bugfix version.
