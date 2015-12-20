@@ -40,7 +40,7 @@ Notice that _sdb_ is now filled with one or more partitions. In my case, _sdb1_ 
 
 This means that _sdb_ represents the SD card reader on my laptop. On yours, it can be a different letter. Please adapt the rest of this tutorial to your drive letter.
 
-### Flash the image
+### Flashing the image
 
 Now that you know your SD card drive, go to where you extracted Lakka, and flash the card:
 
