@@ -3,10 +3,10 @@
 Follow the following steps:
 
 1.  Insert the SD card into your Cubieboard
-2.  Connect an HDMI wire from your Cubieboard to your TV
-3.  Turn on your TV
+2.  Connect a HDMI wire from your Cubieboard to your TV
+3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in one of the supported joypads into a USB port on the Cubieboard
+5.  Plug in a supported joypads into one of the USB port on the Cubieboard
 6.  Plug in the power supply of the Cubieboard
 
 You should see our splash screen:
