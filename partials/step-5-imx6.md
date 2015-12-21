@@ -2,12 +2,12 @@
 
 Follow the following steps:
 
-1.  Plug in the SD card into the CuBox-i / HummingBoard
-2.  Connect your HDMI wire from your CuBox-i / HummingBoard to your TV
+1.  Insert the SD card into your CuBox-i / HummingBoard
+2.  Connect a HDMI wire from your CuBox-i / HummingBoard to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypads into one of the USB ports on the 2 CuBox-i / HummingBoard
-6.  Plug in the power supply of the CuBox-i / HummingBoard
+5.  Plug in a supported joypad into one of the USB ports on your 2 CuBox-i / HummingBoard
+6.  Plug in the power supply of your CuBox-i / HummingBoard
 
 You should see our splash screen:
 
