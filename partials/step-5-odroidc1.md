@@ -2,12 +2,12 @@
 
 Follow the following steps:
 
-1.  Insert the SD card into the Odroid-C1
+1.  Insert the SD card into your Odroid-C1
 2.  Connect a HDMI wire from your Odroid to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypads into one of the 4 USB ports on the Odroid
-6.  Plug in the power supply of the Odroid-C1
+5.  Plug in a supported joypad into one of the 4 USB ports on ypur Odroid
+6.  Plug in the power supply of your Odroid-C1
 
 You should see our splash screen:
 
