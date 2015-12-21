@@ -6,7 +6,7 @@ Follow the following steps:
 2.  Wire your PC to a Display or TV
 3.  Power on your Display or TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypads inro one of your USB ports on your PC
+5.  Plug in a supported joypad into one of your USB ports on your PC
 6.  Power on your PC
 7.  Enter BIOS and allow booting of a USB (optional)
 
