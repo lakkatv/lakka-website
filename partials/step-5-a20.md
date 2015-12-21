@@ -2,7 +2,7 @@
 
 Follow the following steps:
 
-1.  Insert the SD card into  the Cubieboard 2 / Cubietruck
+1.  Insert the SD card into your Cubieboard 2 / Cubietruck
 2.  Connect a HDMI wire from your Cubieboard 2 / Cubietruck to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
