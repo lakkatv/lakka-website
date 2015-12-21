@@ -2,7 +2,7 @@
 
 ### Adding a game using network share
 
-Your Lakka Box and your Computer must be connected on the same Network. Please use an Ethernet wire for the Lakka Box, as we don't support WiFi yet.
+Your Lakka Box and your Computer must be connected to the same Network. Please use an Ethernet wire for your Lakka Box, as we don't support WiFi yet.
 
 Open your File Browser.
 

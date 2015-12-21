@@ -2,18 +2,18 @@
 
 Follow the following steps:
 
-1.  Put the SD card in the CuBox-i / HummingBoard
-2.  Put an HDMI wire between your CuBox-i / HummingBoard and your TV
-3.  Light your TV screen
-4.  Plug an ethernet wire (optional)
-5.  Plug one of the supported joypads in one of the 2 CuBox-i / HummingBoard USB ports
-6.  Plug the power supply of the CuBox-i / HummingBoard
+1.  Insert the SD card into your CuBox-i / HummingBoard
+2.  Connect a HDMI wire from your CuBox-i / HummingBoard to your TV
+3.  Power on your TV
+4.  Plug in an ethernet wire (optional)
+5.  Plug in a supported joypad into one of the USB ports on your 2 CuBox-i / HummingBoard
+6.  Plug in the power supply of your CuBox-i / HummingBoard
 
 You should see our splash screen:
 
 ![Splash Screen](/images/splash.png)
 
-The system will expand the filesystems and reboot after 30 seconds. This happens only on the first boot, the next one should be fast.
+The system will expand the filesystems and reboot after 30 seconds. This happens only on the first boot, the rest of the boots should be fast.
 
 If everything went OK, you should now be able to navigate Lakka Menu, our graphical interface:
 
