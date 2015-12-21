@@ -6,8 +6,8 @@ Follow the following steps:
 2.  Connect a HDMI wire from your Banana Pi to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypad into one of the USB ports on the Banana Pi
-6.  Plug in the power supply of the Banana Pi
+5.  Plug in a supported joypad into one of the USB ports on your Banana Pi
+6.  Plug in the power supply of your Banana Pi
 
 You should see our splash screen:
 
