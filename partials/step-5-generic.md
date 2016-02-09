@@ -22,7 +22,7 @@ Our splash screen will shortly appear:
 
 ![Splash Screen](/images/splash.png)
 
-Followed by the installation wizzard..
+Followed by the installation wizard..
 
 ![Installer menu](/images/installer1.png)
 
