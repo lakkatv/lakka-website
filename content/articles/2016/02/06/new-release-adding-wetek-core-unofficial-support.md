@@ -11,7 +11,7 @@ social:
   thumbnail: media/wetek_core.jpg
 ---
 
-Lunar new year is comming. It's time for a minor release.
+The Lunar new year is comming. It's time for a minor release.
 
 ## Changelog
 
@@ -42,15 +42,15 @@ Lunar new year is comming. It's time for a minor release.
 
 ## Unofficial support for the WeTek Core
 
-I merged the patches from OpenELEC 6 to add support for the new box from WeTek.
+I've merged the patches from OpenELEC 6 to add support for the new box from WeTek.
 
-I've not been able to try the image myself on the hardware, but some users reported it working very well, with no major issues (unlike the WeTek Play).
+I have not been able to try the image myself on the hardware, but some users reported it working very well, with no major issues (unlike the WeTek Play).
 
 ![WeTek Core](media/wetek_core.jpg)
 
 The builds are available for download in our [development builds]().
 
-I'm in touch with the WeTek team on Twitter. I may ask them to send a free sample to start supporting this officially.
+I keep in touch with the WeTek team on Twitter. I may ask them to send a free sample so that we can start supporting this officially.
 
 ## Future plans
 
