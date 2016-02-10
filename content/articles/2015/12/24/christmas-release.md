@@ -46,6 +46,6 @@ The Snes9x libretro core have been packaged and enabled on the PC builds instead
 
 ## Conclusion
 
-This release will serve as a clean basis to build the future version of Lakka. Year 2016 will bring a lot of long awaited GUI integration, like the ability to upgrade Lakka directly from RetroArch. Now that both Lakka and RetroArch have regular stable releases, we can focus on implementing new features. The libretro team started working on cores again, they are currently porting Reicast, the Dreamcast emulator :)
+This release will serve as a clean basis to build the future version of Lakka. The year 2016 will bring a lot of long awaited GUI integration, like the ability to upgrade Lakka directly from RetroArch. Now that both Lakka and RetroArch have regular stable releases, we can focus on implementing new features. The libretro team started working on cores again, they are currently porting Reicast, the Dreamcast emulator :)
 
 We hope that you can all enjoy Christmas with your families. We received some mails of users building some Lakka boxes as present for their children or for their parents!
