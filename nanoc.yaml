@@ -66,17 +66,17 @@ data_sources:
     allow_periods_in_identifiers: true
 
 release:
-  i386: http://sources.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20160206091726-r21311-geaf46ad.img.gz 
-  x86_64: http://sources.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20160206090840-r21311-geaf46ad.img.gz
-  a10: http://sources.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20160206100451-r21311-geaf46ad.img.gz
-  a20: http://sources.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20160206093443-r21311-geaf46ad.img.gz
-  imx6: http://sources.lakka.tv/nightly/imx6.arm/Lakka-imx6.arm-devel-20160206090451-r21311-geaf46ad.img.gz
-  rpi: http://sources.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20160206080601-r21311-geaf46ad.img.gz
-  rpi2: http://sources.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20160206085413-r21311-geaf46ad.img.gz
-  bpi: http://sources.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20160206103425-r21311-geaf46ad.img.gz
-  c1: http://sources.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20160206105758-r21311-geaf46ad.img.gz
-  xu3: http://sources.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20160206110222-r21311-geaf46ad.img.gz
-  wtk: http://sources.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20160206110724-r21311-geaf46ad.img.gz
+  i386: http://sources.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20160319232502-r21378-g78af2e1.img.gz
+  x86_64: http://sources.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20160319232201-r21378-g78af2e1.img.gz
+  a10: http://sources.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20160319233020-r21378-g78af2e1.img.gz
+  a20: http://sources.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20160319232808-r21378-g78af2e1.img.gz
+  imx6: http://sources.lakka.tv/nightly/imx6.arm/Lakka-imx6.arm-devel-20160319232008-r21378-g78af2e1.img.gz
+  rpi: http://sources.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20160319231255-r21378-g78af2e1.img.gz
+  rpi2: http://sources.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20160319231640-r21378-g78af2e1.img.gz
+  bpi: http://sources.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20160319233231-r21378-g78af2e1.img.gz
+  c1: http://sources.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20160319233455-r21378-g78af2e1.img.gz
+  xu3: http://sources.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20160319233657-r21378-g78af2e1.img.gz
+  wtk: http://sources.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20160320105135-r21382-g7f380b7.img.gz
 
 deploy:
   default:
