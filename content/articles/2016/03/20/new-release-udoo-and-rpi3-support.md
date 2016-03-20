@@ -17,7 +17,7 @@ social:
 
 ![UDOO](media/udoo.jpg)
 
-UDOO provided us with a board, asking for official Lakka support. Powered by an imx6 processor like the Cubox-i, it has a lot of ports and even ship an arduino. The support was easy to add, since this family of boards is already supported by OpenELEC. I just had to backport some patches.
+UDOO provided us with a board, asking for official Lakka support. Powered by an imx6 processor like the Cubox-i, it has a lot of ports and even ship an Arduino. The support was easy to add, since this family of boards is already supported by OpenELEC.
 
 ## RPi3 experimental support
 
@@ -33,13 +33,13 @@ I should receive an RPi3 (and an RPi Zero) soon.
 
 ![GameGirl](media/gamegirl.jpg)
 
-David Perrenoud started building an RPi Zero based handheld console. It will use Lakka as main OS. The first prototype targets very unexpensive hardware, the RPi Zero is $5, the screen is around $3, plus a buzzer and some buttons.
+David Perrenoud started building an RPi Zero based handheld console. It will use Lakka as main OS. The first prototype targets very unexpensive hardware, like a tiny screen, a buzzer and some buttons.
 
 David managed to connect the screen using the GPIOs in a very efficient way. He achieved a 120FPS, while most common screen solutions out there are stuck at 25FPS!
 
 Audio have been tested, inputs are still in the work.
 
-This project have an [hackaday.io page](https://hackaday.io/project/10207-gamegirl-the-retro-console-done-right). You can support us by registering and liking the page. Each like will give us $1 to buy hardware parts.
+This project has an [hackaday.io page](https://hackaday.io/project/10207-gamegirl-the-retro-console-done-right). You can support us by registering and liking the page. Each like will give us $1 to buy hardware parts.
 
 I'm very excited with this hardware project. I plan to build a specific Lakka image for it, so everything would work out of the box.
 
@@ -51,21 +51,12 @@ I'm very excited with this hardware project. I plan to build a specific Lakka im
  * Updated RetroArch
    * Display the current IP in the GUI 
    * Fix scanning duplication
+ * Libretro core updates: Tyrquake, Genesis Plus GX, FCEUMM, Beetle-PSX, PrBoom, FBA update, MAME 2003, Mupen64plus, Cap32, Handy
  * RetroAchievements support in Picodrive
  * All audio packages updated as of OpenELEC 6
  * Reicast (the SEGA Dreamcast emulator) packaged, but disabled for now
  * Prosystem emulator enabled on every images
- * Tyrquake update
- * Genesis Plus GX update
- * FCEUMM update
- * Beetle-PSX update
- * PrBoom update
  * Updated database with a lot of new metadata, such as the game genre, and long descriptions
- * FBA update
- * MAME 2003 update
- * Mupen64plus update
- * Cap32 update
- * Handy update
  * Fix snes9x as default core on Generic images
 
 ## Other ports
