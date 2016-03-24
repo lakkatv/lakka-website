@@ -23,9 +23,9 @@ UDOO provided us with a board, asking for official Lakka support. Powered by an 
 
 ![RPi3](media/rpi3.png)
 
-The very popular Raspberry gets a new hardware update : the RPi3 comes with a more powerful CPU, and onboard Bluetooth and WiFi.
+The very popular Raspberry got a new hardware update : the RPi3 comes with a more powerful CPU, and onboard Bluetooth and WiFi.
 
-We've not received yet our unit, so for now the support for RPi3 is marked as experimental and remains untested and incomplete. Still, users have been able to boot our RPi2 images after I changed a few things, and it is already usable. Except WiFi and Bluetooth.
+We've not received our unit yet, so for now the support for RPi3 is marked as experimental and remains untested and incomplete. Still, users have been able to boot our RPi2 images after I changed a few things, and it is already usable. Except WiFi and Bluetooth.
 
 I should receive an RPi3 (and an RPi Zero) soon.
 
@@ -61,6 +61,6 @@ I'm very excited with this hardware project. I plan to build a specific Lakka im
 
 ## Other ports
 
-I've spend some time on the Odroid-C2 port, but it is far from being ready yet. I'm still stuck with u-boot and Retroarch compilation.
+I've spend some time on the Odroid-C2 port, but it is far from finished. I'm still stuck with u-boot and Retroarch compilation.
 
 The OrangePi PC port finally compiles, but doesn't boot yet. I should receive an OPiPC soon to troubleshoot that.
