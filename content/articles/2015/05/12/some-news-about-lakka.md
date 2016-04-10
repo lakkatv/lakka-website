@@ -17,11 +17,11 @@ tags:
 
 I received a lot of messages on IRC asking if this project was dead or on stand by, mostly because the questions on IRC remained unreplied for some time.
 
-The reason here, is that I'm travelling to South East Asia, mainly Vietnam, where the timezone is different and where the internet connection is very unstable.
+The reason here, is that I'm traveling to South East Asia, mainly Vietnam, where the timezone is different and where the internet connection is very unstable.
 
 The development of Lakka continues, it's even accelerated, and I will list the things I've been working on here.
 
-I apologise for not being very present on IRC lately, I will try to make an effort about it, but I also think that the community should begin to self support.
+I apologize for not being very present on IRC lately, I will try to make an effort about it, but I also think that the community should begin to self support.
 
 ## The XU3 port is here
 

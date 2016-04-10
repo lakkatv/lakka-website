@@ -33,7 +33,7 @@ I should receive an RPi3 (and an RPi Zero) soon.
 
 ![GameGirl](media/gamegirl.jpg)
 
-David Perrenoud started building an RPi Zero based handheld console. It will use Lakka as main OS. The first prototype targets very unexpensive hardware, like a tiny screen, a buzzer and some buttons.
+David Perrenoud started building an RPi Zero based handheld console. It will use Lakka as main OS. The first prototype targets very inexpensive hardware, like a tiny screen, a buzzer and some buttons.
 
 David managed to connect the screen using the GPIOs in a very efficient way. He achieved a 120FPS, while most common screen solutions out there are stuck at 25FPS!
 

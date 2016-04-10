@@ -20,13 +20,13 @@ free hosting to this website.
 
 You might have noticed new pages form the navigation bar:
 
-* [Documentation](/doc/Home) is actualy the same content in our
-[Github Wiki](https://github.com/lakkatv/Lakka/wiki), actualy we use the very
+* [Documentation](/doc/Home) is actually the same content in our
+[Github Wiki](https://github.com/lakkatv/Lakka/wiki), actually we use the very
 same source code, from the same place.
-* [Contact](/contact) has changed. We temporarly removed the contact form and
-replaced it by instruction to contact us. Dont worry though, it will be back
+* [Contact](/contact) has changed. We temporarily removed the contact form and
+replaced it by instruction to contact us. Don't worry though, it will be back
 soon.
-* [About](/about) contains legal and niscelious informations.
+* [About](/about) contains legal and miscellaneous informations.
 * We also refactored the [installation tutorial](/get) and cleaned up W3C validations
 issues on it.
 
@@ -38,14 +38,14 @@ Oh, and you might also have noticed, we added a “News” section.
 ## About Lakka itself
 
 It has been a long time since we last released. We are working hard integrating adding
-the XMB-like menu. Though it is not yet fully functionnal (some feature are missing).
+the XMB-like menu. Though it is not yet fully functional (some feature are missing).
 But it is just a matter of week until we release it.
 
 We got some prototype version, and kivutar released a
 [video](https://www.youtube.com/watch?v=bnJQa1J_v5s) on a running menu on Raspberry Pi.
 
 PC port works just fine. We managed to play Nintendo 64 and Playstation One games
-without noticeable issues concerning framerate.
+without noticeable issues concerning frame rate.
 
 We also started to port the system to cubieboard. It still has the RGUI menu, but we
 managed to run a few roms.

@@ -20,7 +20,7 @@ This board is very promising:
  * 2Gbyte LPDDR3 RAM at 933MHz (14.9GB/s memory bandwidth) PoP stacked
  * eMMC5.0 HS400 Flash Storage
  * USB 3.0 Host x 1, USB 3.0 OTG x 1, USB 2.0 Host x 4
- * HDMI 1.4a and DisplayPort1.1 for display
+ * HDMI 1.4a and DisplayPort 1.1 for display
  * Integrated power consumption monitoring tool
 
 We will port Lakka to the XU3 as soon as possible :)

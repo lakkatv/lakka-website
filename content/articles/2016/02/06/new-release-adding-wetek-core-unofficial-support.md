@@ -11,7 +11,7 @@ social:
   thumbnail: media/wetek_core.jpg
 ---
 
-The Lunar new year is comming. It's time for a minor release.
+The Lunar new year is coming. It's time for a minor release.
 
 ## Changelog
 

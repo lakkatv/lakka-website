@@ -24,7 +24,7 @@ Our GUI, called "lakka-menu", has improved a lot, most of the settings have been
 
 ![Lakka settings interface](media/lakkasettings.png)
 
-However, this codebase is becoming very difficult to maintain, because it does not use the central concept of RetroArch menus : the file_list type. RetroArch developpers asked us to do something about it, so I started rewriting lakka-menu from scratch, based on the RGUI common backend. This new menu required a lot of changes to be made in the common backend. The development takes time again, however it is for the best, since this is a more cleaner basis: for instance, settings are already fully implemented, which was almost impossible to achieve with lakka-menu approach, because of infinite depth of the file explorer.
+However, this codebase is becoming very difficult to maintain, because it does not use the central concept of RetroArch menus : the file_list type. RetroArch developers asked us to do something about it, so I started rewriting lakka-menu from scratch, based on the RGUI common backend. This new menu required a lot of changes to be made in the common backend. The development takes time again, however it is for the best, since this is a more cleaner basis: for instance, settings are already fully implemented, which was almost impossible to achieve with lakka-menu approach, because of infinite depth of the file explorer.
 
 ![XMB File browser](media/xmb.png)
 

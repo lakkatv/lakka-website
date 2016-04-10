@@ -13,7 +13,7 @@ tags:
 
 Lately we had several request for an odroid port, so we asked [Hardkernel](http://hardkernel.com/) if they'd like to provide us with some of their awesome boards.
 
-And then, yesterday we recieved this package :
+And then, yesterday we received this package :
 
 ![The package](media/package.jpg)
 
@@ -25,7 +25,7 @@ Two [Odroid C1](http://odroid.com/dokuwiki/doku.php?id=en:odroid-c1) boards and 
 
 So we got, twice, as we were told :
 
-> - ODROID-C1 Revision2 Board : the only difference is EMI/ESD optimisation and IR receiver location. The software is 100% same. 
+> - ODROID-C1 Revision2 Board : the only difference is EMI/ESD optimization and IR receiver location. The software is 100% same. 
 > - HDMI Cable
 > - USB-DC plug cable
 > - ODROID-C1 Case Blue
@@ -42,7 +42,7 @@ Thanks a lot to Hardkernel. Now we will start working on the odroid C1 ports.
 
 ## News about the development
 
-As the C1 has a Mali chipset for video acceleration, we worked these last days fixing it For Allwiner boards (Cubieboard 2 and Cubitruck). The black flickering and black bacground issue when using lakka / xbm menu are now fixed.
+As the C1 has a Mali chipset for video acceleration, we worked these last days fixing it For Allwiner boards (Cubieboard 2 and Cubitruck). The black flickering and black background issue when using lakka / xmb menu are now fixed.
 
 Here is what changed since the last Update:
 
@@ -54,7 +54,7 @@ Here is what changed since the last Update:
 - Added: Support of uEnv.txt for Allwinner
 - Added: Support of custom background on Lakka menu
 - Added: PPSSPP support for Allwiner
-- Fix: splashscreen doesn't show on imx6
+- Fix: splash screen doesn't show on imx6
 - Fix: NFS broken on imx6
 - Updated: mupen64plus, fceumm, ppsspp
 - Improvement: Package reorganization
