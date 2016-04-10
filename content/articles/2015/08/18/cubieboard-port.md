@@ -10,11 +10,11 @@ tags:
   - Allwinner
 ---
 
-A generous donator from the libretro forums, nicknamed Kozimodo, donated this old Cubieboard.
+A generous contributor from the Libretro forums, nicknamed Kozimodo, donated this old Cubieboard.
 
 ![Cubieboard](media/cubieboard.jpg)
 
-Porting Lakka to Cubieboard was easy, since we already supported the Cubieboard 2 and the Cubietruck from the same familly.
+Porting Lakka to Cubieboard was easy, since we already supported the Cubieboard 2 and the Cubietruck from the same family.
 
 This board is comparable to a Raspberry Pi 1 in terms of performance.
 

@@ -15,7 +15,7 @@ want provide help on another.
 
 First of all, know that we like to help people because we want Lakka to be spread
 around the world. We want it to be as easy to use as possible, meaning the
-least ammount of problems possible for the end user.
+least amount of problems possible for the end user.
 
 You have several ways to get help:
 
@@ -25,7 +25,7 @@ You have several ways to get help:
  * Using the [contact form](/contact)
  * Using [IRC](irc://irc.freenode.org/#lakkatv)
 
-For IRC, please keep in mind that most of our developpers live in Western Europe time zone.
+For IRC, please keep in mind that most of our developers live in Western Europe time zone.
 You also need to know that we are always online, but we might be AFK when  
 you message us. We will see your message, and we will answer with as little a delay.
 Please don't logout before getting a reply. This is quite frustrating, so if
@@ -36,7 +36,7 @@ Last, don't ask if you can ask a question, just ask it.
 ## Providing Help
 
 There are several way to help, depending on your knowledge. If you know C,
-embeded systems, or Cross-compiling, it may be easy to you to contribute to
+embedded systems, or Cross-compiling, it may be easy to you to contribute to
 Lakka source code repository.
 
 If you have a non-mainstream game controller and notice it does not work.
@@ -45,8 +45,8 @@ You may contribute to
 
 If you notice any bug you can also report it on our issue tracker.
 
-Last, if you want a new feature, before implemnting it come and discus it with us,
-we can help you bootstrape the project to make your contribution easier.
+Last, if you want a new feature, before implementing it come and discuss it with us,
+we can help you bootstrap the project to make your contribution easier.
 
 ## Feature we want and we'd get faster if we got help
 
@@ -56,9 +56,9 @@ Here is our todo and design list:
  * Try Lakka on a variety of hardware and report bugs
  * Enhance this blog look
  * Write a mobile CSS for the website
- * Help us to finish writting the XMB menu driver in RetroArch
+ * Help us to finish writing the XMB menu driver in RetroArch
  * Designing an auto-update system (upgrading kernel or rootfs like OpenELEC does in Kodi)
- * Add a parametrable external command runner in RetroArch, to be able to shutdown the system
+ * Add a configurable external command runner in RetroArch, to be able to shutdown the system
  * Writing documentation: telling us what you think it is needed
  * Hang out on IRC to help newbie users
 

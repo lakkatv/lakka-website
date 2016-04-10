@@ -18,7 +18,7 @@ We are releasing new stable versions of Lakka.
 
 The ATI bug is finally fixed. We had to add back x11 in the generic builds to work around this bug preventing launch of games on ATI cards. This change will have some side effects, the performance of GL cores like PPSSPP will improve on NVidia cards, since x11 allow to use the proprietary driver instead of nouveau. However, x11 add some overhead, and you can expect a performance drop globally.
 
-In this release, a lot of packages have been updated, including RetroArch and some libretro cores like FBA, PPSSPP, and more. We didn't merge OpenELEC yet, since we don't want to lose i386 and BIOS support now.
+In this release, a lot of packages have been updated, including RetroArch and some Libretro cores like FBA, PPSSPP, and more. We didn't merge OpenELEC yet, since we don't want to lose i386 and BIOS support now.
 
 The Odroid-C1 build has been upgraded to use MALI r5p0 for better performance : FF3 on PPSSPP now runs at full speed without frameskipping. The vsync issue is partially fixed: the game objects are blinking correctly now, but there is still tearing. I saw that they implemented waitforvsync in their kernel, we still need to call this on the RetroArch side to fix the problem.
 
@@ -36,7 +36,7 @@ For a few months now, we've been providing some development builds for the [WeTe
 
 ### Cubieboard 1
 
-**Kozimodo**, a generous contributor on the libretro forums is sending us a free [Cubieboard](http://cubieboard.org/model/cb1/). We will receive it by the end of June and port Lakka to it.
+**Kozimodo**, a generous contributor on the Libretro forums is sending us a free [Cubieboard](http://cubieboard.org/model/cb1/). We will receive it by the end of June and port Lakka to it.
 
 I took a look at the specs, and the port should be feasible. Thanks again!
 

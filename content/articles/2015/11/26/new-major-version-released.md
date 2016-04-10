@@ -40,15 +40,15 @@ When booting a fresh installation of Lakka, you will start with 4 tabs:
 
 ![Game details](media/details.png)
 
-The new RetroArch included in Lakka introduces a game database. This database is nothing more than the DAT files from the famous [No-Intro](http://www.no-intro.org/) initiative, converted to binary for performance reasons. It contains metadata about the games, like the publisher and the release date. With this, it becomes easy to browse games made by the same team. This database also contains the checksums of ROMs, and RetroArch uses these checksums to match your ROMs against the datatabse entries.
+The new RetroArch included in Lakka introduces a game database. This database is nothing more than the DAT files from the famous [No-Intro](http://www.no-intro.org/) initiative, converted to binary for performance reasons. It contains metadata about the games, like the publisher and the release date. With this, it becomes easy to browse games made by the same team. This database also contains the checksums of ROMs, and RetroArch uses these checksums to match your ROMs against the database entries.
 
 ![Game Sorting](media/game-sorting.png)
 
-Since users were constantly complaining about the wrong game sorting in the previous versions of Lakka, we implemented a scanning system that will check all your ROMs against the database and generate one playlist by system. This is why we recommand you to use the No-Intro romsets from now, since they will scan properly. We ensure that adding custom playlists that doesn't refer to a game system or contains ROMs not part of the no-intro sets will work.
+Since users were constantly complaining about the wrong game sorting in the previous versions of Lakka, we implemented a scanning system that will check all your ROMs against the database and generate one playlist by system. This is why we recommend you to use the No-Intro romsets from now, since they will scan properly. We ensure that adding custom playlists that doesn't refer to a game system or contains ROMs not part of the no-intro sets will work.
 
 ![Playlist core association](media/association.png)
 
-A default libretro core is assigned to each playlist. You can customize this choice in the Playlist Settings. You can also completely remove that association by pressing START, then RetroArch will let you choose the core on a per-ROM basis.
+A default Libretro core is assigned to each playlist. You can customize this choice in the Playlist Settings. You can also completely remove that association by pressing START, then RetroArch will let you choose the core on a per-ROM basis.
 
 ### Dynamic backgrounds and Boxarts
 

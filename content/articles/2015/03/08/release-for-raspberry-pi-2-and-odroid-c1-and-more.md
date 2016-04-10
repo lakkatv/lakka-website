@@ -34,7 +34,7 @@ Those bugs are not blocking, we will fix them in the next weeks.
 
 ## Odroid-C1
 
-This powerfull device was donated by Hardkernel. It is incredibly fast, and at the same price as the Raspberry Pi 2. It can run snes9x-next and pcsx_rearmed with absolutely no lag.
+This powerful device was donated by Hardkernel. It is incredibly fast, and at the same price as the Raspberry Pi 2. It can run snes9x-next and pcsx_rearmed with absolutely no lag.
 
 A video of the Odroid-C1 running Lakka:
 
@@ -42,12 +42,12 @@ A video of the Odroid-C1 running Lakka:
 
 Known bugs for the Odroid-C1 build:
 
- * Resolution is set to 1080p and there is no detection, you may want to change this value in the booloader config
+ * Resolution is set to 1080p and there is no detection, you may want to change this value in the bootloader configuration
  * No vsync, so there is some tearing on some games
  * No N64 emulation, it segfaults on launch
  * The menu is too fast (130fps)
 
-Those bugs are tought, we may not be able to fix them… 
+Those bugs are tough, we may not be able to fix them… 
 
 ## What's new in this release?
 
