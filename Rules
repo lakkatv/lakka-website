@@ -39,6 +39,12 @@ end
   end
 end
 
+compile '/db*' do
+  filter :erb if item[:extension] == 'html'
+  filter :kramdown if item[:extension] == 'md'
+  layout 'db'
+end
+
 compile '/tags/*/' do
   filter :erb if item[:extension] == 'html'
   layout 'tag'
