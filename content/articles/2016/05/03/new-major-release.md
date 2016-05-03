@@ -58,7 +58,7 @@ We also added a **Service Settings** group in the menu. From there, you can enab
 
 ![Services](media/services.png)
 
-# Bluetooth DuakShock 3
+# Bluetooth DualShock 3
 
 The famous PS3 game controller becomes easier to use in Lakka. You can now use it wirelessly over bluetooth without having to go through that complex command line pairing anymore. Just enable bluetooth in the services, plug your controller once, wait a few seconds and unplug it. It should automatically pair and become usable to control the menu and play games.
 
