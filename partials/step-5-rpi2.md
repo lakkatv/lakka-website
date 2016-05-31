@@ -2,12 +2,12 @@
 
 Follow the following steps:
 
-1.  Insert the SD card into your Raspberry Pi 2
-2.  Connect a HDMI wire from your Raspberry Pi 2 to your TV
+1.  Insert the SD card into your Raspberry Pi
+2.  Connect a HDMI wire from your Raspberry Pi to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypad into one of the 4 USB ports on your Raspberry Pi 2
-6.  Plug in the power supply of your Raspberry Pi 2
+5.  Plug in a supported joypad into one of the 4 USB ports on your Raspberry Pi
+6.  Plug in the power supply of your Raspberry Pi
 
 You should see our splash screen:
 
