@@ -1,15 +1,11 @@
 /* Layout */
 
 body.doc > .container {
-    color: #2C3E50;
-    max-width: 900px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 body.doc > .container h1 {
-    float: none;
-    width: 100%;
     font-size: 40px;
 }
 
@@ -54,10 +50,6 @@ body.doc p img {
     max-width: 100%;
 }
 
-body.blog p {
-    font-size: 16px;
-}
-
 body.doc ul.articles {
     list-style-type: none;
     padding: 0;
@@ -74,23 +66,6 @@ body.doc .breadcrumb {
 body.doc .images img {
     display: inline;
     margin-right: 16px;
-}
-
-body.doc div.col1 {
-    float: left;
-    width: 300px;
-    margin-right: 16px;
-}
-
-body.doc div.col1 table {
-    margin: 0;
-}
-
-body.doc div.col2 {
-    float: left;
-    width: 584px;
-    line-height: 1.5em;
-    text-align: justify;
 }
 
 body.doc img.boxart {

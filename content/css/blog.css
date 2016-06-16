@@ -1,10 +1,8 @@
 /* Layout */
 
 body.blog > .container {
-    color: #2C3E50;
-    max-width: 668px;
-    margin: 60px auto;
-    padding: 0 50px;
+    max-width: 768px;
+    margin: 50px auto;
 }
 
 body.blog > .container h1 {

@@ -1,41 +1,25 @@
-@charset "utf-8";
-/*authors : Jean-André Santoni, Morgane Alonso, Zacharie Juillard*/
-
 /* -------------------- general -------------------- */
 
-html {
-  min-height: 100%;
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/font.ttf);
 }
 
 body {
-  margin: 0;
-  font-family: 'Asap', sans-serif;
-  background-color: #ecf0f1;
-  min-height: 100%;
+  font-family: 'myFont', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(51, 51, 51);
 }
 
 iframe {
   border: 0;
 }
 
-.clearer:after{
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
 pre {
-    margin: 25px 0;
-}
-
-pre code {
+  margin: 25px 0;
   color: #2ecc71;
   background: #2c3e50;
   display: block;
@@ -43,200 +27,279 @@ pre code {
   border-radius: 5px;
   font-size: 14px;
   overflow-x: auto;
+  border-radius: 0;
+  border: none;
 }
 
 p, li, code {
   line-height: 1.5em;
 }
 
+.btn-lakka {
+  background-color: #45b1be;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-lakka:hover {
+  background-color: #33838c;
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  background: #354B60;
+  font-weight: bold;
+}
+
+.lakka-logo {
+  height: 50px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .lakka-logo:hover, 
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #2c3e50;
+}
+
 /* -------------------- banner -------------------- */
 
-header {
+header.mainheader {
+  background-color: #45b1be;
   color: white;
-  background-color: #1abc9c;
 }
 
-#menubar {
-  height: 60px;
-  background-color: #354B60;
-}
-
-h1 {
-  display: inline-block;
-  margin: 0px;
-  height: 60px;
-  font-size: 30px;
-  float: left;
-}
-
-h1 img {
-  height: 60px;
-}
-
-header h2 {
+header.mainheader h1 {
+  color: white;
   font-size: 60px;
   margin-bottom: 0;
+  margin-top: 160px;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
-header a.getlakka {
-  background-color: #354B60;
-  color: white;
-  padding: 15px 30px;
-  display: inline-block;
-  margin-top: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 25px;
-  border-radius: 4px;
-}
-
-header .subtitle {
-  font-size: 35px;
+header.mainheader .subtitle {
+  font-size: 30px;
   line-height: normal;
+  padding: 40px 0;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
-#menubar nav {
-  float: right;
-}
-
-#menubar nav ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-#menubar nav li {
-  display: inline-block;
-  line-height: 60px;
-}
-
-#menubar nav li a {
-  color: white;
-  text-decoration: none;
-  padding: 0 20px;
+.getlakka {
+  background-color: white;
+  border-radius: 5px;
   font-weight: bold;
+  color: #2c3e50;
+  -webkit-box-shadow: 0px 7px 0px #ddd, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 7px 0px #ddd, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 7px 0px #ddd, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 7px 0px #ddd, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -webkit-transition:all .1s ease;
+  -moz-transition:all .1s ease;
+  -o-transition:all .1s ease;
+  transition:all .1s ease;
 }
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
+.getlakka:hover {
+  color: #2c3e50;
+  position: relative;
+  top: 2px;
+  -webkit-box-shadow: 0px 5px 0px #ddd, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 5px 0px #ddd, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 5px 0px #ddd, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 5px 0px #ddd, 0px 7px 7px 0px rgba(0,0,0,0.5);
 }
-
-.column {
-  float: left;
-  width: 45%;
-}
-
-header .column {
-  padding-top: 110px;
+.getlakka:active {
+  position: relative;
+  top: 4px;
+  -webkit-box-shadow: 0px 2px 0px #ddd, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 2px 0px #ddd, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 2px 0px #ddd, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 2px 0px #ddd, 0px 3px 2px 0px rgba(0,0,0,0.5);
 }
 
 .tv {
-  margin-top: 235px;
-  float: right;
   background-image: url("../images/tv.png");
-  background-size: 100%;
-  width: 600px;
-  height: 420px;
+  background-size: 600px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 660px;
 }
 
-@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@-moz-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@-ms-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@-o-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
 .tv video {
-  margin-top: 20px;
-  margin-left: 36px;
-  background-color: #9b59b6;
-  width: 544px;
-  height: 320px;
-  opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-duration: 1s;
-  -moz-animation: fadeIn ease-in 1;
-  -moz-animation-fill-mode: forwards;
-  -moz-animation-duration: 1s;
-  -ms-animation: fadeIn ease-in 1;
-  -ms-animation-fill-mode: forwards;
-  -ms-animation-duration: 1s;
-  -o-animation: fadeIn ease-in 1;
-  -o-animation-fill-mode: forwards;
-  -o-animation-duration: 1s;
-  animation: fadeIn ease-in 1;
-  animation-fill-mode: forwards;
-  animation-duration: 1s;
+  position: absolute;
+  right: 35px;
+  bottom: 80px;
+}
+
+@media screen and (max-width : 1199px) {
+  header.mainheader h1 {
+    font-size: 50px;
+    margin-top: 130px;
+  }
+
+  header.mainheader .subtitle {
+    font-size: 25px;
+    padding: 32px 0;
+  }
+
+  .tv {
+    background-size: 500px;
+    height: 540px;
+  }
+
+  .tv video {
+    width: 454px;
+    right: 31px;
+    bottom: 66px;
+  }
+
+  .getlakka {
+    font-size: 15px; 
+  }
+}
+
+@media screen and (max-width : 991px) {
+  header.mainheader h1 {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  header.mainheader .subtitle {
+    font-size: 20px;
+    padding: 26px 0;
+  }
+
+  .tv {
+    background-size: 400px;
+    height: 450px;
+  }
+
+  .tv video {
+    width: 363px;
+    right: 28px;
+    bottom: 53px;
+  }
+}
+
+@media screen and (max-width : 767px) {
+  header.mainheader h1 {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  header.mainheader .subtitle {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+
+  .tv {
+    background-size: 300px;
+    height: 340px;
+  }
+
+  .tv video {
+    width: 272px;
+    right: 25px;
+    bottom: 40px;
+  }
+
+  .getlakka {
+    font-size: 10px; 
+  }
 }
 
 /* -------------------- menu -------------------- */
 
 /* -------------------- content -------------------- */
 
-section#about {
-  padding: 60px 0;
-  width: 1240px;
-  margin: 0 auto;
+#features {
+  padding: 50px 0;
 }
 
-section#about article {
-  width: 580px;
-  float: left;
-  padding: 20px;
+#features article {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-section#about article i {
-  display: block;
-  float: left;
-  width: 80px;
-  height: 100px;
-  padding-right: 20px;
+#features article:hover {
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+#features h3 {
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+#features p {
+  font-size: 16px;
+  color: gray;
+}
+
+#features .col-xs-2 {
   font-size: 80px;
+  color: #ccc;
   text-align: center;
-  color: #bdc3c7;
 }
 
-section#about article div {
-  float: left;
-  width: 480px;
+@media screen and (max-width : 1199px) {
+  #features h3 {
+    padding-top: 20px;
+  }
+  #features p {
+    font-size: 15px;
+  }
+  #features .col-xs-2 {
+    font-size: 70px;
+  }
 }
 
-section#about article h3 {
-  color: #1abc9c;
-  font-size: 30px;
+@media screen and (max-width : 991px) {
+  #features h3 {
+    padding-top: 15px;
+  }
+  #features p {
+    font-size: 14px;
+  }
+  #features .col-xs-2 {
+    font-size: 60px;
+  }
 }
 
-section#about article p {
-  color: #7f8c8d;
+@media screen and (max-width : 767px) {
+  #features h3 {
+    padding-top: 15px;
+  }
+  #features p {
+    font-size: 14px;
+  }
+  #features .col-xs-2 {
+    font-size: 60px;
+  }
 }
 
-section#libretro {
-  background-color: #2c3e50;
-  background-image: url("../images/libeco.png");
-  background-repeat: no-repeat;
-  background-position: 100% 50%;
-  background-origin: content-box;
-  padding: 100px 120px;
-}
-
-section#libretro article {
-  float: left;
-  width: 512px;
-  color: white;
-}
-
-section#libretro article #libretrologo {
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-section#libretro article p {
+#libretro {
+  background-color: #ecf0f1;
+  padding: 50px 0;
   font-size: 24px;
 }
 
+#libretro #libretrologo {
+  width: 50%;
+  padding: 25px 0 50px 0;
+}
+
+#libretro #libeco {
+  width: 100%;
+  margin: 50px 0;
+}
 
 #clouds {
-  background-color: #3498db;
+  background-color: #45b1be;
   background-image: url("../images/form_background.png");
   background-repeat: repeat-x;
   background-position: 0 100%;
@@ -249,14 +312,13 @@ section#libretro article p {
   background-image: url("../images/form_paperplane2.png");
   background-repeat: no-repeat;
   background-position: top right;
-
   background-origin: content-box;
 }
 
 #contact form {
   display: block;
   float: left;
-  width: 540px;
+  width: 520px;
   background-color: #ecf0f1;
   border-radius: 10px;
 }
@@ -280,15 +342,15 @@ section#libretro article p {
 }
 
 #contact input[type="submit"]{
-  width: 500px;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  width: 476px;
+  background-color: #45b1be;
+  border-color: #45b1be;
   color: white;
   transition: background-color 0.5s;
 }
 
 #contact textarea:focus, #contact input:focus {
-  border-color: #1abc9c;
+  border-color: #45b1be;
 }
 
 #contact input[type="submit"]:hover {
@@ -303,15 +365,42 @@ p.dl {
 }
 
 p.dl a {
-  background-color: #1abc9c;
-  color: white;
   padding: 15px 30px;
   display: inline-block;
   margin: 10px auto;
-  font-weight: bold;
   text-decoration: none;
   font-size: 25px;
-  border-radius: 4px;
+  background-color: #45b1be;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  -webkit-box-shadow: 0px 7px 0px #33838c, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 7px 0px #33838c, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 7px 0px #33838c, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 7px 0px #33838c, 0px 11px 16px 0px rgba(0,0,0,0.5);
+  -webkit-transition:all .1s ease;
+  -moz-transition:all .1s ease;
+  -o-transition:all .1s ease;
+  transition:all .1s ease;
+}
+
+p.dl a:hover {
+  color: white;
+  position: relative;
+  top: 2px;
+  -webkit-box-shadow: 0px 5px 0px #33838c, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 5px 0px #33838c, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 5px 0px #33838c, 0px 7px 7px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 5px 0px #33838c, 0px 7px 7px 0px rgba(0,0,0,0.5);
+}
+
+p.dl a:active {
+  position: relative;
+  top: 4px;
+  -webkit-box-shadow: 0px 2px 0px #33838c, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:    0px 2px 0px #33838c, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  -o-box-shadow:      0px 2px 0px #33838c, 0px 3px 2px 0px rgba(0,0,0,0.5);
+  box-shadow:         0px 2px 0px #33838c, 0px 3px 2px 0px rgba(0,0,0,0.5);
 }
 
 p.dl a span.details {
@@ -346,16 +435,20 @@ li.tag a {
 /* -------------------- footer -------------------- */
 
 footer {
-  background: #2c3e50;
-  padding: 15px;
+  background-color: #354B60;
   text-align: center;
-  font-size: 30px;
+  height: 50px;
+  letter-spacing: 6px;
 }
 
 footer a {
-  color: #ecf0f1;
+  font-size: 32px;
+  color: white;
+  line-height: 50px;
 }
 
-footer a:hover {
-  color: #2980b9;
+@media screen and (max-width : 991px) {
+  #libretro {
+    font-size: 16px;
+  }
 }

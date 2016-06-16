@@ -21,11 +21,16 @@
   <% if item_has_thumbnail? %><meta property="og:image" content="<%= item_thumbnail %>"><% end %>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/blog.css" />
-  <link rel="stylesheet" href="/css/responsive.css" />
-  <link href='/css/fonts.css' rel='stylesheet' type='text/css'>
+
   <link href="/css/font-awesome.css" rel="stylesheet">
   
   <link rel="icon" type="image/png" href="/images/fav64.png" />
@@ -34,10 +39,6 @@
   <link href="/articles/feed.xml" type="application/atom+xml" rel="alternate" title="Lakka News Feed" />
   
   <title>News - <%= @item[:title] %></title>
-  
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
   
 </head>
  

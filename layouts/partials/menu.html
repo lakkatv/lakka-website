@@ -1,14 +1,24 @@
-  <div id="menubar">
-    <h1><a href="/"><img src="/images/lakka-logo.png" alt="Lakka's logo, represent a berry : the cloudberry" /></a></h1>
-    <nav>
-      <ul>
-        <li><%= link_to 'Get', '/disclaimer' %></li>
-        <li><%= link_to 'News', '/articles' %></li>
-        <li><%= link_to 'Forum', 'http://libretro.com/forums/forumdisplay.php?f=26' %></li>
-        <li><%= link_to 'FAQ', '/doc/FAQ' %></li>
-        <li><%= link_to 'Doc', '/doc/Home' %></li>
-        <li><%= link_to 'About', '/about' %></li>
-        <li><%= link_to 'Contact', '/contact' %></li>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img alt="Lakka" class="lakka-logo" src="/images/lakka-logo.png"></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to 'Get', '/disclaimer' %></li>
+      <li><%= link_to 'News', '/articles' %></li>
+      <li><%= link_to 'Forum', 'http://libretro.com/forums/forumdisplay.php?f=26' %></li>
+      <li><%= link_to 'FAQ', '/doc/FAQ' %></li>
+      <li><%= link_to 'Doc', '/doc/Home' %></li>
+      <li><%= link_to 'About', '/about' %></li>
+      <li><%= link_to 'Contact', '/contact' %></li>
       </ul>
-    </nav>
+    </div><!--/.nav-collapse -->
   </div>
+</nav>

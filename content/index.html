@@ -1,53 +1,76 @@
-<header>
- <aside class="clearer container">
-  <div class="column">
-   <h2>The DIY retro emulation&nbsp;console</h2>
-   <p class="subtitle"><%= @config[:site_description] %></p>
-   <%= link_to 'Get Lakka', '/disclaimer', :class => "getlakka" %>
+<header class="mainheader">
+ <div class="container">
+  <div class="row">
+    <div class="col col-xs-5">
+     <h1>The&nbsp;open&nbsp;source game&nbsp;console</h1>
+     <p class="subtitle"><%= @config[:site_description] %></p>
+     <%= link_to 'Get Lakka', '/disclaimer', :class => "getlakka btn btn-lg" %>
+    </div>
+    <div class="col col-xs-7">
+      <div class="tv">
+        <video poster="/images/thumb.png" preload="auto" autoplay loop>
+          <source src="/videos/menuwebm.webm" type="video/webm" />
+        </video>
+      </div>
+    </div>
   </div>
-  <div class="tv">
-    <video poster="/images/thumb.png" preload="auto" autoplay loop>
-      <source src="/videos/menuwebm.webm" type="video/webm" />
-    </video>
-  </div>
- </aside>
+ </div>
 </header>
 
-<section id="about" class="clearer">
-  <article class="clearer">
-    <i class="fa fa-bolt"></i>
-    <div>
-      <h3>Powerful</h3>
-      <p>Built on top of the famous RetroArch emulator, Lakka is able to emulate a large range of hardware and has some useful features such as Braid-like rewinding, joypad hotplug and video streaming.</p>
-    </div>
-  </article>
-  <article class="clearer">
-    <i class="fa fa-smile-o"></i>
-    <div>
-      <h3>User friendly</h3>
-      <p>Lakka is easy to setup and use. Once installed to your SD card, you just have to put your rom on the card, plug your joypad and enjoy your favorite old games.</p>
-    </div>
-  </article>
-  <article class="clearer">
-    <i class="fa fa-thumbs-o-up"></i>
-    <div>
-      <h3>Low cost</h3>
-      <p>We try to keep the hardware required to run Lakka as cheap as possible. We also support PS3 and XBox360 controllers so you don't have to buy new ones. The power can be supplied by any micro USB adapter like the one of your smartphone.</p>
-    </div>
-  </article>
-  <article class="clearer">
-    <i class="fa fa-github-alt"></i>
-    <div>
-      <h3>Open source</h3>
-      <p>Our code is free as in freedom and hosted on Github. We accept external contributions, and we do our best to integrate our own patches into upstream projects.</p>
-    </div>
-  </article>
-</section>
+<div id="features" class="container">
+  <div class="row">
+    <article class="col-sm-6">
+      <div class="row">
+        <div class="col col-xs-2"><i class="fa fa-bolt"></i></div>
+        <div class="col col-xs-10">
+          <h3>Powerful</h3>
+          <p>Built on top of the famous RetroArch emulator, Lakka is able to emulate a wide variety of systems and has some useful features such as automatic joypad recognition, rewinding, netplay, and shaders.</p>
+        </div>
+      </div>
+    </article>
+    <article class="col-sm-6">
+      <div class="row">
+        <div class="col col-xs-2"><i class="fa fa-smile-o"></i></div>
+        <div class="col col-xs-10">
+          <h3>User friendly</h3>
+          <p>Lakka is easy to setup and use. Once installed to your SD card, you just have to copy your ROM on the card, plug your joypad and enjoy your favorite old games.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="row">
+    <article class="col-sm-6">
+      <div class="row">
+        <div class="col col-xs-2"><i class="fa fa-thumbs-o-up"></i></div>
+        <div class="col col-xs-10">
+          <h3>Low cost</h3>
+          <p>We try our best to keep the hardware required to run Lakka as cheap as possible. The software is optimized to run fast even on low end computers, and we support a lot of USB joypads.</p>
+        </div>
+      </div>
+    </article>
+    <article class="col-sm-6">
+      <div class="row">
+        <div class="col col-xs-2"><i class="fa fa-github-alt"></i></div>
+        <div class="col col-xs-10">
+          <h3>Open source</h3>
+          <p>Lakka is a community driven project. Coders, designers and gamers all around the world are working together to make it a great experience. Join us!</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
 
-<section id="libretro" class="clearer">
-  <article class="clearer">
-    <a href="http://libretro.com"><img id="libretrologo" src="/images/libretro_logo.png" alt="libretro" /></a>
-    <p>Lakka is the official Linux distribution of RetroArch and the libretro ecosystem.</p>
-    <p>Each game system is implemented as a <em>libretro core</em>, while the frontend <em>RetroArch</em> takes care of inputs and display. This clear separation ensures modularity and centralized configuration.</p>
-  </article>
+<section id="libretro">
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-6">
+        <a href="http://libretro.com"><img id="libretrologo" src="/images/libretro_logo.png" alt="libretro"></a>
+        <p>Lakka is the official Linux distribution of RetroArch and the libretro ecosystem.</p>
+        <p>Each game system is implemented as a <em>libretro core</em>, while the frontend <em>RetroArch</em> takes care of inputs and display. This clear separation ensures modularity and centralized configuration.</p>
+      </div>
+      <div class="col col-sm-6">
+        <img id="libeco" src="/images/libeco.png" alt="libretro ecosystem">
+      </div>
+    </div>
+  </div>
 </section>
