@@ -7,14 +7,20 @@ body.doc > .container {
 
 body.doc > .container h1 {
     font-size: 40px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
 
 body.doc h2 {
     font-size: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
 
 body.doc h3 {
     font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
 
 body.doc table {
@@ -45,8 +51,7 @@ body.doc table img {
 
 body.doc p img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     max-width: 100%;
 }
 
@@ -71,3 +76,25 @@ body.doc .images img {
 body.doc img.boxart {
     width: 100%;
 }
+
+body.doc .sidemenu ul {
+    padding: 0;
+}
+
+
+body.doc .sidemenu li {
+    list-style: none;
+}
+
+body.doc .sidemenu li a {
+    display: block;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+body.doc .sidemenu li a:hover {
+    background-color: #45b1be;
+    color: white;
+    text-decoration: none;
+}
+

@@ -28,16 +28,8 @@
   <%= render 'partials/menu' %>
 
   <div class="container">
-    <div class="row">
-      <div class="col col-sm-8">
-        <h1><%= doc_title @item %></h1>
-        <%= yield %>
-      </div>
-      <div class="col col-sm-4">
-        <div class="well sidemenu">
-          <% filter :doc_links do %><% filter :kramdown do %><%= partial '_Sidebar.md' %><% end %><% end %>
-        </div>
-      </div>
+    <h1><%= doc_title @item %></h1>
+      <%= yield %>
     </div>
   </div>
 

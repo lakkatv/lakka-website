@@ -35,6 +35,10 @@ p, li, code {
   line-height: 1.5em;
 }
 
+a {
+  color: #45b1be;
+}
+
 .btn-lakka {
   background-color: #45b1be;
   color: white;
@@ -212,8 +216,6 @@ header.mainheader .subtitle {
   }
 }
 
-/* -------------------- menu -------------------- */
-
 /* -------------------- content -------------------- */
 
 #features {
@@ -282,6 +284,8 @@ header.mainheader .subtitle {
   }
 }
 
+/* Libretro */
+
 #libretro {
   background-color: #ecf0f1;
   padding: 50px 0;
@@ -297,6 +301,14 @@ header.mainheader .subtitle {
   width: 100%;
   margin: 50px 0;
 }
+
+@media screen and (max-width : 991px) {
+  #libretro {
+    font-size: 16px;
+  }
+}
+
+/* Contact */
 
 #clouds {
   background-color: #45b1be;
@@ -445,10 +457,4 @@ footer a {
   font-size: 32px;
   color: white;
   line-height: 50px;
-}
-
-@media screen and (max-width : 991px) {
-  #libretro {
-    font-size: 16px;
-  }
 }

@@ -27,15 +27,23 @@ compile '/sitemap' do
   filter :erb
 end
 
-['/about', '/doc*', '/articles', '/disclaimer'].each do |it|
+['/about', '/articles', '/disclaimer'].each do |it|
   compile it do
     unless item.binary?
       filter :erb if item[:extension] == 'html'
       filter :kramdown if item[:extension] == 'md'
-      filter :doc_links if it == '/doc*'
-      filter :doc_images if it == '/doc*'
-      layout 'doc'
+      layout 'page'
     end
+  end
+end
+
+compile '/doc*' do
+  unless item.binary?
+    filter :erb if item[:extension] == 'html'
+    filter :kramdown if item[:extension] == 'md'
+    filter :doc_links
+    filter :doc_images
+    layout 'doc'
   end
 end
 
