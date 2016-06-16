@@ -6,7 +6,7 @@ title: News
 
 <div class="row">
 <% sorted_articles.each do |article| %>
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-6">
   	<a class="card" href="<%= article.identifier %>">
       <img class="socialthumb" src="<%= article.identifier %><%= article[:social] && article[:social][:thumbnail] %>" />
       
