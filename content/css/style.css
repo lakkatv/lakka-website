@@ -1,8 +1,8 @@
 /* -------------------- general -------------------- */
 
 @font-face {
-    font-family: myFont;
-    src: url(../fonts/font.ttf);
+    font-family: 'myFont';
+    src: url(/fonts/font.ttf) format('truetype');
 }
 
 body {
@@ -27,8 +27,14 @@ pre {
   border-radius: 5px;
   font-size: 14px;
   overflow-x: auto;
-  border-radius: 0;
   border: none;
+}
+
+code {
+  color: #2ecc71;
+  background: #2c3e50;
+  border: none;
+  font-family: monospace;
 }
 
 p, li, code {

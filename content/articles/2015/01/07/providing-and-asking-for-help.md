@@ -5,6 +5,8 @@ author_name: kivutar, floreal
 kind: article
 tags:
   - Help
+social:
+  thumbnail: media/help.jpg
 ---
 
 Hello everyone! Here is the first article in 2015. I've been wanting to write about this 

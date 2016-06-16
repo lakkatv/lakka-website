@@ -11,6 +11,8 @@ tags:
   - GLUI
   - Touch
   - OpenELEC
+social:
+  thumbnail: media/hexa.png
 ---
 
 ## Lakka is not dead

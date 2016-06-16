@@ -8,6 +8,8 @@ tags:
   - Build Server
   - Menu
   - Database
+social:
+  thumbnail: media/type0.png
 ---
 
 ## ARM Mali released a new driver for the XU3 GPU

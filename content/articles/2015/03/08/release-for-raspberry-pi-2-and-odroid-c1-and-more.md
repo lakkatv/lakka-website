@@ -10,6 +10,8 @@ tags:
   - Release
   - libretro
   - Port
+social:
+  thumbnail: media/lutro.png
 ---
 
 A new release of Lakka is out. All the platform builds have been updated, and we can finally add official support for the Odroid-C1 and the Raspberry Pi 2.

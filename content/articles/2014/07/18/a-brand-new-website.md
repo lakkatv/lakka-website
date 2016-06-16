@@ -8,6 +8,8 @@ tags:
   - RaspberryPi
   - PC
   - Cubieboard
+social:
+  thumbnail: media/website.png
 ---
 
 We finally managed to remake our website with a fully static content management

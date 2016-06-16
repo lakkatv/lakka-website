@@ -4,12 +4,19 @@ title: News
 
 <h2>Latest articles <a href="feed.xml"><i class="fa fa-rss"></i></a></h2>
 
-<ul class="articles">
+<div class="row">
 <% sorted_articles.each do |article| %>
-  <li><span class="article-infos"><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></span> &mdash;
-  <%= link_to article[:title], article.identifier %></li>
+  <div class="col-md-4">
+  	<a class="card" href="<%= article.identifier %>">
+      <img class="socialthumb" src="<%= article.identifier %><%= article[:social] && article[:social][:thumbnail] %>" />
+      
+      <h4><%= article[:title] %></h4>
+
+      <div class="article-infos"><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></div>
+    </a>
+  </div>
 <% end %>
-</ul>
+</div>
 
 <h2>Tags</h2>
 <ul class="tags clearer">

@@ -10,6 +10,8 @@ tags:
   - KADE
   - Cubieboard
   - MALI
+social:
+  thumbnail: media/kade.png
 ---
 
 ## New release

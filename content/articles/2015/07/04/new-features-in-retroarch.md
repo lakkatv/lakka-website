@@ -11,6 +11,8 @@ tags:
  - Database
  - Boxarts
  - Dynamic Backgrounds
+social:
+  thumbnail: media/dyn.png
 ---
 
 In this article, I will talk about the new features introduced in RetroArch during the last few weeks. We already posted some videos about it, so if you're following us on social network you will find nothing new in this article, but I thought it would be nice to keep a trace of this on the blog. This new version of RetroArch is not yet included in Lakka because some of those functionalities still need polishing. But we will upgrade the package as soon as they mature.

@@ -1,0 +1,17 @@
+---
+title: Systems
+---
+
+<p>This game database is built using the data from <a href="http://www.no-intro.org/">No-Intro</a>, and metadata scrapped from <a href="http://thegamesdb.net/">TheGamesDB</a>.</p>
+
+<p>No-Intro is an effort to preserve retro games by building lists of clean ROM dumps. RetroArch and Lakka rely on their work during the scanning process that builds playlists.</p>
+
+<p>Boxarts are also from TheGamesDB, while titlescreens and in-game screenshots comes from <a href="https://screenshotpalace.wordpress.com/no-intro-screenshot-reloaded/">Screenshot - Palace</a>. We are maintaining all these pictures under a single github repository <a href="https://github.com/lakkatv/no-intro-pictures">here</a>.</p>
+
+<h2>Systems</h2>
+
+<ul>
+<% sorted_systems.each do |system| %>
+  <li><%= link_to system[:title], system.identifier %> (<%= games_for_system(system[:title]).length %> games)</li>
+<% end %>
+</ul>

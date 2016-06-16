@@ -10,6 +10,8 @@ tags:
   - Odroid-c1
   - libretro
   - RetroArch
+social:
+  thumbnail: media/retrobox.png
 ---
 
 ## Partial release

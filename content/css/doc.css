@@ -5,6 +5,11 @@ body.doc > .container {
     padding-bottom: 50px;
 }
 
+body.page > .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 body.doc > .container h1 {
     font-size: 40px;
     border-bottom: 1px solid #ccc;
@@ -33,7 +38,7 @@ body.doc table {
 
 body.doc table th {
     padding: 20px 10px;
-    border-bottom: 4px solid #1abc9c;
+    border-bottom: 4px solid #45b1be;
     text-align: left;
 }
 
@@ -98,3 +103,31 @@ body.doc .sidemenu li a:hover {
     text-decoration: none;
 }
 
+body.page a.card {
+    margin: 15px 0;
+    border: solid 3px #ccc;
+    display: block;
+}
+
+body.page a.card:hover {
+    border-color: #45b1be;
+    text-decoration: none;
+}
+
+body.page .card h4 {
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body.page .card .article-infos {
+    padding: 10px;
+}
+
+body.page .socialthumb {
+    width: 100%;
+    height: 240px;
+}
