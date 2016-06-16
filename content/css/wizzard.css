@@ -23,7 +23,7 @@ nav.wizzard.step5 { background-image: url("../images/step5.png"); }
 nav.wizzard.step6 { background-image: url("../images/step6.png"); }
 
 nav.wizzard {
-  background: none no-repeat scroll 50% center #BDC3C7;
+  background: none no-repeat scroll 50% center #ecf0f1;
   background-size: auto 30px;
   height: 50px;
 }
@@ -85,6 +85,10 @@ a.next.disabled, a.previous.disabled {
 
 .platforms .col img {
   width: 100%;
+}
+
+.platforms .col h3 {
+  font-weight: bold;
 }
 
 .platforms .col h3, .platforms .col p {

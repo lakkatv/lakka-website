@@ -16,6 +16,7 @@
 
   <link rel="stylesheet" href="/css/style.css" />
   <link href="/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/doc.css" />
 
   <link rel="icon" type="image/png" href="/images/fav64.png" />
   <link rel="apple-touch-icon" href="/images/fav64.png" />
@@ -23,14 +24,22 @@
   <title>Lakka - <%= item[:title] %></title>
 </head>
  
-<body>
+<body class="doc">
   <%= render 'partials/menu' %>
+
   <div class='container'>
-    <ul>
-    <% items_with_tag(@item[:tag]).each do |item| %>
-      <li><%= link_to item[:title], item.identifier %></li>
+
+    <h1>News</h1>
+
+    <h2>Articles tagged with: <%= @item[:tag] %></h2>
+
+    <ul class="articles">
+    <% items_with_tag(@item[:tag]).each do |article| %>
+      <li><span class="article-infos"><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></span> &mdash;
+      <%= link_to article[:title], article.identifier %></li>
     <% end %>
     </ul>
+
   </div> 
   <%= render 'partials/footer' %>
 </body>
