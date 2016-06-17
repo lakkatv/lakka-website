@@ -19,7 +19,7 @@ We received two RPi3 units last month and I spent some time testing bluetooth, w
 
 ![RPi3](media/rpi3.jpg)
 
-Performance on the RPi3 is OK, good enough to run N64 games with the rice gfx pluggin, and also some lightweight PSP games.
+Performance on the RPi3 is OK, good enough to run N64 games with the rice gfx plugin, and also some lightweight PSP games.
 
 The download pages have been updated to reflect that change.
 
