@@ -198,7 +198,7 @@ header.mainheader .subtitle {
 @media screen and (max-width : 767px) {
   header.mainheader h1 {
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   header.mainheader .subtitle {
@@ -208,7 +208,7 @@ header.mainheader .subtitle {
 
   .tv {
     background-size: 300px;
-    height: 340px;
+    height: 260px;
   }
 
   .tv video {
@@ -218,14 +218,15 @@ header.mainheader .subtitle {
   }
 
   .getlakka {
-    font-size: 10px; 
+    font-size: 15px; 
   }
 }
 
 /* -------------------- content -------------------- */
 
 #features {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #features article {
