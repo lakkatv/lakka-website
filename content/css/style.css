@@ -281,13 +281,13 @@ header.mainheader .subtitle {
 
 @media screen and (max-width : 767px) {
   #features h3 {
-    padding-top: 15px;
+    padding-top: 0;
   }
   #features p {
     font-size: 14px;
   }
   #features .col-xs-2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
