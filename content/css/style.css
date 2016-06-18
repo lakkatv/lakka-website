@@ -457,11 +457,22 @@ footer {
   background-color: #354B60;
   text-align: center;
   height: 50px;
-  letter-spacing: 6px;
 }
 
 footer a {
-  font-size: 32px;
-  color: white;
-  line-height: 50px;
+  font-size: 24px;
+  color: #354B60;
+  line-height: 32px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  background: #44607a;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 9px;
 }
+
+footer a:hover {
+  background-color: white;
+  color: #354B60;
+};
