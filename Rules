@@ -27,7 +27,7 @@ compile '/sitemap' do
   filter :erb
 end
 
-['/about', '/articles', '/disclaimer'].each do |it|
+['/about', '/articles', '/disclaimer', '/powerful', '/lowcost'].each do |it|
   compile it do
     unless item.binary?
       filter :erb if item[:extension] == 'html'

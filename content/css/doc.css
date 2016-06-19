@@ -132,3 +132,41 @@ body.page .socialthumb {
     width: 100%;
     height: 240px;
 }
+
+/* Page */
+
+.systemcard, .hwcard {
+    background: #ecf0f1;
+    border-radius: 5px;
+    margin: 15px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.systemcard img {
+    width: 64px;
+    padding: 5px;
+    margin-right: 10px;
+    background: #b34644;
+}
+
+.hwcard img {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.featurecard {
+    background: #ecf0f1;
+    border-radius: 5px;
+    margin: 15px 0;
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+
+.featurecard img {
+    width: 100%;
+}
