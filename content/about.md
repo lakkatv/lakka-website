@@ -2,27 +2,27 @@
 title: About this website
 ---
 
-This website is meant to inform about Lakka evolution.
+This website is meant to showcase Lakka's evolution.
 
-It is fully static. and generated with [nanoc](http://nanoc.ws/).
+It is fully static and generated using [nanoc](http://nanoc.ws/).
 
 ## Analytics and Privacy
 
-We do not use any cookie. We do not track your browsing nor
-provide your navigation information to a third party Analytics service
-because we don't need them, because we don't care, and because we respect your
+We do not use any cookies and neither track your browsing nor provide
+your navigation information to third party analytics because we do not
+need them, do not care, and more importantly, because we respect your
 privacy.
 
-We also do not include third party scripted social network share widget.
+We also do not include scripted third party social network sharing widgets.
 
 ## Licence
 
-Any content on this website is Licencied under 
+Any content on this website is Licensed under 
 [Creative Commons 4.0 By Share Alike Licence](http://creativecommons.org/licenses/by-sa/4.0/).
-That means you can reuse, share, and remix it, provided you just mention the authors.
+This means that you can reuse, share, and remix it, provided you mention the authors.
 
 ## Hosting
 
-We would like to thank [Evolix](http://www.evolix.com/) for offering this website hosting.
+We would like to thank [Evolix](http://www.evolix.com/) for offering this website's hosting.
 
 ![Evolix](/images/evolix.png)
