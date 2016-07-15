@@ -6,7 +6,7 @@ Follow the following steps:
 2.  Connect a HDMI wire from your Odroid to your TV
 3.  Power on your TV
 4.  Plug in an ethernet wire (optional)
-5.  Plug in a supported joypad into one of the 4 USB ports on ypur Odroid
+5.  Plug in a supported joypad into one of the 4 USB ports on your Odroid
 6.  Plug in the power supply of your Odroid-C1
 
 You should see our splash screen:
