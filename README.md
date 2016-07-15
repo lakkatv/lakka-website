@@ -1,14 +1,14 @@
-# Lakka website
+# Lakka Website
 
 ## Synopsis
 
-This project is the website for Lakka
+This project is for Lakka's website.
 
-## Development environment
+## Development Environment
 
 This website is based on nanoc, a static generator CMS.
 
-Requirement:
+Requirements:
 
 - Ruby: 2.0.0 or newer
 - gem bundler
@@ -17,21 +17,21 @@ In order to setup your development environement, run:
 
     bundle install
 
-### Running commands
+### Running Commands
 
-Don't forget running commands with bundler:
+Do not forget to run commands with bundler:
 
 example:
 
-    bundle exec nanoc #wil compile the whole website
+    bundle exec nanoc #will compile the whole website
 
     bundle exec guard #starts autocompilation on disk change
 
-## Licence
+## License
 
-The source files used in this prject is licencied under
+The source files used in this project are licensed under
 [GNU General Public Licence V3](https://www.gnu.org/licenses/gpl.html)
 
-The Generated Website content is licencied under [Creative
+The Generated Website content is licensed under [Creative
 Commons Attribution-ShareAlike 4.0 International
 License](http://creativecommons.org/licenses/by-sa/4.0/)
