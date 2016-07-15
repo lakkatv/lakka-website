@@ -6,12 +6,12 @@ Lakka is still under heavy development.
 
 In its current state, the project allows you to play most games on most platforms.
 
-However, expect some bugs, some features missing or not working the way intended, and some hardware not supported.
+However, expect bugs, missing features or features not working as intended, and hardware that is yet to be supported.
 
-If you find a bug, you can declare it in our tracker, if it's not done already.
+If you find a bug, you can declare it in our [tracker](https://github.com/libretro/Lakka/issues), unless already reported.
 
-You can also get some help from the community, but the developpers are busy developping :)
+You can also get help from the community. The developers are busy developing! :)
 
-We need help to improve our documentation, so if you feel you can contribute, please get in touch with us.
+We need help to improve our documentation, so if you believe you can contribute, please get in touch with us.
 
 <p class="dl"><a href="/get" class="button">Get Lakka</a></p>
