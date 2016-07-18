@@ -47,7 +47,7 @@ Wireless support will come in a second time.
 
 If you're using the previous stable release, this upgrade is safe and you can get it directly from our graphical interface.
 
-If you're using an olver build, you may get an error about partition size. We changed the partition size (from 256 to 512) in the last release, so you may have to backup and reflash from scratch.
+If you're using an older build, you may get an error about partition size. We changed the partition size (from 256 to 512) in the last release, so you may have to backup and reflash from scratch.
 
 ## What's next?
 
