@@ -1,5 +1,5 @@
 ---
-title: Update with Xbox One and Duakshock 4 controller support
+title: Update with Xbox One and Dualshock 4 controller support
 created_at: '2016-07-18 11:59:39'
 author_name: kivutar
 kind: article
