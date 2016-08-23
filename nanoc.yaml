@@ -66,18 +66,18 @@ data_sources:
     allow_periods_in_identifiers: true
 
 release:
-  i386: http://mirror.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20160717204739-r21527-g4656d16.img.gz
-  x86_64: http://mirror.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20160717204331-r21527-g4656d16.img.gz
-  a10: http://mirror.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20160715153804-r21527-g4656d16.img.gz
-  a20: http://mirror.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20160715152349-r21527-g4656d16.img.gz
-  imx6.cuboxi: http://mirror.lakka.tv/nightly/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-devel-20160715143746-r21527-g4656d16.img.gz
-  imx6.udoo: http://mirror.lakka.tv/nightly/imx6.udoo.arm/Lakka-imx6.udoo.arm-devel-20160715144058-r21527-g4656d16.img.gz
-  rpi: http://mirror.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20160715142240-r21527-g4656d16.img.gz
-  rpi2: http://mirror.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20160715143255-r21527-g4656d16.img.gz
-  bpi: http://mirror.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20160715154158-r21527-g4656d16.img.gz
-  c1: http://mirror.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20160715155027-r21527-g4656d16.img.gz
-  xu3: http://mirror.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20160715155409-r21527-g4656d16.img.gz
-  wtk: http://mirror.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20160715155750-r21527-g4656d16.img.gz
+  i386: http://mirror.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20160811142808-r21565-gc79651a.img.gz
+  x86_64: http://mirror.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20160811142524-r21565-gc79651a.img.gz
+  a10: http://mirror.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20160811151931-r21565-gc79651a.img.gz
+  a20: http://mirror.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20160811151447-r21565-gc79651a.img.gz
+  imx6.cuboxi: http://mirror.lakka.tv/nightly/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-devel-20160811150747-r21565-gc79651a.img.gz
+  imx6.udoo: http://mirror.lakka.tv/nightly/imx6.udoo.arm/Lakka-imx6.udoo.arm-devel-20160811151118-r21565-gc79651a.img.gz
+  rpi: http://mirror.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20160811144835-r21565-gc79651a.img.gz
+  rpi2: http://mirror.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20160811145614-r21565-gc79651a.img.gz
+  bpi: http://mirror.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20160811152818-r21565-gc79651a.img.gz
+  c1: http://mirror.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20160811153419-r21565-gc79651a.img.gz
+  xu3: http://mirror.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20160811153829-r21565-gc79651a.img.gz
+  wtk: http://mirror.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20160811154407-r21565-gc79651a.img.gz
 
 deploy:
   default:
