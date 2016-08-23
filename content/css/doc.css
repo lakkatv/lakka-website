@@ -97,6 +97,10 @@ body.doc .sidemenu li a {
     border-radius: 3px;
 }
 
+body.doc .sidemenu li li a {
+    padding-left: 40px;
+}
+
 body.doc .sidemenu li a:hover {
     background-color: #45b1be;
     color: white;

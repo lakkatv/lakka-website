@@ -42,6 +42,7 @@ compile '/doc*' do
     filter :erb if item[:extension] == 'html'
     filter :kramdown if item[:extension] == 'md'
     filter :doc_links
+    filter :doc_alerts
     filter :doc_images
     layout 'doc'
   end

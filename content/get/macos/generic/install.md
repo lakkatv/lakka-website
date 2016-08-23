@@ -27,7 +27,7 @@ Now plug your USB pen, and type again:
 
     $ diskutil list
 
-![Flashing USB stick](/images/macosdd.png)
+![Flashing USB stick](/images/diskutil2.png)
     
 Notice that a new disk called disk1 appeared.
 
