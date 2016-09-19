@@ -11,7 +11,7 @@ To setup Lakka on a PC, you have to create a Live USB installer. You need a USB 
 
 ### Determine your USB drive
 
-First, you need to know wich drive is your USB drive.
+First, you need to know which drive is your USB drive.
 
 List your current drives and partitions:
 
@@ -27,7 +27,7 @@ You will see a list of files, in my case:
     brw-rw---- 1 root disk  8,  5 22 mars  23:01 /dev/sda5
     brw-rw-r-- 1 root users 8, 16 22 mars  23:01 /dev/sdb
 
-Those ending with numbers are partitons. Others are drives. In my case, _sda_ is my hard drive, and _sda1_ to _sda5_ are my partitions. Here /dev/sdb is my SD card drive, wich is always present.
+Those ending with numbers are partitions. Others are drives. In my case, _sda_ is my hard drive, and _sda1_ to _sda5_ are my partitions. Here /dev/sdb is my SD card drive, which is always present.
 
 Now plug your USB stick and type again:
 
