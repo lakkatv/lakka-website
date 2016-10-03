@@ -14,9 +14,9 @@ social:
 
 Dear Lakka users,
 
-I just updated the download links to the latest builds that was already available on our update servers.
+I just updated the download links to the latest builds that were already available on our update servers.
 
-If you are already running the previous stable version, upgrading from the menu should be pretty simple. But don't forget to refresh your retroarch.cfg to get the new settings values.
+If you are already running the previous stable version, you can upgrade from the menu, but don't forget to refresh your retroarch.cfg to get the new settings values.
 
 ## Changelog
 
@@ -32,13 +32,13 @@ If you are already running the previous stable version, upgrading from the menu 
 
 ## What's next?
 
-In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered playstation emulator). Those changes are already in our git tree, thanks to floreal. But we need to update some other cores before we release this, since some have been renamed and the core info files have vanished.
+In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered playstation emulator). Those changes are already in our git tree (thanks to floreal). We still need to update some other cores before we release this, since some things have been renamed and the core info files have vanished.
 
-I ordered a Steam Controller with the money from the donations. Twinaphex informed me that libretro's paypal account have been shut down. I think that paypal is not safe anymore and we should stop using it. I'm going to take a look at Patreon and see if it fits our organization. If you have any advice about it, please tell us.
+I have ordered a Steam Controller with the money given from the donations. Twinaphex informed me that libretro's paypal account has been shut down. I think that paypal is not safe anymore and that we should stop using it. I'm going to take a look at Patreon and see if it fits our organization. If you have any advice, please tell us.
 
-I also started developing a small game using Lutro. I hope it will be something that I can finish.
+I also started developing a small game using Lutro, I hope it will be something that I can finish.
 
-It may be time for us to switch to LibreELEC.tv, since OpenELEC is now dead, and they will delete their servers soon or late. We will need to add back support for i386 and BIOS and maintain that on our side. It's not going to be easy, but we have to do it.
+It may be time for us to switch to LibreELEC.tv, since OpenELEC is now dead, and they will delete their servers sooner or late. We will need to add back support for i386 and BIOS and maintain that on our side. It's not going to be easy, but we have to do it.
 
 The new prototype v0.2 of Gamegirl should be ready soon. New contributors are taking active an part in the project, for the best.
 
