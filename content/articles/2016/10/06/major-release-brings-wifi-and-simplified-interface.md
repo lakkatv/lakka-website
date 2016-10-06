@@ -1,5 +1,5 @@
 ---
-title: Major release bings Wi-Fi and simplified interface
+title: Major release brings Wi-Fi and simplified interface
 created_at: '2016-10-06 09:52:24'
 author_name: kivutar
 kind: article
@@ -56,7 +56,7 @@ Also, if you're using the Advanced Settings, you will be able to hide the Settin
 
 ## ScummVM, NXEngine, Lutro scanning
 
-The scanning processes have been improved, and you can now scan for Scummvm, NXEngine and Lutro games. Be sure to read the documentation on how to achieve this as some special steps are required. Thanks to **@RobLoach** for his efforts on this.
+The scanning processes have been improved, and you can now scan for ScummVM, NXEngine and Lutro games. Be sure to read the [documentation](/doc/ScummVM/) on how to achieve this as some special steps are required. Thanks to **@RobLoach** for his efforts on this.
 
 ## 32bit UEFI boot
 
