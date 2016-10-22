@@ -75,7 +75,7 @@ release:
   rpi: http://mirror.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20161005162421-r21600-g0ea42f9.img.gz
   rpi2: http://mirror.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20161005163048-r21600-g0ea42f9.img.gz
   bpi: http://mirror.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20161002114722-r21593-g03241bf.img.gz
-  c1: http://mirror.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20161002115148-r21593-g03241bf.img.gz
+  c1: http://mirror.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20161019211313-r21623-g1ab3658.img.gz
   xu3: http://mirror.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20161002115912-r21593-g03241bf.img.gz
   wtk: http://mirror.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20161002125019-r21593-g03241bf.img.gz
 
