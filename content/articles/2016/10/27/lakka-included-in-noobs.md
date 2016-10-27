@@ -24,7 +24,7 @@ You can purchase a pre-installed NOOBS SD card from many retailers, such as [Pim
 
 When booting your NOOBS SD card for the first time, you will have a choice of Operating Systems to setup. If you choose Lakka, our latest stable release will be downloaded and installed. You can also try out to the other great OSes included in the list, and you can even setup two or three at the same time. It's the easiest way to get both RetroArch and Kodi running without technical knowledge.
 
-Please note that we're not selling SD cards ourselves and we're not making any profit on the SD cards sold buy the shops listed above. Lakka and RetroArch are and will always remain free.
+Please note that we're not selling SD cards ourselves and we're not making any profit on the SD cards sold by the shops listed above. Lakka and RetroArch are and will always remain free.
 
 I'd like to thank the Raspberry Pi Foundation for including Lakka in their list. It will certainly make it very easier for everybody to play with Lakka.
 
