@@ -15,9 +15,9 @@ The Odroid-C1 is a single board computer that we have been supporting for a year
 
 ![C1+](media/c1p.jpg)
 
-There were a last bug preventing us to tag the C1 image as stable : a vertical synchronization issue. This bug is now fixed, thanks to an upgrade of the core components of the system provided by Hardkernel.
+There were a last bug preventing us to tag the C1 image as stable : a vertical synchronization issue. This bug is now fixed, thanks to an upgrade of the core components of the system provided by [Hardkernel](http://www.hardkernel.com).
 
-We have updated the download links of the C1 so everybody can benefit from this last improvement. If you are already using the last release on your C1, you can upgrade Lakka using the graphical interface, it will work without problems. If you want to acquire a C1, you can buy one online, the new version is called C1+ and is also compatible with this image.
+We have updated the download [links](/get) of the C1 so everybody can benefit from this last improvement. If you are already using the last release on your C1, you can upgrade Lakka using the graphical interface, it will work without problems. If you want to acquire a C1, you can buy one online, the new version is called C1+ and is also compatible with this image.
 
 Note: I noticed a display lag with threaded video enabled. I recommand to disable video threading on the C1. You can do this by turning the advanced settings ON in Settings->Menu, then turning off Threaded Video in Settings->Video.
 
