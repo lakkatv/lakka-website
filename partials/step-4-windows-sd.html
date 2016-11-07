@@ -1,30 +1,20 @@
-<h2>Installing Lakka to the SD card</h2>
+<h2>Installing Lakka to the drive</h2>
 
 <h3>Downloading Windows image flasher utility</h3>
 
-<p>On Windows, you need a graphical tool to flash Lakka to your SD card.</p>
+<p>On Windows, you need a graphical tool to flash Lakka to your SD Card or USB drive.</p>
 
-<p>This tool is called Win32DiskImager, and it is free.</p>
+<p>This tool is called Etcher, and it is free.</p>
 
 <%= render 'partials/dl-button',
-      :url => 'http://sourceforge.net/projects/win32diskimager/',
-      :detail => 'for Windows ~ 17MB',
-      :what => 'Win32DiskImager' %>
-
-<h3>Setting up the Windows image flasher utility</h3>
-
-<img alt="Win32 Disk Imager Installation utility" src="/images/win32diskmanager1.png" />
-
-<h3>Determining your SD card drive</h3>
-
-<p>Open your File Manager, and plug your SD card.</p>
-
-<p>You will see a new drive appearing in your File Manager.</p>
+      :url => 'https://etcher.io/',
+      :detail => 'for Windows ~ 82MB',
+      :what => 'Etcher' %>
 
 <h3>Flash the image</h3>
 
-<p>Run the Win32DiskImager you just installed.</p>
+<p>Run Etcher.</p>
 
-<img alt="Win32 Disk Imager" src="/images/win32diskmanager2.png" />
+<img alt="Etcher" style="width: 100%; max-width: 840px; margin: 15px 0;" src="/images/etcher.gif" />
 
-<p>Select Lakka and the SD card drive, and hit the Write button.</p>
+<p>Select the Lakka image and select the drive, and hit the Flash button.</p>
