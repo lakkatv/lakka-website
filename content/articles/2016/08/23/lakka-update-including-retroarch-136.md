@@ -28,18 +28,18 @@ If you are already running the previous stable version, you can upgrade from the
  - Updated Gambatte, fixes the savestates bug
  - Fixed command line updater for imx6
  - Added an ncurses interface for easier wifi configuration (still command line based)
- - I moved the builds to a new server provided by a sponsor
+ - Builds moved to a new server provided by a sponsor
 
 ## What's next?
 
-In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered playstation emulator). Those changes are already in our git tree (thanks to floreal). We still need to update some other cores before we release this, since some things have been renamed and the core info files have vanished.
+In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered playstation emulator). Those changes are already in our git tree (thanks floreal). We need to update some other cores before release as some things have been renamed and the core info files have vanished.
 
-I have ordered a Steam Controller with the money given from the donations. Twinaphex informed me that libretro's paypal account has been shut down. I think that paypal is not safe anymore and that we should stop using it. I'm going to take a look at Patreon and see if it fits our organization. If you have any advice, please tell us.
+I have ordered a Steam Controller with the money given from donations. Twinaphex informed me that libretro's paypal account has been shut down. I think that paypal is no longer safe and that we should stop using it. I'm going to look at Patreon and determine if it fits our organization. If you have any advice, please let us know.
 
-I also started developing a small game using Lutro, I hope it will be something that I can finish.
+I also started developing a small game using Lutro. I hope it will be something that I will be able to finish.
 
-It may be time for us to switch to LibreELEC.tv, since OpenELEC is now dead, and they will delete their servers sooner or late. We will need to add back support for i386 and BIOS and maintain that on our side. It's not going to be easy, but we have to do it.
+It may be time for us to switch to LibreELEC.tv as OpenELEC is now dead and they will shutdown their servers eventually. We will have to add back support for i386 and BIOS and maintain that on our side. It's not going to be easy, but we have to.
 
-The new prototype v0.2 of Gamegirl should be ready soon. New contributors are taking active an part in the project, for the best.
+The new prototype (v0.2) of Gamegirl should be ready soon. New contributors are taking an active part in the development, all for the best.
 
-Thank you for reading, and for all the nice comments you sent us. Happy gaming!
+Thank you for reading and for all the nice comments you send us. Happy gaming!

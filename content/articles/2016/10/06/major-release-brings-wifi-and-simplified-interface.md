@@ -20,7 +20,7 @@ social:
   thumbnail: 'media/wifi.png'
 ---
 
-A new release of Lakka has been deployed to our servers. This is a major release, you will have to purge your retroarch.cfg as explained at the bottom of [this page](/doc/Upgrading-Lakka/). You can also just backup your data and reflash.
+We have deployed a new release of Lakka to our servers. This is a major release, so you will have to purge your retroarch.cfg as explained at the bottom of [this page](/doc/Upgrading-Lakka/). You can also just backup your data and reflash.
 
 ## Simplified interface
 
@@ -32,9 +32,9 @@ You can of course switch back to the advanced mode by toggling **Show Advanced S
 
 ## Wi-Fi configuration interface
 
-This feature have been requested many times over the past two years of Lakka's existence. It was easier to implement than I thought.
+This feature have been requested many times over the past two years of Lakka's existence. It was easier to implement than I expected.
 
-A new settings group called "Wi-Fi" has been added. It will scan for wireless networks if you have a wireless card.
+We've added a new settings group called "Wi-Fi". It will scan for wireless networks if you have a wireless card.
 
 ![Wi-Fi interface](media/wifi.png)
 
@@ -52,17 +52,17 @@ These lists act like separate history lists. You have to load the content at lea
 
 For now these new tabs are hidden, but you can enable them in the Menu Settings.
 
-Also, if you're using the Advanced Settings, you will be able to hide the Settings Tab itself. This can be useful for preventing your kids from messing with these settings. The downside to this is that then the only way to enable the Settings Tab will be to through the command line interface.
+Also, if you're using the Advanced Settings, you will be able to hide the Settings Tab itself. This can be useful for preventing your kids from messing with these settings. The downside to this is that then the only way to enable the Settings Tab will be through the command line.
 
 ## ScummVM, NXEngine, Lutro scanning
 
-The scanning processes have been improved, and you can now scan for ScummVM, NXEngine and Lutro games. Be sure to read the [documentation](/doc/ScummVM/) on how to achieve this as some special steps are required. Thanks to **@RobLoach** for his efforts on this.
+The scanning processes have been improved, you can now scan for ScummVM, NXEngine and Lutro games. Be sure to read the [documentation](/doc/ScummVM/) on how to achieve this as some special steps are required. Thanks to **@RobLoach** for his efforts on this.
 
 ## 32bit UEFI boot
 
-**@gouchi** found a way to fix 32bit UEFI boot. This should allow Lakka to run on boards like LattePanda.
+**@gouchi** found a way to fix 32bit UEFI boot. This should allow Lakka to run on boards like the LattePanda.
 
-UEFI compatible images are not exposed on our website yet, but you can get them from [our server](http://mirror.lakka.tv/nightly/).
+UEFI compatible images are not yet exposed on our website, but you can get them from [our server](http://mirror.lakka.tv/nightly/).
 
 ## New cores
 
