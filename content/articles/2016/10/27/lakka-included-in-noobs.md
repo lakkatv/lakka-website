@@ -28,4 +28,4 @@ Please note that we're not selling SD cards ourselves and we're not making any p
 
 I'd like to thank the Raspberry Pi Foundation for including Lakka in their list. It will certainly make it much easier for everyone to play with Lakka.
 
-The next releases will address their remarks about usability concerns and should make Lakka usable with a wider audience.
+The next releases will address their remarks about usability concerns and should make Lakka usable to a wider audience.
