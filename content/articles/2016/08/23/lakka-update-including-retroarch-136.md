@@ -28,7 +28,7 @@ If you are already running the previous stable version, you can upgrade from the
  - Updated Gambatte, fixes the savestates bug
  - Fixed command line updater for imx6
  - Added an ncurses interface for easier wifi configuration (still command line based)
- - Builds to a new server provided by a sponsor
+ - Builds moved to a new server provided by a sponsor
 
 ## What's next?
 
