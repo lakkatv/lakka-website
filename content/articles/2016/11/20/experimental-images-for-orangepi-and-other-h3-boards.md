@@ -31,7 +31,7 @@ The newly supported boards are:
 
 As you can see, the H3 is used in a lot of boards. Each of them have different specs, and some of them are available at a very cheap price.
 
-The original OpenELEC and LibreELEC port was done by **@jernejsk** and we backported it to Lakka.
+The original OpenELEC and LibreELEC port was completed by **@jernejsk** and we backported it to Lakka.
 
 The images can be downloaded from [there](http://mirror.lakka.tv/nightly/). **@Ntemis** took care of testing the images on some of these boards, and Lakka and RetroArch are working well on them.
 
