@@ -17,7 +17,7 @@ social:
 
 ![Xmas Release](media/xmas.png)
 
-Merry Chritmas Lakka users :)
+Merry Christmas Lakka users :)
 
 In this new release, we packed a lot of small improvements and bugfixes.
 
