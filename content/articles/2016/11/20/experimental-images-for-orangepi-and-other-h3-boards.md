@@ -26,7 +26,6 @@ The newly supported boards are:
  * Orange Pi Plus
  * Orange Pi Plus 2E
  * Banana Pi M2+
- * Banana Pi M3
  * Beelink X2
 
 As you can see, the H3 is used in a lot of boards. Each of them have different specs, and some of them are available at a very cheap price.
