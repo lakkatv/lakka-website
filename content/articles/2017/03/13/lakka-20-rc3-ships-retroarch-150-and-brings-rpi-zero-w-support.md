@@ -29,7 +29,7 @@ We usually don't update RetroArch during the release candidate cycle, but this n
 ![RC3](media/rc3.png)
 
  * Netplay works with more types of routers
- * New netplay icon tab styled
+ * New icon for the netplay tab
  * Lobby improvements, allows joining rooms hosted in your local network
  * Menu performance improvements
  * Ability to change the icon set on the fly
