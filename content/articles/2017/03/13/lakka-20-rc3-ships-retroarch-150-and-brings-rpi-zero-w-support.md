@@ -47,4 +47,4 @@ Images are available here: [http://le.builds.lakka.tv](http://le.builds.lakka.tv
 
 You can upgrade directly from our menu if you're already using RC1 or RC2.
 
-Thanks for your help. I hope you will be a lot to test this RC3 and declare bug reports!
+Thanks for your help. We really hope there will be a lot of testing and bug reporting as we reach the final version so keep them coming. You can report issues on our issues tracker [here](https://github.com/lakkatv/Lakka-LibreELEC/issues). 
