@@ -29,17 +29,17 @@ We usually don't update RetroArch during the release candidate cycle, but this n
 ![RC3](media/rc3.png)
 
  * Netplay works with more types of routers
- * New netplay icon styled like a tab
+ * New netplay icon tab styled
  * Lobby improvements, allows joining rooms hosted in your local network
  * Menu performance improvements
  * Ability to change the icon set on the fly
- * Adds a symbol page in the Virtual Keyboard (to type Wi-Fi passwords)
+ * Adds a symbol page in the Virtual Keyboard (helps typing Wi-Fi passwords)
 
 ## Bugfixes
 
  * Fix keyboard typing not working in the menu, useful for people using laptops
  * Fix audio on S905
- * We switched to a more stable server to host the releases and the thumbnails
+ * We switched to a more stable server to host the releases and the thumbnails (Thanks to the Patreon supporters)
 
 ## Installing or upgrading
 
