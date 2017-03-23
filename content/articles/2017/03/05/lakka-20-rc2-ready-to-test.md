@@ -22,9 +22,9 @@ The new Lakka 2.0 RC2 images are waiting to be tested on our server.
 
 ![RC2](media/rc2.png)
 
-This version fixes:
+## Changelog
 
- * An important netplay issue due to wrong cores git version
+ * Fixed netplay issue due to wrong cores git version
  * X-Box One pad support on some boards
  * Atari800 core update
  * Hatari core update
