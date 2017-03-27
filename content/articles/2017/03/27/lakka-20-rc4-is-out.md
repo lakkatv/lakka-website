@@ -36,7 +36,7 @@ Lakka 2.0 RC4 is available for testers. This is certainly the last Release Candi
     * FCEUMM
     * Beetle PC-FX
 	* Genesis Plus GX, adds cheat support
-	* Picodrive, adds cheap support
+	* Picodrive, adds cheat support
 	* Beetle Saturn, improves performance
 	* Nestopia
 	* Beetle PSX, adds SABR support
@@ -59,8 +59,8 @@ You can find OS images at this address: [http://le.builds.lakka.tv/](http://le.b
 
 Users of Lakka 2.0 RC1, RC2 or RC3 can upgrade directly from the graphical interface.
 
-Users of the stable release of december have to reinstall from scratch. In case you know what you are doing, you can also attemps a manual upgrade by placing the TAR in your Update folder.
+Users of the stable release of december 2016 have to reinstall from scratch. Advanced users can also attemps a manual upgrade by placing the TAR in the Update folder.
 
-Please remember that even if we're close to the stable release, these builds are still a Release Candidate destined to testers.
+Please remember that even if we're close to the stable release; these builds are still a Release Candidate designed to testers.
 
 Thank you all for using Lakka!
