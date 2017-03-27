@@ -59,7 +59,7 @@ You can find OS images at this address: [http://le.builds.lakka.tv/](http://le.b
 
 Users of Lakka 2.0 RC1, RC2 or RC3 can upgrade directly from the graphical interface.
 
-Users of the stable release of december 2016 have to reinstall from scratch. Advanced users can also attemps a manual upgrade by placing the TAR in the Update folder.
+Users of the stable release of December 2016 have to reinstall from scratch. Advanced users can also attempt a manual upgrade by placing the TAR in the Update folder.
 
 Please remember that even if we're close to the stable release; these builds are still a Release Candidate designed to testers.
 
