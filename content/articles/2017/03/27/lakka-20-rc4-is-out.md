@@ -15,7 +15,7 @@ social:
   thumbnail: media/rc4.png
 ---
 
-Lakka 2.0 RC4 is available for testers. This is certainly the last Release Candidate before the stable release.
+Lakka 2.0 RC4 is now available. This is the last planned Release Candidate before the stable release.
 
 ![RC4](media/rc4.png)
 
@@ -55,12 +55,12 @@ Lakka 2.0 RC4 is available for testers. This is certainly the last Release Candi
 
 ## Installing or upgrading
 
-You can find OS images at this address: [http://le.builds.lakka.tv/](http://le.builds.lakka.tv/).
+You can find the latest OS images here: [http://le.builds.lakka.tv/](http://le.builds.lakka.tv/).
 
 Users of Lakka 2.0 RC1, RC2 or RC3 can upgrade directly from the graphical interface.
 
-Users of the stable release of December 2016 have to reinstall from scratch. Advanced users can also attempt a manual upgrade by placing the TAR in the Update folder.
+Users of the stable release of December 2016 will have to reinstall from scratch. Advanced users can also attempt a manual upgrade by placing the TAR in the Update folder.
 
-Please remember that even if we're close to the stable release; these builds are still a Release Candidate designed to testers.
+Please remember that even though we are close to a stable release, these builds are still a Release Candidate designed for testers.
 
 Thank you all for using Lakka!
