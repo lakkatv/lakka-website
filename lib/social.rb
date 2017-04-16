@@ -1,6 +1,6 @@
 module Social
   def item_full_url
-    "#{@site.config[:base_url]}#{@item.identifier}"
+    "#{@config[:base_url]}#{@item.identifier}"
   end
 
   def description str

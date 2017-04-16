@@ -15,7 +15,7 @@ module TagPages
 
   def create_tags_pages
     all_tags.map do |tag|
-      @items << Nanoc::Item.new(
+      @items.create(
         "",
         { :title => "Tag: #{tag}", :tag => tag },
          "/tags/#{tag}"
