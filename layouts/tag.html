@@ -35,7 +35,7 @@
     <ul class="articles">
     <% items_with_tag(@item[:tag]).each do |article| %>
       <li><span class="article-infos"><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></span> &mdash;
-      <%= link_to article[:title], article.identifier %></li>
+      <%= link_to article[:title], @items.find { |i| i.identifier == article.identifier } %></li>
     <% end %>
     </ul>
 

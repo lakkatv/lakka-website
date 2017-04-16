@@ -16,9 +16,9 @@ module TagPages
   def create_tags_pages
     all_tags.map do |tag|
       @items.create(
-        "",
-        { :title => "Tag: #{tag}", :tag => tag },
-         "/tags/#{tag}"
+        '',
+        { title: "Tag: #{tag}", tag: tag },
+        "/tags/#{tag}/"
       )
     end
   end
