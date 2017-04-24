@@ -99,6 +99,7 @@ release:
   mxiii1g: http://le.builds.lakka.tv/S802.MXIII-1G.arm/Lakka-S802.MXIII-1G.arm-2.0.img.gz
   s82: http://le.builds.lakka.tv/S802.S82.arm/Lakka-S802.S82.arm-2.0.img.gz
   t8: http://le.builds.lakka.tv/S802.T8.arm/Lakka-S802.T8.arm-2.0.img.gz
+  s905: http://le.builds.lakka.tv/S905.arm/Lakka-S905.arm-2.0.img.gz
 
 deploy:
   default:
