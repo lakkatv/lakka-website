@@ -78,6 +78,7 @@ release:
   rpi2: http://le.builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-2.0.img.gz
   bpi: http://le.builds.lakka.tv/Bananapi.arm/Lakka-Bananapi.arm-2.0.img.gz
   c1: http://le.builds.lakka.tv/OdroidC1.arm/Lakka-OdroidC1.arm-2.0.img.gz
+  c2: http://le.builds.lakka.tv/Odroid_C2.arm/Lakka-Odroid_C2.arm-2.0.img.gz
   xu3: http://le.builds.lakka.tv/OdroidXU3.arm/Lakka-OdroidXU3.arm-2.0.img.gz
   wtk: http://le.builds.lakka.tv/WeTek_Play.arm/Lakka-WeTek_Play.arm-2.0.img.gz
 
