@@ -90,6 +90,11 @@ release:
   opipc: http://le.builds.lakka.tv/H3.opipc.arm/Lakka-H3.opipc.arm-2.0.img.gz
   opiplus: http://le.builds.lakka.tv/H3.opiplus.arm/Lakka-H3.opiplus.arm-2.0.img.gz
   opiplus2e: http://le.builds.lakka.tv/H3.opiplus2e.arm/Lakka-H3.opiplus2e.arm-2.0.img.gz
+  hd18q: http://le.builds.lakka.tv/S805.HD18Q.arm/Lakka-S805.HD18Q.arm-2.0.img.gz
+  m201c: http://le.builds.lakka.tv/S805.M201C.arm/Lakka-S805.M201C.arm-2.0.img.gz
+  m201d: http://le.builds.lakka.tv/S805.M201D.arm/Lakka-S805.M201D.arm-2.0.img.gz
+  mk808bp: http://le.builds.lakka.tv/S805.MK808B-Plus.arm/Lakka-S805.MK808B-Plus.arm-2.0.img.gz
+  mxq: http://le.builds.lakka.tv/S805.MXQ-Plus.arm/Lakka-S805.MXQ-Plus.arm-2.0.img.gz
 
 deploy:
   default:
