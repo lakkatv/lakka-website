@@ -68,18 +68,18 @@ data_sources:
     allow_periods_in_identifiers: true
 
 release:
-  i386: http://mirror.lakka.tv/nightly/Generic.i386/Lakka-Generic.i386-devel-20161221183352-r21729-g274b40f.img.gz
-  x86_64: http://mirror.lakka.tv/nightly/Generic.x86_64/Lakka-Generic.x86_64-devel-20161221183017-r21729-g274b40f.img.gz
-  a10: http://mirror.lakka.tv/nightly/a10.arm/Lakka-a10.arm-devel-20161221185942-r21729-g274b40f.img.gz
-  a20: http://mirror.lakka.tv/nightly/a20.arm/Lakka-a20.arm-devel-20161221185716-r21729-g274b40f.img.gz
-  imx6.cuboxi: http://mirror.lakka.tv/nightly/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-devel-20161221185252-r21729-g274b40f.img.gz
-  imx6.udoo: http://mirror.lakka.tv/nightly/imx6.udoo.arm/Lakka-imx6.udoo.arm-devel-20161221185516-r21729-g274b40f.img.gz
-  rpi: http://mirror.lakka.tv/nightly/RPi.arm/Lakka-RPi.arm-devel-20161221201618-r21729-g274b40f.img.gz
-  rpi2: http://mirror.lakka.tv/nightly/RPi2.arm/Lakka-RPi2.arm-devel-20161221184608-r21729-g274b40f.img.gz
-  bpi: http://mirror.lakka.tv/nightly/Bananapi.arm/Lakka-Bananapi.arm-devel-20161221203354-r21729-g274b40f.img.gz
-  c1: http://mirror.lakka.tv/nightly/OdroidC1.arm/Lakka-OdroidC1.arm-devel-20161221190439-r21729-g274b40f.img.gz
-  xu3: http://mirror.lakka.tv/nightly/OdroidXU3.arm/Lakka-OdroidXU3.arm-devel-20161221190908-r21729-g274b40f.img.gz
-  wtk: http://mirror.lakka.tv/nightly/WeTek_Play.arm/Lakka-WeTek_Play.arm-devel-20161221191421-r21729-g274b40f.img.gz
+  i386: http://le.builds.lakka.tv/Generic.i386/Lakka-Generic.i386-2.0.img.gz
+  x86_64: http://le.builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-2.0.img.gz
+  a10: http://le.builds.lakka.tv/a10.arm/Lakka-a10.arm-2.0.img.gz
+  a20: http://le.builds.lakka.tv/a20.arm/Lakka-a20.arm-2.0.img.gz
+  imx6.cuboxi: http://le.builds.lakka.tv/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-2.0.img.gz
+  imx6.udoo: http://le.builds.lakka.tv/imx6.udoo.arm/Lakka-imx6.udoo.arm-2.0.img.gz
+  rpi: http://le.builds.lakka.tv/RPi.arm/Lakka-RPi.arm-2.0.img.gz
+  rpi2: http://le.builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-2.0.img.gz
+  bpi: http://le.builds.lakka.tv/Bananapi.arm/Lakka-Bananapi.arm-2.0.img.gz
+  c1: http://le.builds.lakka.tv/OdroidC1.arm/Lakka-OdroidC1.arm-2.0.img.gz
+  xu3: http://le.builds.lakka.tv/OdroidXU3.arm/Lakka-OdroidXU3.arm-2.0.img.gz
+  wtk: http://le.builds.lakka.tv/WeTek_Play.arm/Lakka-WeTek_Play.arm-2.0.img.gz
 
 deploy:
   default:
