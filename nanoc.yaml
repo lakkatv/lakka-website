@@ -81,6 +81,7 @@ release:
   c2: http://le.builds.lakka.tv/Odroid_C2.arm/Lakka-Odroid_C2.arm-2.0.img.gz
   xu3: http://le.builds.lakka.tv/OdroidXU3.arm/Lakka-OdroidXU3.arm-2.0.img.gz
   wtk: http://le.builds.lakka.tv/WeTek_Play.arm/Lakka-WeTek_Play.arm-2.0.img.gz
+  wtk2: http://le.builds.lakka.tv/WeTek_Play_2.arm/Lakka-WeTek_Play_2.arm-2.0.img.gz
 
 deploy:
   default:
