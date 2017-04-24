@@ -84,6 +84,12 @@ release:
   wtk2: http://le.builds.lakka.tv/WeTek_Play_2.arm/Lakka-WeTek_Play_2.arm-2.0.img.gz
   wtkcore: http://le.builds.lakka.tv/WeTek_Core.arm/Lakka-WeTek_Core.arm-2.0.img.gz
   wtkhub: http://le.builds.lakka.tv/WeTek_Hub.arm/Lakka-WeTek_Hub.arm-2.0.img.gz
+  opi2: http://le.builds.lakka.tv/H3.opi2.arm/Lakka-H3.opi2.arm-2.0.img.gz
+  opilite: http://le.builds.lakka.tv/H3.opilite.arm/Lakka-H3.opilite.arm-2.0.img.gz
+  opione: http://le.builds.lakka.tv/H3.opione.arm/Lakka-H3.opione.arm-2.0.img.gz
+  opipc: http://le.builds.lakka.tv/H3.opipc.arm/Lakka-H3.opipc.arm-2.0.img.gz
+  opiplus: http://le.builds.lakka.tv/H3.opiplus.arm/Lakka-H3.opiplus.arm-2.0.img.gz
+  opiplus2e: http://le.builds.lakka.tv/H3.opiplus2e.arm/Lakka-H3.opiplus2e.arm-2.0.img.gz
 
 deploy:
   default:
