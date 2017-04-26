@@ -10,13 +10,13 @@ Follow the following steps:
 6.  Power on your PC
 7.  Enter BIOS and allow booting of a USB (optional)
 
-You should see our bootloader screen:
+You should see our bootloader prompt:
 
-![Bootloader menu](/images/syslinux.png)
+![Bootloader prompt](/images/syslinuxefi.png)
 
-Choosing *Run Live* will run Lakka as a persistent live USB pen. You will be able to check if Lakka works on your hardware, without altering your PC's hard drive or partitions. You can keep your USB pen and boot it on several PCs around you, it will keep your ROMs and your saves as expected, but it's not the subject of this tutorial.
+If you do nothing, Lakka will boot in the persistent live mode. You will be able to check if Lakka works on your hardware, without altering your PC's hard drive or partitions. You can keep your USB pen and boot it on several PCs around you, it will keep your ROMs and your saves as expected, but it's not the subject of this tutorial.
 
-To setup Lakka on your target PC, choose *Run Installer*.
+To setup Lakka on your target PC, type *installer* and hit Return.
 
 Our splash screen will shortly appear:
 
