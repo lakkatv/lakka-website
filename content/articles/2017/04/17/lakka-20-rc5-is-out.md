@@ -19,15 +19,15 @@ Lakka 2.0 RC5 is ready to test. The changes are mainly bug fixes and emulator up
 
 ## Changelog
 
- * EasyRPG, a new core, allows to run RPG Maker 2000/2003 games
+ * EasyRPG, a new core, runs RPG Maker 2000/2003 games
  * Libretro database updated
  * Nestopia updated
  * Tyrquake updated
- * UAE4ARM packaged and enabled on ARM images except RPi1 and Gamegirl
+ * UAE4ARM packaged and enabled on all ARM images except RPi1 and Gamegirl
  * PUAE updated and now working
  * PCSX Rearmed updated
  * Snes9x updated
- * Vice updated, better defaults for options, and embedded data pack
+ * Vice updated, better option defaults, embedded data pack
  * Joypad profiles updated
  * Parallel-n64 updated
  * FCEUMM updated
@@ -42,9 +42,9 @@ Lakka 2.0 RC5 is ready to test. The changes are mainly bug fixes and emulator up
  * LibreELEC 8.0 stability fixes merged (Linux 4.9.20 for PC and RPi)
  * lakka-update script fixed
  * Resolution fix for WeTeK Play
- * Fix for the NVidia Shield Controller
- * Fix for the Gen Game S3 Controller
- * Fix for the XBox One S Pad on PC and RPi
+ * Fix for NVidia Shield Controller
+ * Fix for Gen Game S3 Controller
+ * Fix for XBox One S Pad on PC and RPi
  * Korean language support in RetroArch
  * mGBA updated
  * Lynx updated
@@ -55,7 +55,7 @@ Lakka 2.0 RC5 is ready to test. The changes are mainly bug fixes and emulator up
 
 You can find the latest OS images here: [http://le.builds.lakka.tv/](http://le.builds.lakka.tv/).
 
-Users of Lakka 2.0 RC1, RC2, RC3 or RC4 can upgrade directly from the graphical interface.
+Users of Lakka 2.0 RC1, RC2, RC3, or RC4 can upgrade directly from the graphical interface.
 
 Users of the stable release of December 2016 will have to reinstall from scratch. Advanced users can also attempt a manual upgrade by placing the TAR in the Update folder.
 
