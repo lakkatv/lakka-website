@@ -2,7 +2,9 @@
 
 ### Adding a game using network share
 
-Your Lakka Box and your Computer must be connected to the same Network. Please use an Ethernet wire for your Lakka Box, as we don't support WiFi yet.
+Your Lakka Box and your Computer must be connected to the same Network. Please use an Ethernet wire or configure the Wi-Fi connection. You also need to enable SAMBA in Settings->Services:
+
+![Enabling SAMBA](/images/lakkamenuenablesamba.png)
 
 Open Finder.
 
