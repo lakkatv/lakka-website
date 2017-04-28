@@ -77,6 +77,15 @@ a {
   background-color: #2c3e50;
 }
 
+.imagegrid {
+  margin-top: 30px;
+}
+
+.imagegrid img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 /* -------------------- banner -------------------- */
 
 header.mainheader {
