@@ -13,11 +13,12 @@ social:
   thumbnail: media/netplay.png
 ---
 
-After 6 months of community testing, we are proud to release the stable version of Lakka 2.0!
 
-This new version of Lakka is based on LibreELEC instead of OpenELEC. Almost every package in the distribution has been updated, resulting in a more modern system able to support new PCs, ARM boards and ARM boxes.
+After 6 months of community testing, we are proud to announce Lakka 2.0!
 
-We are now using RetroArch 1.5.0 that brings so much changes that it will be difficult to list everything in a single blogpost.
+This new version of Lakka is based on LibreELEC instead of OpenELEC. Almost every package has been updated!
+
+We are now using RetroArch 1.5.0, which includes so many changes that listing everything in a single blogpost is rather difficult.
 
 <div class="row imagegrid">
 	<div class="col-md-6"><img src="media/korean.png"></div>
@@ -26,7 +27,7 @@ We are now using RetroArch 1.5.0 that brings so much changes that it will be dif
 	<div class="col-md-6"><img src="media/osk.png"></div>
 </div>
 
-There are also a lot of new cores to play new types of games!
+There are also tons of new cores to play new types of games!
 
 ## Full Changelog
 
@@ -73,11 +74,11 @@ Lakka 2.0 adds support for these new boards and boxes:
  * S802 TV Boxes
  * S905 TV Boxes
 
-Note that we continue supporting the boards already working with Lakka 1.0, like Odroid, Orange Pi, UDOO, etc.
+Note that we continue supporting the boards that already work with Lakka 1.0: Odroid, Orange Pi, UDOO, etc.
 
 ### New cores (emulators and game engines)
 
-In this new version of Lakka, we enabled almost all the libretro cores on every platform, to increase the netplay compatibility accross different versions of Lakka.
+In this new version, almost all of the libretro cores on every platform are now enabled. This is to increase netplay compatibility across different versions of Lakka.
 
 <div class="row imagegrid">
 	<div class="col-md-4"><img src="media/rpg.png"></div>
@@ -98,7 +99,8 @@ In this new version of Lakka, we enabled almost all the libretro cores on every 
 
 ### Updated cores
 
-All the cores have been updated. Non exhaustive list:
+All the cores have been updated. 
+Non exhaustive list:
 
  * Atari800
  * Hatari
@@ -130,12 +132,11 @@ All the cores have been updated. Non exhaustive list:
  * Snes9x2002
  * Snes9x2005
 
-The core updates include support for netplay and cheats, but also new renderers for PSX and N64 emulators.
+The core updates include support for netplay and cheats, and also new renderers for PSX and N64 emulators.
 
 ### Updated controller support
 
-The joypad profiles has been updated. The following joypads were requiring specific changes on the system to work properly:
-
+The joypad profiles has been updated. The following joy pads required specific changes to work properly (and now do):
  * XBox One S
  * Wii U GameCube Adapter
  * OUYA controller
@@ -146,7 +147,7 @@ The joypad profiles has been updated. The following joypads were requiring speci
 
 Our [installation tutorial](http://www.lakka.tv/get) has been updated with the new images.
 
-Users of Lakka 2.0 Release Candidate can upgrade directly from the graphical interface.
+Users of Lakka 2.0 Release Candidate can upgrade directly through the graphical interface.
 
 Users of the stable release of December 2016 will have to reinstall from scratch. Advanced users can also attempt a manual upgrade by placing the TAR in the Update folder.
 
