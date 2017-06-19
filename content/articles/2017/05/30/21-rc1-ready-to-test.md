@@ -1,5 +1,5 @@
 ---
-title: Lakka 2.1 RC1 iready to test
+title: Lakka 2.1 RC1 ready to test
 created_at: '2017-05-30 17:00:00'
 author_name: kivutar
 kind: article
