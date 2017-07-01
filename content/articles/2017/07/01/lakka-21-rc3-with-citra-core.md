@@ -14,7 +14,7 @@ social:
 
 Lakka 2.1 RC3 is available for testers.
 
-You can download the builds from http://le.builds.lakka.tv/
+You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
 
 Please remember that this is a release candidate meant for testers.
 
