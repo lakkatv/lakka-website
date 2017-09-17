@@ -13,7 +13,7 @@ If LAKKA is there, clicking on it will lead you to a list of folders:
 
 ![Share](/images/macossamba1.png)
 
-Copy your games under the **roms** folder. This step can take some time, as the games are transfer ed to the Lakka Box through your local network.
+Copy your games under the **roms** folder. This step can take some time, as the games are transferred to the Lakka Box through your local network.
 
 It is a good idea to start testing a Super Nintendo game, because they require no BIOS to run.
 
