@@ -21,7 +21,7 @@ The new low cost version of the first Raspberry Pi was released 10 days ago. Thi
 
 ![RPi Zero](media/zero.jpg)
 
-Some users on twitter and on the forum tested the image, and were able to boot it. We will add the Raspberry Pi Zero to our installation tutorial when we can buy one or when we receive a unit as a donation. In the meanwhile, just use the RPi image and adapt the instructions to the specificities of the Zero (no ethernet port to transfer the ROMs over the network).
+Some users on twitter and on the forum tested the image, and were able to boot it. We will add the Raspberry Pi Zero to our installation tutorial when we can buy one or when we receive a unit as a donation. In the meanwhile, just use the RPi image and adapt the instructions to the specifications of the Zero (no Ethernet port to transfer the ROMs over the network).
 
 ## PSP emulator packaged for Raspberry Pi 2
 

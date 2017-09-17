@@ -11,7 +11,7 @@ To setup Lakka on a PC, you have to create a Live USB installer. You need a USB 
 
 ### Determine your USB drive
 
-First, you need to know wich drive is your USB pen.
+First, you need to know which drive is your USB pen.
 
 Open a Console and list your current drives and partitions with:
 

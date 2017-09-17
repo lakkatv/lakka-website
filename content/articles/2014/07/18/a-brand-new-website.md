@@ -28,7 +28,7 @@ same source code, from the same place.
 * [Contact](/contact) has changed. We temporarily removed the contact form and
 replaced it by instruction to contact us. Don't worry though, it will be back
 soon.
-* [About](/about) contains legal and miscellaneous informations.
+* [About](/about) contains legal and miscellaneous information.
 * We also refactored the [installation tutorial](/get) and cleaned up W3C validations
 issues on it.
 
@@ -46,7 +46,7 @@ But it is just a matter of week until we release it.
 We got some prototype version, and kivutar released a
 [video](https://www.youtube.com/watch?v=bnJQa1J_v5s) on a running menu on Raspberry Pi.
 
-PC port works just fine. We managed to play Nintendo 64 and Playstation One games
+PC port works just fine. We managed to play Nintendo 64 and PlayStation One games
 without noticeable issues concerning frame rate.
 
 We also started to port the system to cubieboard. It still has the RGUI menu, but we

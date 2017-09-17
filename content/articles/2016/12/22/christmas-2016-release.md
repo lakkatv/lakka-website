@@ -60,8 +60,8 @@ We know that a lot of you will use Lakka as a Christmas gift for friends and fam
  * I may work on a C.H.I.P port
  * I should receive the prototype v0.2 of Gamegirl and release a Lakka image for it
 
-Stay tunned!
+Stay tuned!
 
 Thank you all for your support on Patreon and all the nice messages.
 
-We wish you the best christmas ever.
+We wish you the best Christmas ever.

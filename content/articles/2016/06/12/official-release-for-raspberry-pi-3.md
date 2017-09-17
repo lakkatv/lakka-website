@@ -15,7 +15,7 @@ social:
 
 ## Raspberry Pi 3 official support
 
-We received two RPi3 units last month and I spent some time testing bluetooth, wifi, and the overhaul stability of our OS on the small device. The results are good enough, and we can consider that this port is stable.
+We received two RPi3 units last month and I spent some time testing bluetooth, WiFi, and the overhaul stability of our OS on the small device. The results are good enough, and we can consider that this port is stable.
 
 ![RPi3](media/rpi3.jpg)
 

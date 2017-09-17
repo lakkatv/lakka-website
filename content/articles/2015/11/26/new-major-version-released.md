@@ -69,7 +69,7 @@ Boxarts works exactly the same, except that you have to follow a directory struc
 
 ### DRM/KMS is back on the Generic PC builds
 
-A big bug with Radeon GPU was preventing us to provide DRM/KMS builds of Lakka for PCs. @lugaidster on RetroArch issue tracker found a workaround that we can use in Lakka, allowing us to remove the huge X11 dependancy again.
+A big bug with Radeon GPU was preventing us to provide DRM/KMS builds of Lakka for PCs. @lugaidster on RetroArch issue tracker found a workaround that we can use in Lakka, allowing us to remove the huge X11 dependency again.
 
 However, some users reported too much incompatibilities and poor performance with the DRM/KMS builds. We still believe that being X11 free is the future, and that vendors will soon release proprietary drivers compatible with DRM/KMS. In the meanwhile, I may provide unofficial X11 builds somewhere.
 
@@ -91,7 +91,7 @@ Scanning is still a work in progress. The following systems need to be implement
 
 ## Upgrading
 
-The config files of RetroArch and the directory structure of the storage partition changed a lot. So we recommand to not use the regular upgrade path, and do a fresh install this time. Don't forget to backup your games and saves.
+The config files of RetroArch and the directory structure of the storage partition changed a lot. So we recommend to not use the regular upgrade path, and do a fresh install this time. Don't forget to backup your games and saves.
 
 ## Conclusion
 

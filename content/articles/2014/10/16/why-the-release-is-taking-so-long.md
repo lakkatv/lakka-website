@@ -28,13 +28,13 @@ However, this codebase is becoming very difficult to maintain, because it does n
 
 ![XMB File browser](media/xmb.png)
 
-Here is how this new implementation looks like for now, the horizontal icons and horizontal animations are not yet implemented, and the top level menu is still displayed in place of settings, But don't be scared, in the end this menu will look exactly like lakka-menu. It will be undistinguishable.
+Here is how this new implementation looks like for now, the horizontal icons and horizontal animations are not yet implemented, and the top level menu is still displayed in place of settings, But don't be scared, in the end this menu will look exactly like lakka-menu. It will be indistinguishable.
 
 ## Cubox-i/Hummingboard port
 
 ![Hummingboard](media/hummingboard.jpg)
 
-The [SolidRun](http://www.solid-run.com) port is coming nicely. We ported RetroArch to these devices, which required the developement of a [Vivante fbdev context driver](https://github.com/libretro/RetroArch/blob/master/gfx/context/vivante_fbdev_ctx.c). In fact, it was pretty easy, since maister already did a mali context driver, I just had to adapt his code and everything is working like a charm, good performances, no glitches, etc.
+The [SolidRun](http://www.solid-run.com) port is coming nicely. We ported RetroArch to these devices, which required the development of a [Vivante fbdev context driver](https://github.com/libretro/RetroArch/blob/master/gfx/context/vivante_fbdev_ctx.c). In fact, it was pretty easy, since maister already did a mali context driver, I just had to adapt his code and everything is working like a charm, good performances, no glitches, etc.
 
 The pcsx_rearmed core can run at full speed on my hummingboard-i2ex, with threaded video enabled. The snes9x-next core is also running at full speed. That's a good thing, because it has a lot more features than the pocketsnes core that we package in the Raspberry Pi version. However, the mupen64plus core is still slow and we have cross compiling issues with the latest versions.
 
@@ -50,17 +50,17 @@ RetroArch team is aware of this bug, and will help us find a fix, however it is 
 
 Since we are collaborating more with the [libretro organisation](https://github.com/libretro), we moved our [github repo](https://github.com/libretro/retroarch-joypad-autoconfig) containing the joypad configurations to their github group. People around the world have started contributing their configs, so the next release of Lakka will support a lot more joypads.
 
-RetroArch used to choose which config file to use for inputs by matching the joypad name. It was problematic, since some joypads, like wireless dualshock 3, and duarlshock 4 have the same name. Using vendor_id/product_id is a better idea, and this is being implemented right now in the differents inputs drivers ober at RetroArch.
+RetroArch used to choose which config file to use for inputs by matching the joypad name. It was problematic, since some joypads, like wireless dualshock 3, and dualshock 4 have the same name. Using vendor_id/product_id is a better idea, and this is being implemented right now in the different inputs drivers over at RetroArch.
 
-The next release of Lakka should include this new way of matching joypads, so all dualshok pads will be supported, wired or wireless.
+The next release of Lakka should include this new way of matching joypads, so all dualshock pads will be supported, wired or wireless.
 
 ## Cubieboard/Cubietruck and BananaPi ports
 
 ![BananaPi](media/bananapi.jpg)
 
-We've spent a lot of time working on these ports, and got a big help from a contributor, Alex Recio, who created the [BananaPi](http://www.bananapi.org) port and activated neon optimisation, allowing pcsx_rearmed to run at full speed on these devices.
+We've spent a lot of time working on these ports, and got a big help from a contributor, Alex Recio, who created the [BananaPi](http://www.bananapi.org) port and activated neon optimization, allowing pcsx_rearmed to run at full speed on these devices.
 
-So pcsx is working, snes9x-next is full speed on almost all roms... these devices are cheap... so far so good. Except, the software support of linux on these Allwinner devices sucks. We are stuck with old 3.4 kernels, and [systemd just droped support for pre 3.7 kernels](https://www.mail-archive.com/systemd-devel@lists.freedesktop.org/msg22454.html), thanks a lot systemd, very best way to fix a bug ever. So wifi is no more working, and it's only a start. We may not be able to maintain this port if systemd go on breaking things without caring in the future.
+So pcsx is working, snes9x-next is full speed on almost all roms... these devices are cheap... so far so good. Except, the software support of linux on these Allwinner devices sucks. We are stuck with old 3.4 kernels, and [systemd just dropped support for pre 3.7 kernels](https://www.mail-archive.com/systemd-devel@lists.freedesktop.org/msg22454.html), thanks a lot systemd, very best way to fix a bug ever. So WiFi is no more working, and it's only a start. We may not be able to maintain this port if systemd go on breaking things without caring in the future.
 
 ## RetroBox
 

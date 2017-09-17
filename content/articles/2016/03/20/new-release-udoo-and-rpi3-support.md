@@ -23,7 +23,7 @@ UDOO provided us with a board, asking for official Lakka support. Powered by an 
 
 ![RPi3](media/rpi3.png)
 
-The very popular Raspberry got a new hardware update : the RPi3 comes with a more powerful CPU, and onboard Bluetooth and WiFi.
+The very popular Raspberry got a new hardware update : the RPi3 comes with a more powerful CPU, and on-board Bluetooth and WiFi.
 
 We've not received our unit yet, so for now the support for RPi3 is marked as experimental and remains untested and incomplete. Still, users have been able to boot our RPi2 images after I changed a few things, and it is already usable. Except WiFi and Bluetooth.
 

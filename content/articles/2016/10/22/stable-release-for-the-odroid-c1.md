@@ -19,6 +19,6 @@ The last bug preventing us from tagging the C1 image as stable : a vertical sync
 
 We have updated the download [links](/get) for C1 so everybody can benefit from this last improvement. If you are already using the latest release on your C1, you can upgrade Lakka using the graphical interface without problems. If you want to acquire a C1, you can buy one online, the new version is called C1+ and is also compatible with the C1 image.
 
-Note: I've noticed display lag when threaded video is enabled. I recommand to disable video threading on the C1. You can do this by turning the advanced settings ON in Settings->Menu, then turning off Threaded Video in Settings->Video.
+Note: I've noticed display lag when threaded video is enabled. I recommend to disable video threading on the C1. You can do this by turning the advanced settings ON in Settings->Menu, then turning off Threaded Video in Settings->Video.
 
 Note: If you are upgrading from the last release, you can edit your boot.ini to use more colors on the display. Just change 16bpp to 32bpp with a text editor.
