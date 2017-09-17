@@ -12,7 +12,7 @@ social:
   thumbnail: media/citra.jpg
 ---
 
-Lakka 2.1 RC3 is available for testers.
+Lakka 2.1 RC3 is now available.
 
 You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
 
@@ -56,6 +56,6 @@ Please remember that this is a release candidate meant for testers.
 
 ## Installing or upgrading
 
-You can upgrade from Lakka 2.0 or 2.1 by droping the img.gz in the Update folder and rebooting.
+You can upgrade from Lakka 2.0 or 2.1 by dropping the img.gz into the Update folder and rebooting.
 
 Thank you all!
