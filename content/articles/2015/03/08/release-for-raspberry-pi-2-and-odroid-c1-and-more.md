@@ -18,7 +18,7 @@ A new release of Lakka is out. All the platform builds have been updated, and we
 
 ## Raspberry Pi 2
 
-The new Raspberry Pi is out, for the same price as the previous version. It can run most arcade games without lag, same for most Playstation games.
+The new Raspberry Pi is out, for the same price as the previous version. It can run most arcade games without lag, same for most PlayStation games.
 We ship the snes9x-next core, which has better sound and compatibility than pocketSNES.
 
 Here is a video make by one of our users, demonstrating the result:
@@ -28,7 +28,7 @@ Here is a video make by one of our users, demonstrating the result:
 Known bugs for the RPi2 build:
 
  * Launching RetroArch is slow (10+ sec)
- * Launchin a game is slow (10+ sec)
+ * Launching a game is slow (10+ sec)
  * The menu is laggy (30fps)
  * No audio on the N64 emulator
 
