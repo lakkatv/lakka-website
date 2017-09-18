@@ -13,7 +13,7 @@ Requirements:
 - Ruby: 2.0.0 or newer
 - gem bundler
 
-In order to setup your development environement, run:
+In order to setup your development environment, run:
 
     bundle install
 
@@ -25,12 +25,12 @@ example:
 
     bundle exec nanoc #will compile the whole website
 
-    bundle exec guard #starts autocompilation on disk change
+    bundle exec guard #starts auto-compilation on disk change
 
 ## License
 
 The source files used in this project are licensed under
-[GNU General Public Licence V3](https://www.gnu.org/licenses/gpl.html)
+[GNU General Public License V3](https://www.gnu.org/licenses/gpl.html)
 
 The Generated Website content is licensed under [Creative
 Commons Attribution-ShareAlike 4.0 International

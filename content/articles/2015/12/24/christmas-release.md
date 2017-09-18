@@ -26,7 +26,7 @@ Some core packages were upgraded. We're trying to follow OpenELEC 6 without loos
  * Glibc upgraded
  * Udevil upgraded
 
-This kernel update for PC is known to fix some compatibilities with graphic cards.
+This kernel update for PC is known to fix some compatibility with graphic cards.
 
 ## RetroArch upgraded
 

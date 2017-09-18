@@ -37,7 +37,7 @@ I would like to thanks the support team of Hardkernel, they helped us with this 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f9zfYee9f6g" allowfullscreen></iframe>
 
-There was this segfault when launching mupen on MALI GPUs. It's gone now, thanks to the work of the libretro developpers. We can now play Nintendo 64 games on Bananapi, Cubieboard2, Cubietruck, Odroid-C1, and Odroid-XU3. This is a big step forward. However, some regressions affects the Raspberry Pi 2. So I will upgrade this package on our development builds, and wait for this RPi2 regression to be fixed before releasing a new version of Lakka.
+There was this segfault when launching mupen on MALI GPUs. It's gone now, thanks to the work of the libretro developers. We can now play Nintendo 64 games on Bananapi, Cubieboard2, Cubietruck, Odroid-C1, and Odroid-XU3. This is a big step forward. However, some regressions affects the Raspberry Pi 2. So I will upgrade this package on our development builds, and wait for this RPi2 regression to be fixed before releasing a new version of Lakka.
 
 ## XMB used by default
 
@@ -57,9 +57,9 @@ Based on our old good GLUI menu, the GL rewrite of RGUI, improved with some back
 
 Twinaphex and his team have been working on some code for the future of Lakka. They implemented non-blocking background image loading. This will open the ability to display some background fanarts for each core or each game, as this feature has been requested many times by some users on Youtube.
 
-They are also working on a big game database. This database is very fast, and very compact. We will ship it in offline mode, so some scanning of your ROM collection will be possible without an internet connexion.
+They are also working on a big game database. This database is very fast, and very compact. We will ship it in offline mode, so some scanning of your ROM collection will be possible without an internet connection.
 
-Once this database stuff will be ready, we will adapt XMB so the game list will result from queries on the database. This means that the extact name of the game will be displayed instead of the file name. This also mean that some fanart scraping will be easy to implement cleanly.
+Once this database stuff will be ready, we will adapt XMB so the game list will result from queries on the database. This means that the exact name of the game will be displayed instead of the file name. This also mean that some fanart scraping will be easy to implement cleanly.
 
 ## Some experiments
 

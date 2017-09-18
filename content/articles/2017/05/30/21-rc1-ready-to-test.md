@@ -21,7 +21,7 @@ Please note that this is a release candidate meant for testers.
  * RetroArch updated to pre-1.6.0
    * Russian language
    * Icon sets more complete
-   * Font selection fix, useful to set a font that supports simplified chinese
+   * Font selection fix, useful to set a font that supports simplified Chinese
    * Record config selection fix, it will make it easier to use recording and streaming from the interface
    * Simplified netplay menu, we removed the old netplay menu from the main menu
    * More beautiful animated background, we are now using additive blending to make the ribbon shine
@@ -50,6 +50,6 @@ Please note that this is a release candidate meant for testers.
 
 ## Installing or upgrading
 
-You can upgrade from Lakka 2.0 by droping the img.gz in the Update folder and rebooting.
+You can upgrade from Lakka 2.0 by dropping the img.gz in the Update folder and rebooting.
 
 As always, we would like to thank all the users and the testers for their help on the project. There has been many reports on our new tracker, and the team is now doing its best to fix and improve the distribution.

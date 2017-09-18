@@ -33,7 +33,7 @@ Wireless support will come in a second time.
  * MAME2003 updated
  * Mupen64plus updated
  * compatibility fixes to build Lakka on Ubuntu
- * Updated icons, game database, and core informations
+ * Updated icons, game database, and core information
  * Tyrquake enabled on all images
  * Uzebox packaged
  * Updated bsnes-mercury, reduces input lag

@@ -16,9 +16,9 @@ social:
   thumbnail: media/ribbon.png
 ---
 
-This new major release of Lakka brings a lot of changes on the graphical interface, as well as a better integration of RetroArch with the underlaying OS.
+This new major release of Lakka brings a lot of changes on the graphical interface, as well as a better integration of RetroArch with the underlying OS.
 
-The list of change is huge, and this time it is a real step forward in term of user friendlyness.
+The list of change is huge, and this time it is a real step forward in term of user friendliness.
 
 # Animated menu background
 
@@ -34,7 +34,7 @@ Icons and text shadows have also been added. They can be disabled from the **Men
 
 A lot of work has been done on the boxart front. There is now a **Thumbnails Updater** entry in the menu, to download per-system thumbnail packs.
 
-Once donwloaded, thumbnails will display in the bottom right corner of your screen.
+Once downloaded, thumbnails will display in the bottom right corner of your screen.
 
 There are 3 types of thumbnails, and you can switch over those either in the **Menu Settings** or by using the **Y Button** (left) of the RetroPad.
 
@@ -62,7 +62,7 @@ We also added a **Service Settings** group in the menu. From there, you can enab
 
 The famous PS3 game controller is now easier to use in Lakka. You can now use it wirelessly over bluetooth without having to go through that complex command line pairing anymore. Just enable bluetooth in the services, plug your controller once, wait a few seconds and unplug it. It should automatically pair and control the menu and play games.
 
-We also added support for chinese clones of the Shanwan familly. The Gasia clones are still a work in progress.
+We also added support for Chinese clones of the Shanwan family. The Gasia clones are still a work in progress.
 
 # FBA Arcade scanning
 
@@ -89,9 +89,9 @@ Gamegirl needs contributors. If you are interested, join us on [Discord](https:/
 
 # Hardware wishlist
 
-I have setup a whishlist to let everybody know what hardware is needed to maintain the project.
+I have setup a wishlist to let everybody know what hardware is needed to maintain the project.
 
-We have setup paypal donations with the agreement of all the other libretro members. This money will be used to buy the hardware on this list.
+We have setup PayPal donations with the agreement of all the other libretro members. This money will be used to buy the hardware on this list.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

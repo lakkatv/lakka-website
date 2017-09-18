@@ -23,18 +23,18 @@ If you are already running the previous stable version, you can upgrade from the
  - Updated RetroArch to 1.3.6, this brings in all the new shiny stuff about downloading free games directly from the menu.
  - Updated kernel and GPU blobs for OdroidXU3. Performance is said to be better.
  - Atari800 packaged
- - Assets, core informations, databases updated
+ - Assets, core information, databases updated
  - Fixed FBA scanning
  - Updated Gambatte, fixes the savestates bug
  - Fixed command line updater for imx6
- - Added an ncurses interface for easier wifi configuration (still command line based)
+ - Added an ncurses interface for easier WiFi configuration (still command line based)
  - Builds moved to a new server provided by a sponsor
 
 ## What's next?
 
-In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered playstation emulator). Those changes are already in our git tree (thanks floreal). We need to update some other cores before release as some things have been renamed and the core info files have vanished.
+In the next weeks, we will add support for beetle-saturn (the new saturn emulator by the mednafen author) and beetle-psx-hw (the GL rendered PlayStation emulator). Those changes are already in our git tree (thanks floreal). We need to update some other cores before release as some things have been renamed and the core info files have vanished.
 
-I have ordered a Steam Controller with the money given from donations. Twinaphex informed me that libretro's paypal account has been shut down. I think that paypal is no longer safe and that we should stop using it. I'm going to look at Patreon and determine if it fits our organization. If you have any advice, please let us know.
+I have ordered a Steam Controller with the money given from donations. Twinaphex informed me that libretro's PayPal account has been shut down. I think that PayPal is no longer safe and that we should stop using it. I'm going to look at Patreon and determine if it fits our organization. If you have any advice, please let us know.
 
 I also started developing a small game using Lutro. I hope it will be something that I will be able to finish.
 

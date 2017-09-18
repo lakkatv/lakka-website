@@ -15,7 +15,7 @@ privacy.
 
 We also do not include scripted third party social network sharing widgets.
 
-## Licence
+## License
 
 Any content on this website is Licensed under 
 [Creative Commons 4.0 By Share Alike Licence](http://creativecommons.org/licenses/by-sa/4.0/).

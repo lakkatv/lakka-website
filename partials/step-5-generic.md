@@ -5,7 +5,7 @@ Follow the following steps:
 1.  Plug in the USB installer into the PC you want to setup
 2.  Wire your PC to a Display or TV
 3.  Power on your Display or TV
-4.  Plug in an ethernet wire (optional)
+4.  Plug in an Ethernet wire (optional)
 5.  Plug in a supported joypad into one of your USB ports on your PC
 6.  Power on your PC
 7.  Enter BIOS and allow booting of a USB (optional)
@@ -40,7 +40,7 @@ The installer will copy the files to your target hard drive.
 
 At the end of this process, you will be asked to reboot. Choose *Reboot* and unplug your USB drive before it boots.
 
-The system will expand the filesystems and reboot after 30 seconds. This happens only on the first boot. The system will automatically reboot and the rest of the boots should be fast.
+The system will expand the file-systems and reboot after 30 seconds. This happens only on the first boot. The system will automatically reboot and the rest of the boots should be fast.
 
 If everything went OK, you should now be able to navigate Lakka Menu, our graphical interface:
 
