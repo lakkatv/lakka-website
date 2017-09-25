@@ -23,8 +23,8 @@ enable_output_diff: false
 base_url: http://www.lakka.tv
 
 site_name: "Lakka"
-site_slogan: "The DIY retro emulation console"
-site_description: "Lakka is a lightweight Linux distribution that transforms a small computer into a full blown game console."
+site_slogan: "The DIY retrogaming emulation console"
+site_description: "Lakka is a lightweight Linux distribution that transforms a small computer into a full blown retrogaming console."
 
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
