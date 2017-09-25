@@ -78,8 +78,10 @@ compile '/' do
 end
 
 compile '*' do
-  if item[:extension] == 'css' || item[:extension] == 'js' || item[:extension] == 'php'
-    # don’t filter stylesheets
+  if item[:extension] == 'css'
+    filter :rainpress, newlines: false
+  elsif item[:extension] == 'js' || item[:extension] == 'php'
+    # don’t filter js and php
   elsif item.binary?
     # don’t filter binary items
   elsif item[:extension] == "md"
