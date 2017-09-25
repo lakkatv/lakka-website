@@ -102,6 +102,7 @@ header.mainheader h1 {
 }
 
 header.mainheader .subtitle {
+  color: white;
   font-size: 30px;
   line-height: normal;
   padding: 40px 0;
