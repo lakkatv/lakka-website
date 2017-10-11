@@ -325,6 +325,30 @@ header.mainheader h2.subtitle {
   }
 }
 
+/* RPi */
+
+#rpi .row {
+  background: azure;
+  color: #337ab7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+#rpi .row h2 {
+  color: #337ab7;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#rpi .row p {
+  font-size: 20px;
+}
+
+#rpi .row a {
+  text-decoration: underline;
+}
+
 /* Contact */
 
 #clouds {
