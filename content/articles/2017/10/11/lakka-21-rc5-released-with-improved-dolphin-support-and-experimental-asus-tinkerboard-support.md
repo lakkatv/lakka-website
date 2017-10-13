@@ -15,7 +15,7 @@ social:
 
 We are proud to announce the release of Lakka 2.1 RC5!
 
-This version required a lot of team work. We merged LibreELEC 8.2 Bêta changes in Lakka. RetroArch also got updated, as well as all the emulators and other libretro cores.
+This version required a lot of teamwork. We merged in LibreELEC 8.2 Bêta changes, updated RetroArch, and updated all the emulators and other libretro cores.
 
 Ntemis added support for some Rockchip boards, including the ASUS Tinkerboard. These new images are still experimental.
 
@@ -65,7 +65,7 @@ You can download the builds from [http://le.builds.lakka.tv](http://le.builds.la
 
 ## Future plans
 
- - Merging all Allwinner projects (A10, A20, BananaPi, OrangePi) in a single project
+ - Merge all Allwinner projects (A10, A20, BananaPi, OrangePi) into a single project
  - Switch to the open source GPU driver on Raspberry Pi
  - DragonBoard port
 
