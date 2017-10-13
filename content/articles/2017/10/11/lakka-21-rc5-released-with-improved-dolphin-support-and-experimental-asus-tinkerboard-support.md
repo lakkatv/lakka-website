@@ -13,7 +13,7 @@ social:
   thumbnail: media/dolphin.jpg
 ---
 
-We are pround to announce the release of Lakka 2.1 RC5!
+We are proud to announce the release of Lakka 2.1 RC5!
 
 This version required a lot of team work. We merged LibreELEC 8.2 Bêta changes in Lakka. RetroArch also got updated, as well as all the emulators and other libretro cores.
 
