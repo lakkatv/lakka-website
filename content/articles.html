@@ -5,9 +5,9 @@ title: News
 <h2>Latest articles <a href="feed.xml"><i class="fa fa-rss"></i></a></h2>
 
 <div class="row">
-<% sorted_articles.each do |article| %>
+<% sorted_articles[0..8].each do |article| %>
   <div class="col-md-4 col-sm-6">
-  	<a class="card" href="<%= article.identifier %>">
+      <a class="card" href="<%= article.identifier %>">
       <img class="socialthumb" src="<%= article.identifier %><%= article[:social] && article[:social][:thumbnail] %>" />
       
       <h4><%= article[:title] %></h4>
@@ -17,6 +17,15 @@ title: News
   </div>
 <% end %>
 </div>
+
+<h2>Older articles</h2>
+
+<% sorted_articles[9..-1].each do |article| %>
+  <p>
+    <span><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></span> - 
+    <a href="<%= article.identifier %>"><%= article[:title] %></a>
+  </p>
+<% end %>
 
 <h2>Tags</h2>
 <ul class="tags clearer">
