@@ -28,6 +28,7 @@ You can download the builds from [http://le.builds.lakka.tv](http://le.builds.la
  - Kiosk mode: Enabling the kiosk mode will prevent users to access the settings. You can setup a password to disable the kiosk mode. This work is provided by Brunnis.
  - New Rockchip Images for the Tinkerboard, ROCK64 and MiQi boards, using the latest 4.4.96 LTS kernel and mainline 2017.11 u-boot, provided by Ntemis. With future plans to switch to mainline v4.14 LTS.
  - Parallel-N64 emulator with multithreaded Angrylion.
+ - Scanning for Gamecube CDs.
  - Minor UI fixes.
  - Core updates.
 
