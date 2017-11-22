@@ -1,5 +1,7 @@
 ## First boot
 
+Notice!: Some s802 boxes have trouble booting from an SD card. Please try using a regular USB Flash Drive if you have issues booting from an SD Card.
+
 Follow the following steps:
 
 1.  Insert the SD card into your Box
