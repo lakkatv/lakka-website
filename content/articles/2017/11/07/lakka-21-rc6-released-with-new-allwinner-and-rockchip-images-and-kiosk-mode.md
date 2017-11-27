@@ -15,15 +15,15 @@ social:
   thumbnail: media/tkb.jpg
 ---
 
-Lakka 2.1 RC6 is available for download. It's a very important update that brings support for a lot of new boards and fixes many compatibility issues.
+Lakka 2.1 RC6 is available for download. It's a very important update that features support for a lot of new boards and fixes many compatibility issues.
 
 ![Asus Tinkerboard](media/tkb.jpg)
 
-You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
+You can download the builds at [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
 
 ## Changelog
 
- - Allwinner images: We now have completely new builds for Allwinner boards, based on the mainline kernel and u-boot. With this new project, we can support many new boards with very little efforts. Being based on a recent kernel increase compatibility with newer joypads and dongles. These new images will replace the a10, a20, H3 and Bananapi images.
+ - Allwinner images: We now have completely new builds for Allwinner boards, based on the mainline kernel and u-boot. With this new project, we can support many new boards with very little efforts. Basing off a recent kernel allows greater compatibility with newer joypads and dongles. These new images will replace the a10, a20, H3 and Bananapi images.
  - OdroidXU4 update: A kernel and u-boot update fixes the eMMC boot. It also improves TV detection and adds more resolutions. Special thanks to Hardkernel for gifting an XU4 and the new eMMC modules.
  - Kiosk mode: Enabling the kiosk mode will prevent users to access the settings. You can setup a password to disable the kiosk mode. This work is provided by Brunnis.
  - New Rockchip Images for the Tinkerboard, ROCK64 and MiQi boards, using the latest 4.4.96 LTS kernel and mainline 2017.11 u-boot, provided by Ntemis. With future plans to switch to mainline v4.14 LTS.
