@@ -13,11 +13,11 @@ social:
 
 Lakka 2.1.1 is out!
 
-This new version of the retro gaming Operating System now supports the new Raspberry Pi 3 B+.
+This new version of Lakka retro gaming operating system now supports the new Raspberry Pi 3 B+.
 
 ![Raspberry Pi 3 B+](media/3bplus.jpg)
 
-Many packages got updated with a special focus on stability.
+Many packages have been updated with a focus on stability.
 
 ## Changelog
 
@@ -31,7 +31,7 @@ Many packages got updated with a special focus on stability.
     - Higan, the famous SFC emulator from byuu
     - nSide, a fork of higan v106 with additional features
     - Cannonball, an enhanced OutRun engine
-    - MAME2003 plus, updated 2018 version of MAME (0.78) for libretro. with added game support plus many fixes and improvements
+    - MAME2003 plus, updated 2018 version of MAME (0.78) for libretro. with added game support and improvements
     - Snes9x 2005 plus, Snes9x 1.43 plus BLARRG APU
     - FreeIntv, Mattel Intellivision emulator
   - Core updates
@@ -41,7 +41,7 @@ Many packages got updated with a special focus on stability.
     - PPSSPP, the PSP emulator
     - Sameboy, the Game Boy emulator
     - Desmume, the Nintendo DS emulator
-    - and many other 
+    - and many more 
   - Fixes
     - Bluetooth fix for S905/S912
     - H3 boot
@@ -54,4 +54,4 @@ Many packages got updated with a special focus on stability.
 
 ## Thanks
 
-Special thanks to all our contributors without whom this project couldn't be: Vudiq, Gouchi, Ntemis, the libretro team and all the patreons!
+Special thanks to all our contributors whom without this project would not be: Vudiq, Gouchi, Ntemis, the libretro team and all the patreons!
