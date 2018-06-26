@@ -1,4 +1,4 @@
-	## First boot
+## First boot
 
 Follow the following steps:
 
