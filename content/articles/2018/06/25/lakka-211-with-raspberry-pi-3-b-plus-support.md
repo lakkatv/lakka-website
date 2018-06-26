@@ -13,7 +13,7 @@ social:
 
 Lakka 2.1.1 is out!
 
-This new version of Lakka retro gaming operating system now supports the new Raspberry Pi 3 B+.
+This new version of Lakka retro gaming operating system now supports the new Raspberry Pi 3 B+ and Amlogic S912 based boxes.
 
 ![Raspberry Pi 3 B+](media/3bplus.jpg)
 
@@ -34,6 +34,7 @@ Many packages have been updated with a focus on stability.
     - MAME2003 plus, updated 2018 version of MAME (0.78) for libretro. with added game support and improvements
     - Snes9x 2005 plus, Snes9x 1.43 plus BLARRG APU
     - FreeIntv, Mattel Intellivision emulator
+    - Game Music Emu core
   - Core updates
     - Citra, the 3DS emulator
     - ChaiLove, the chaiscript game engine
@@ -43,6 +44,7 @@ Many packages have been updated with a focus on stability.
     - Desmume, the Nintendo DS emulator
     - and many more 
   - Fixes
+    - Keyboard fix for ARM based devices
     - Bluetooth fix for S905/S912
     - H3 boot
   - Bonus
