@@ -105,7 +105,7 @@ release:
   S8X2.T8: http://le.builds.lakka.tv/S8X2.T8.arm/Lakka-S8X2.T8.arm-2.1.1.img.gz
   S8X2.X8H-PLUS: http://le.builds.lakka.tv/S8X2.X8H-PLUS.arm/Lakka-S8X2.X8H-PLUS.arm-2.1.1.img.gz
   s905: http://le.builds.lakka.tv/S905.arm/Lakka-S905.arm-2.1.1.img.gz
-  s912: http://le.builds.lakka.tv/S905.arm/Lakka-S912.arm-2.1.1.img.gz
+  s912: http://le.builds.lakka.tv/S912.arm/Lakka-S912.arm-2.1.1.img.gz
   tkb: http://le.builds.lakka.tv/Rockchip.TinkerBoard.arm/Lakka-Rockchip.TinkerBoard.arm-2.1.1.img.gz
   miqi: http://le.builds.lakka.tv/Rockchip.MiQi.arm/Lakka-Rockchip.MiQi.arm-2.1.1.img.gz
   rock64: http://le.builds.lakka.tv/Rockchip.ROCK64.arm/Lakka-Rockchip.ROCK64.arm-2.1.1.img.gz
