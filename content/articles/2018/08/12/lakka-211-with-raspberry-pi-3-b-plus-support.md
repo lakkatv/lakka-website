@@ -1,6 +1,6 @@
 ---
 title: Lakka 2.1.1 with Raspberry Pi 3 B+ support
-created_at: '2018-06-25 23:30:00'
+created_at: '2018-08-12 20:00:00'
 author_name: kivutar
 kind: article
 tags:
@@ -14,6 +14,8 @@ social:
 Lakka 2.1.1 is out!
 
 This new version of Lakka retro gaming operating system now supports the new Raspberry Pi 3 B+ and Amlogic S912 based boxes.
+
+The images have been pushed to our servers about two months ago. But we didn't want to release this new version publicly yet in order to try to fix a few remaining issues. It turn out these issues are taking too long to fix, and it's better to not hold the release any longer. Especially now that a lot of users have RPi3 B+.
 
 ![Raspberry Pi 3 B+](media/3bplus.jpg)
 
