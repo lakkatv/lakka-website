@@ -56,6 +56,11 @@ Many packages have been updated with a focus on stability.
     - Project cleanup
     - XU4 fix display of the partition resize messages
 
+## Errata
+
+ - XU4 reboot is broken, you have to unplug the power supply and plug it again
+ - Some of the Allwinner A20 images are unusable due to GPU driver issues
+
 ## Thanks
 
 Special thanks to all our contributors whom without this project would not be: Vudiq, Gouchi, Ntemis, the libretro team and all the patreons!
