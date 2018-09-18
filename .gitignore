@@ -5,6 +5,7 @@
 
 # Default location for output, needs to match output_dir's value found in config.yaml
 output/
+output
 
 # Temporary file directory
 tmp/
