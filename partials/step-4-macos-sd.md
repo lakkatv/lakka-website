@@ -1,43 +1,22 @@
-## Install Lakka to the SD card
+<h2>Flashing Lakka image</h2>
 
-###  Determining your SD card drive
+<h3>Downloading image flasher utility</h3>
 
-First, you need to know which drive is your SD card.
+<p>To flash the downloaded Lakka image to your SD card or USB thumb drive we recommend using graphical tool called Etcher. Etcher can work with compressed <code>.img.gz</code> files, so it is not required to decompress the downloaded image file.</p>
 
-Open a Console and list your current drives and partitions with:
+<p>You can download Etcher from the link below. It is free/open source software.</p>
 
-    $ diskutil list
+<%= render 'partials/dl-button',
+      :url => 'https://etcher.io/',
+      :detail => 'for MacOS',
+      :what => 'Etcher' %>
 
-This command should output something similar to this
+<h3>Flash the image</h3>
 
-![Disks lists](/images/diskutil1.png)
+<p>Run Etcher.</p>
 
-In my case, disk0 is my hard drive, and disk0s1 to disk0s5 are my partitions.
+<img alt="Etcher" style="width: 100%; max-width: 840px; margin: 15px 0;" src="/images/etcher.gif" />
 
-Now plug in your SD card, and type again:
+<p>Select the Lakka image, select the drive and hit the Flash button.</p>
 
-![Disks lists and SD cards](/images/diskutil2.png)
-
-### Flashing the image
-
-Now that you know your SD card drive, go to where you extracted Lakka, and flash the card.
-
-Please note that dd is a very dangerous command: if you give it the wrong drive identifier, it could erase your hard drive instead of the SD card!
-
-    $ sudo dd if=Lakka-*.img of=/dev/rdiskN
-
-Where diskN is your SD card drive.
-
-![Flashing SD card](/images/macosdd.png)
-
-It should take a few minutes, wait for the prompt. Once done, you can unplug your SD card and proceed to the next step.
-
-If you get this error:
-
-    dd: /dev/disk4s1: Resource busy
-
-You have to unmount every partition of your SD card, this can be done with:
-
-    diskutil unmountDisk /dev/diskN
-
-And then you can retry the dd step.
+<p>In case you cannot use Etcher, look at the <a href="/doc/Alternative-image-flashing-methods/">alternative flashing methods</a>.</p>
