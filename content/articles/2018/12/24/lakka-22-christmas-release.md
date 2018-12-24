@@ -13,20 +13,20 @@ social:
   thumbnail: media/xmas.png
 ---
 
-Merry Christmas! Lakka 2.2 is released today.
+Merry Christmas! Lakka 2.2 is now out!
 
 ![Xmas](media/xmas.png)
 
 ## Changelog
 
  - RetroArch 1.7.5
-   - Many menu improvements, like intuitive icons for input bindings
+   - Many menu improvements (like intuitive icons for input bindings)
    - A new alternative menu called Ozone made by Natinusala
 
 ![Ozone](media/ozone.png)
 
- - Almost all libretro cores have been updated
- - PPSSPP is fixed
+ - Almost all libretro cores updated
+ - PPSSPP fixed
  - New device: TinkerBoard S
  - New devices: RK3399 and ROC-RK3328-CC
  - Kernel update for the Odroid XU4
