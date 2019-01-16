@@ -14,6 +14,7 @@ social:
 So far nvidia PC GPUs were supported by Lakka through nouveau open-source drivers.
 
 Unfortunately, these drivers are nowhere as complete as Intel or AMD ones, so while having some advantages (DRM/KMS support, no X Server) this approach has major drawbacks, for example:
+
   - poor 3D performance
   - no support for recent GPUs
   - no Vulkan
