@@ -21,8 +21,3 @@ Any content on this website is Licensed under
 [Creative Commons 4.0 By Share Alike Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 This means that you can reuse, share, and remix it, provided you mention the authors.
 
-## Hosting
-
-We would like to thank [Evolix](http://www.evolix.com/) for offering this website's hosting.
-
-![Evolix](/images/evolix.png)
