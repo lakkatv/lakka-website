@@ -13,6 +13,8 @@ tmp/
 # Crash Log
 crash.log
 
+# Vendor directory
+vendor/
 
 ### vim ###
 [._]*.s[a-w][a-z]
