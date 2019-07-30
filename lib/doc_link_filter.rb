@@ -6,7 +6,11 @@ class DocLinksFilter < Nanoc::Filter
     filtered = "#{content}"
     needles = filtered.scan /href="[^http|irc][^"]*"/
     needles.each do |needle|
-      replacement = needle.sub '="', '="/doc/'
+      if needle[6,1] != '#'
+        replacement = needle.sub '="', '="/doc/'
+      else
+        replacement = needle
+      end
       filtered.sub! needle, replacement
     end 
     filtered
