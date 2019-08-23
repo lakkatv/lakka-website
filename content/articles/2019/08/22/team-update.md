@@ -25,4 +25,4 @@ The new project leader is natinusala - he joined the team after releasing an uno
 
 As for Lakka itself, we are currently working on Lakka 3.0 - starting from scratch, this new version will feature an updated operating system (updated kernel and software, more drivers...) with even more supported platforms. The current version of Lakka, 2.0, will shortly receive one last update to add Raspberry Pi 4 support (currently only in nightlies), update RetroArch (adding a lot of new features!) and update the cores (PS2 anyone?).
 
-The whole Lakka and libretro team whish all the best to kivutar, and good luck for his future projects! If you like Lakka and RetroArch, be sure to check out [ludo](https://ludo.libretro.com/), a lightweight libretro frontend written in golang.
+The whole Lakka and libretro team wish all the best to kivutar, and good luck for his future projects! If you like Lakka and RetroArch, be sure to check out [ludo](https://ludo.libretro.com/), a lightweight libretro frontend written in golang.
