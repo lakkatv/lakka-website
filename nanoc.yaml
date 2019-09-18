@@ -71,6 +71,7 @@ data_sources:
 release:
   i386: http://le.builds.lakka.tv/Generic.i386/Lakka-Generic.i386-2.2.2.img.gz
   x86_64: http://le.builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-2.2.2.img.gz
+  vk_nvidia: http://le.builds.lakka.tv/Generic_VK_nvidia.x86_64/Lakka-Generic_VK_nvidia.x86_64-2.2.2.img.gz
   allwinner.bananapi: http://le.builds.lakka.tv/Allwinner.Bananapi.arm/Lakka-Allwinner.Bananapi.arm-2.2.2.img.gz
   allwinner.cubieboard2: http://le.builds.lakka.tv/Allwinner.Cubieboard2.arm/Lakka-Allwinner.Cubieboard2.arm-2.2.2.img.gz
   allwinner.cubietruck: http://le.builds.lakka.tv/Allwinner.Cubietruck.arm/Lakka-Allwinner.Cubietruck.arm-2.2.2.img.gz
