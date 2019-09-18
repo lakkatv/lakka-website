@@ -109,6 +109,7 @@ release:
   tkb: http://le.builds.lakka.tv/Rockchip.TinkerBoard.arm/Lakka-Rockchip.TinkerBoard.arm-2.2.2.img.gz
   miqi: http://le.builds.lakka.tv/Rockchip.MiQi.arm/Lakka-Rockchip.MiQi.arm-2.2.2.img.gz
   rock64: http://le.builds.lakka.tv/Rockchip.ROCK64.arm/Lakka-Rockchip.ROCK64.arm-2.2.2.img.gz
+  rockpro64: http://le.builds.lakka.tv/Rockchip.ROCKPro64.arm/Lakka-Rockchip.ROCKPro64.arm-2.2.2.img.gz
 
 deploy:
   default:
