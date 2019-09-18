@@ -10,7 +10,18 @@ next: install
 <p>This step is independent of your OS choice, the downloaded image can be used on any OS.</p> 
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
-<p class="dl">
-  <a href="<%= @config[:release][:rpi] %>">Download Lakka
-  <span class="details">for Raspberry Pi ~ 400MB</span></a>
-</p>
+<div class="row">
+  <div class="col-md-3">
+    <p class="dl">
+        <a href="<%= @config[:release][:rpi] %>">Download Lakka
+        <span class="details">for Raspberry Pi ~ 400MB</span></a>
+      </p>
+  </div>
+  <div class="col-md-3">
+    <p class="dl">
+        <a href="<%= @config[:release][:gpicase] %>">Download Lakka
+        <span class="details">for GPI Case ~ 400MB</span></a>
+    </p>
+  </div>
+</div>
+

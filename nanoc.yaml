@@ -84,6 +84,7 @@ release:
   imx6.cuboxi: http://le.builds.lakka.tv/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-2.2.2.img.gz
   imx6.udoo: http://le.builds.lakka.tv/imx6.udoo.arm/Lakka-imx6.udoo.arm-2.2.2.img.gz
   rpi: http://le.builds.lakka.tv/RPi.arm/Lakka-RPi.arm-2.2.2.img.gz
+  gpicase: http://le.builds.lakka.tv/RPi.GPICase.arm/Lakka-RPi.GPICase.arm-2.2.2.img.gz
   rpi2: http://le.builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-2.2.2.img.gz
   rpi4: http://le.builds.lakka.tv/RPi2.RPi4.arm/Lakka-RPi2.RPi4.arm-2.2.2.img.gz
   bpi: http://le.builds.lakka.tv/Bananapi.arm/Lakka-Bananapi.arm-2.2.2.img.gz
