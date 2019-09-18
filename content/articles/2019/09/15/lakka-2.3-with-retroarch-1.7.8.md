@@ -184,6 +184,7 @@ As usual all cores, databases, controller mappings and assets have been updated.
 - New cores (please note that not all cores are available on all platforms)
   - Play!
     - This new PS2 emulator is very experimental and doesn't run all games, don't expect it to run properly on your Lakka box yet
+    - You can find a list of all playable games on the Play-Compatibility repository [here](https://github.com/jpd002/Play-Compatibility/issues?q=is%3Aissue+is%3Aopen+label%3Astate-playable)
   - Final Burn Neo
     - [Here](https://github.com/libretro/FBNeo/tree/a28d26f0418c7eb9771c1f026cfe1a6c141d2eb3/dats) are the DAT files used in the Final Burn Neo version used in Lakka 2.3
   - OpenLara

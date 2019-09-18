@@ -23,17 +23,17 @@ By the way, he thinks he is ready to starting a new career as a designer and is 
 He jumped into the project a few weeks ago, proposed to give help on designing interface, and started working on a menu based on the awesome Niouby's work, releasing a new theme for the XMB-like menu:
 
 <video poster="media/menu1.png" preload="auto" controls width="480" height="270">
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.ogv" type="video/ogv" />
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.mp4" type="video/mp4" />
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.webm" type="video/webm" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.ogv" type="video/ogv" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.mp4" type="video/mp4" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu1.webm" type="video/webm" />
 </video>
 
 Cool, isn't it? But that is not all, he imagined another menu from scratch. Something different from XMB-style menu. Something easier to use on any device (TV, Tablets, Smartphones) and nice to look at. Here is his proof of concept:
 
 <video poster="media/menu2.png" preload="auto" controls width="480" height="270">
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.ogv" type="video/ogv" />
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.mp4" type="video/mp4" />
-  <source src="http://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.webm" type="video/webm" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.ogv" type="video/ogv" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.mp4" type="video/mp4" />
+  <source src="https://media.lakka.tv/articles/2014/07/30/graphical-contributions/menu2.webm" type="video/webm" />
 </video>
 
 It is not completely done yet, but the result will sure be a great eye-candy. We really love his work.
