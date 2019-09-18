@@ -97,7 +97,7 @@ Many users found downloading the thumbnail packs to be impractical and troubleso
 
 To use this new system, open the Online Updater and go to Playlist Thumbnails Updater. Then, select one of your playlists to have all the thumbnails of that playlist downloaded, and only them. No more endless downloads!
 
-You can additionnally enable on-demand thumbnails downloading to have RetroArch automatically download the thumbnail of a game when you hover it in the menu, in the background.
+You can additionally enable on-demand thumbnails downloading to have RetroArch automatically download the thumbnail of a game when you hover it in the menu, in the background.
 
 ## XMB menu improvements
 
