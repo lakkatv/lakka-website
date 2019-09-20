@@ -212,3 +212,8 @@ As usual all cores, databases, controller mappings and assets have been updated.
 - Bug fixes
   - Shutting down no longer hangs the system
   - Overlay directory in storage partition now works properly
+
+# Lakka 2.3.1 changes
+- Fixed Bsnes HD on ARM platforms
+- Fixed RPi4 Online Updater
+- Renamed NOOBS OS from "Lakka" to "Lakka_RPi*"
