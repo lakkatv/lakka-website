@@ -10,7 +10,7 @@ GEM
     cri (2.8.0)
       colored (~> 1.2)
     ddplugin (1.0.1)
-    ffi (1.9.18)
+    ffi (1.11.1)
     formatador (0.2.5)
     guard (2.14.1)
       formatador (>= 0.2.4)
