@@ -31,6 +31,10 @@ compile '/robots*' do
   #nothing
 end
 
+compile '/ads*' do
+  #nothing
+end
+
 ['/about', '/articles', '/disclaimer', '/powerful', '/lakka-is-low-cost', '/opensource'].each do |it|
   compile it do
     unless item.binary?
@@ -98,6 +102,10 @@ compile '*' do
 end
 
 route '/robots' do
+  "#{item.identifier.chop}.#{item[:extension]}"
+end
+
+route '/ads' do
   "#{item.identifier.chop}.#{item[:extension]}"
 end
 
