@@ -70,7 +70,7 @@ data_sources:
 
 release:
   i386: http://le.builds.lakka.tv/Generic.i386/Lakka-Generic.i386-2.3.1.img.gz
-  x86_64: http://le.builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-2.3.1.img.gz
+  x86_64: http://le.builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-2.3.2.img.gz
   vk_nvidia: http://le.builds.lakka.tv/Generic_VK_nvidia.x86_64/Lakka-Generic_VK_nvidia.x86_64-2.3.1.img.gz
   allwinner.bananapi: http://le.builds.lakka.tv/Allwinner.Bananapi.arm/Lakka-Allwinner.Bananapi.arm-2.3.1.img.gz
   allwinner.cubieboard2: http://le.builds.lakka.tv/Allwinner.Cubieboard2.arm/Lakka-Allwinner.Cubieboard2.arm-2.3.1.img.gz
@@ -84,10 +84,10 @@ release:
   allwinner.orangepi_plus2e: http://le.builds.lakka.tv/Allwinner.orangepi_plus2e.arm/Lakka-Allwinner.orangepi_plus2e.arm-2.3.1.img.gz
   imx6.cuboxi: http://le.builds.lakka.tv/imx6.cuboxi.arm/Lakka-imx6.cuboxi.arm-2.3.1.img.gz
   imx6.udoo: http://le.builds.lakka.tv/imx6.udoo.arm/Lakka-imx6.udoo.arm-2.3.1.img.gz
-  rpi: http://le.builds.lakka.tv/RPi.arm/Lakka-RPi.arm-2.3.1.img.gz
-  gpicase: http://le.builds.lakka.tv/RPi.GPICase.arm/Lakka-RPi.GPICase.arm-2.3.1.img.gz
-  rpi2: http://le.builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-2.3.1.img.gz
-  rpi4: http://le.builds.lakka.tv/RPi2.RPi4.arm/Lakka-RPi2.RPi4.arm-2.3.1.img.gz
+  rpi: http://le.builds.lakka.tv/RPi.arm/Lakka-RPi.arm-2.3.2.img.gz
+  gpicase: http://le.builds.lakka.tv/RPi.GPICase.arm/Lakka-RPi.GPICase.arm-2.3.2.img.gz
+  rpi2: http://le.builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-2.3.2.img.gz
+  rpi4: http://le.builds.lakka.tv/RPi2.RPi4.arm/Lakka-RPi2.RPi4.arm-2.3.2.img.gz
   bpi: http://le.builds.lakka.tv/Bananapi.arm/Lakka-Bananapi.arm-2.3.1.img.gz
   c1: http://le.builds.lakka.tv/OdroidC1.arm/Lakka-OdroidC1.arm-2.3.1.img.gz
   c2: http://le.builds.lakka.tv/Odroid_C2.arm/Lakka-Odroid_C2.arm-2.3.1.img.gz
