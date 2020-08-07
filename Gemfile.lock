@@ -28,7 +28,8 @@ GEM
       nanoc (>= 4.3.8, < 5.0)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
-    kramdown (1.13.2)
+    kramdown (2.3.0)
+      rexml
     libnotify (0.9.3)
       ffi (>= 1.0.11)
     listen (3.1.5)
@@ -56,6 +57,7 @@ GEM
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     ref (2.0.0)
+    rexml (3.2.4)
     ruby_dep (1.5.0)
     shellany (0.0.1)
     slop (3.6.0)
