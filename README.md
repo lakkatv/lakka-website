@@ -1,4 +1,4 @@
-# Lakka Website
+# Lakka's Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8c5ce08f-9bbf-46a9-beeb-869680e253ef/deploy-status)](https://app.netlify.com/sites/thirsty-poitras-b9339a/deploys)
 
@@ -13,7 +13,7 @@ This website is based on nanoc, a static generator CMS.
 Requirements:
 
 - Ruby: 2.0.0 or newer
-- gem bundler
+- Gem Bundler
 
 In order to setup your development environment, run:
 
@@ -23,7 +23,7 @@ In order to setup your development environment, run:
 
 Do not forget to run commands with bundler:
 
-example:
+Example:
 
     bundle exec nanoc #will compile the whole website
 
