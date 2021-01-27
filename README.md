@@ -19,6 +19,16 @@ In order to setup your development environment, run:
 
     bundle install
 
+### Updating the /doc section
+
+The `/doc` section is generated from the [GitHub wiki of the Lakka project](https://github.com/libretro/Lakka-LibreELEC/wiki). To initialize the content, run:
+
+```
+git submodule update --init --remote
+```
+
+This will download the current state of the wiki.
+
 ### Running Commands
 
 Do not forget to run commands with bundler:
