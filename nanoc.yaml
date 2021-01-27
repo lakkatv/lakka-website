@@ -114,6 +114,29 @@ release:
   rock64: http://le.builds.lakka.tv/Rockchip.ROCK64.arm/Lakka-Rockchip.ROCK64.arm-2.3.1.img.gz
   rockpro64: http://le.builds.lakka.tv/Rockchip.ROCKPro64.arm/Lakka-Rockchip.ROCKPro64.arm-2.3.1.img.gz
 
+devel:
+  i386: https://nightly.builds.lakka.tv/latest/Generic.i386/
+  x86_64: https://nightly.builds.lakka.tv/latest/Generic.x86_64/
+  allwinner-a64: https://nightly.builds.lakka.tv/latest/A64.arm/
+  allwinner-h3: https://nightly.builds.lakka.tv/latest/H3.arm/
+  allwinner-h6: https://nightly.builds.lakka.tv/latest/H6.arm/
+  imx6: https://nightly.builds.lakka.tv/latest/iMX6.arm/
+  rpi: https://nightly.builds.lakka.tv/latest/RPi.arm/
+  gpicase: https://nightly.builds.lakka.tv/latest/GPICase.arm/
+  rpi2: https://nightly.builds.lakka.tv/latest/RPi2.arm/
+  rpi4: https://nightly.builds.lakka.tv/latest/RPi4.arm/
+  rpi4-64: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
+  aml-gx: https://nightly.builds.lakka.tv/latest/AMLGX.arm/
+  aml-g12: https://nightly.builds.lakka.tv/latest/AMLG12.arm/
+  tkb: https://nightly.builds.lakka.tv/latest/TinkerBoard.arm/
+  miqi: https://nightly.builds.lakka.tv/latest/MiQi.arm/
+  rk3328: https://nightly.builds.lakka.tv/latest/RK3328.arm/
+  rk3399: https://nightly.builds.lakka.tv/latest/RK3399.arm/
+  dragonboard: https://nightly.builds.lakka.tv/latest/Dragonboard.arm/
+  oga: https://nightly.builds.lakka.tv/latest/OdroidGoAdvance.arm/
+  oxu3: https://nightly.builds.lakka.tv/latest/OdroidXU3.arm/
+  all-latest: https://nightly.builds.lakka.tv/latest/
+
 deploy:
   default:
     kind: rsync
