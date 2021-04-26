@@ -3,7 +3,7 @@
 Follow the following steps:
 
 1.  Insert the SD card into your console
-2.  Press the power on button located at the top
+2.  Press the power on button located at the side/top of the device
 
 You should see our splash screen:
 
