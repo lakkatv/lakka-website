@@ -11,22 +11,43 @@ next: install
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
 <p class="dl">
-    <a href="<%= @config[:release][:rpi] %>">Download Lakka
-    <span class="details">for Raspberry Pi ~ 400MB</span></a>
+    <a href="<%= @config[:release][:'rpi.rpi'] %>">Download Lakka
+    <span class="details">for Raspberry Pi Zero / 1</span></a>
 </p>
+
 <p class="dl">
-    <a href="<%= @config[:release][:gpicase] %>">Download Lakka
-    <span class="details">for GPI Case ~ 400MB</span></a>
+    <a href="<%= @config[:release][:'rpi.gpicase'] %>">Download Lakka
+    <span class="details">for Retroflag GPI Case</span></a>
+</p>
+
+<p class="dl">
+    <a href="<%= @config[:release][:'rpi.rpi2'] %>">Download Lakka
+    <span class="details">for Raspberry Pi 2 / 3</span></a>
+</p>
+
+<p class="dl">
+    <a href="<%= @config[:release][:'rpi.rpi4'] %>">Download Lakka
+    <span class="details">for Raspberry Pi 4</span></a>
 </p>
 
 <p>Download links for development images:</p>
 
 <p class="dl">
   <a href="<%= @config[:devel][:'rpi'] %>">Download Lakka
-  <span class="details">for Raspberry Pi</span></a>
+  <span class="details">for Raspberry Pi Zero / 1</span></a>
 </p>
 
 <p class="dl">
   <a href="<%= @config[:devel][:'gpicase'] %>">Download Lakka
-  <span class="details">for GPi Case</span></a>
+  <span class="details">for Retroflag GPi Case</span></a>
+</p>
+
+<p class="dl">
+  <a href="<%= @config[:devel][:'rpi2'] %>">Download Lakka
+  <span class="details">for Raspberry Pi 2 / 3</span></a>
+</p>
+
+<p class="dl">
+  <a href="<%= @config[:devel][:'rpi4'] %>">Download Lakka
+  <span class="details">for Raspberry Pi 4</span></a>
 </p>
