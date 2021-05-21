@@ -9,35 +9,15 @@ next: install
 
 <p>This step is independent of your OS choice, the downloaded image can be used on any OS.</p>
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
-<p>Choose one of the following images depending on your PC architecture.</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:i386] %>">Download Lakka
-  <span class="details">for 32 bits CPU ~ 400MB</span></a>
-</p>
+<p>Please note that due to the wide variety of PC hardware, Lakka may not work on your hardware.</p>
+<p>This image is USB image, not CD or DVD images, those installation mediums are unsupported. Also, we don't support virtualization and dualboot. Lakka is meant to be installed on real hardware.</p>
 
 <p class="dl">
   <a href="<%= @config[:release][:x86_64] %>">Download Lakka
-  <span class="details">for 64 bits CPU ~ 400MB</span></a>
+  <span class="details">for 64 bits CPU</span></a>
 </p>
-
-<p class="dl">
-    <a href="<%= @config[:release][:vk_nvidia] %>">Download Lakka
-    <span class="details">for 64 bits CPU, Vulkan on Nvidia GPUS only ~ 400MB</span></a>
-  </p>
-
-<p>Please note that due to the wide variety of PC hardware, Lakka may not work on your hardware.</p>
-
-<p>Those image are USB images, not CD or DVD images, those installation mediums are unsupported. Also, we don't support virtualization and dualboot. Lakka is meant to be installed on real hardware.</p>
-
-<p>The "Vulkan on Nvidia GPUS only" version has less cores than the regular 64 bits image, but some heavier cores will run better.</p>
 
 <p>Download links for development images:</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:i386] %>">Download Lakka
-  <span class="details">for 32 bits CPU</span></a>
-</p>
 
 <p class="dl">
   <a href="<%= @config[:devel][:x86_64] %>">Download Lakka

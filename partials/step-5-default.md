@@ -2,13 +2,12 @@
 
 Follow the following steps:
 
-1.  Insert the SD card or the eMMC into your Odroid XU3/4
-2.  Set the [boot mode](http://odroid.com/dokuwiki/doku.php?id=en:xu3_bootmode_configuration) depending on whether you are using an SD card or the eMMC
-3.  Connect a HDMI wire from your Odroid XU3/4 to your TV
-4.  Power on your TV
-5.  Plug in an Ethernet wire (optional)
-6.  Plug in a supported joypad into one of the 4 USB ports on your Odroid
-7.  Plug in the power supply of your Odroid XU3/4
+1.  Insert the SD card into your device
+2.  Connect a HDMI wire from your device to your display device
+3.  Power on your display device
+4.  Plug in an Ethernet wire (optional)
+5.  Plug in a supported joypad into one of the USB ports on your device
+6.  Plug in the power supply of your device / turn your device on
 
 You should see our splash screen:
 
