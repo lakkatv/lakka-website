@@ -74,35 +74,36 @@ release:
   allwinner.a64_pine64_lts: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-pine64-lts.img.gz
   allwinner.a64_pine64_plus: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-pine64-plus.img.gz
   allwinner.a64_pine64: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-pine64.img.gz
-  allwinner.h3_bananapi_m2p: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-bananapi-m2p.img.gz
-  allwinner.h3_bananapi: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-bananapi.img.gz
-  allwinner.h3_beelink_x2: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-beelink-x2.img.gz
-  allwinner.h3_cubieboard2: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-cubieboard-2.img.gz
-  allwinner.h3_cubietruck: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-cubietruck.img.gz
-  allwinner.h3_libretech_h3: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-libretech-h3.img.gz
-  allwinner.h3_nanopi_m1_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-nanopi-m1-plus.img.gz
-  allwinner.h3_nanopi_m1: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-nanopi-m1.img.gz
-  allwinner.h3_orangepi_2: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-2.img.gz
-  allwinner.h3_orangepi_lite: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-lite.img.gz
-  allwinner.h3_orangepi_one: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-one.img.gz
-  allwinner.h3_orangepi_pc_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-pc-plus.img.gz
-  allwinner.h3_orangepi_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-plus.img.gz
-  allwinner.h3_orangepi_plus2e: https://le-builds.lakka.tv/H3.arm/Lakka-H3-3.0-orangepi-plus2e.img.gz
-  allwinner.h6_orangepi_3: https://le-builds.lakka.tv/H6.arm/Lakka-H6-3.0-orangepi-3.img.gz
-  allwinner.h6_orangepi_one_plus: https://le-builds.lakka.tv/H6.arm/Lakka-H6-3.0-orangepi-one-plus.img.gz
-  allwinner.h6_pine_h64: https://le-builds.lakka.tv/H6.arm/Lakka-H6-3.0-pine-h64.img.gz
-  amlogic.amlg12_generic: https://le-builds.lakka.tv/AMLG12.arm/Lakka-AMLG12.arm-3.0-box.img.gz
-  amlogic.amlgx_generic: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-box.img.gz
-  amlogic.amlgx_lepotato: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-lepotato.img.gz
-  amlogic.amlgx_nanopi_k2: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-nanopi-k2.img.gz
-  amlogic.amlgx_odroid_c2: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-odroid-c2.img.gz
+  allwinner.h3_bananapi_m2p: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-bananapi-m2p.img.gz
+  allwinner.h3_bananapi: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-bananapi.img.gz
+  allwinner.h3_beelink_x2: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-beelink-x2.img.gz
+  allwinner.h3_cubieboard2: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-cubieboard2.img.gz
+  allwinner.h3_cubietruck: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-cubietruck.img.gz
+  allwinner.h3_libretech_h3: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-libretech-h3.img.gz
+  allwinner.h3_nanopi_m1_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-nanopi-m1-plus.img.gz
+  allwinner.h3_nanopi_m1: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-nanopi-m1.img.gz
+  allwinner.h3_orangepi_2: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-2.img.gz
+  allwinner.h3_orangepi_lite: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-lite.img.gz
+  allwinner.h3_orangepi_one: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-one.img.gz
+  allwinner.h3_orangepi_pc_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-pc-plus.img.gz
+  allwinner.h3_orangepi_pc: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-pc.img.gz
+  allwinner.h3_orangepi_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-plus.img.gz
+  allwinner.h3_orangepi_plus2e: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.0-orangepi-plus2e.img.gz
+  allwinner.h6_orangepi_3: https://le-builds.lakka.tv/H6.arm/Lakka-H6.arm-3.0-orangepi-3.img.gz
+  allwinner.h6_orangepi_one_plus: https://le-builds.lakka.tv/H6.arm/Lakka-H6.arm-3.0-orangepi-one-plus.img.gz
+  allwinner.h6_pine_h64: https://le-builds.lakka.tv/H6.arm/Lakka-H6.arm-3.0-pine-h64.img.gz
+  aml.g12_generic: https://le-builds.lakka.tv/AMLG12.arm/Lakka-AMLG12.arm-3.0-box.img.gz
+  aml.gx_generic: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-box.img.gz
+  aml.gx_lepotato: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-lepotato.img.gz
+  aml.gx_nanopi_k2: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-nanopi-k2.img.gz
+  aml.gx_odroid_c2: https://le-builds.lakka.tv/AMLGX.arm/Lakka-AMLGX.arm-3.0-odroid-c2.img.gz
   rpi.gpicase: https://le-builds.lakka.tv/GPICase.arm/Lakka-GPICase.arm-3.0.img.gz
   rpi.rpi: https://le-builds.lakka.tv/RPi.arm/Lakka-RPi.arm-3.0.img.gz
   rpi.rpi2: https://le-builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-3.0.img.gz
   rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-3.0.img.gz
-  nxp.imx6_cubox_i: https://le-builds.lakka.tv/iMX.arm/Lakka-iMX.arm-3.0-cubox-i.img.gz
-  nxp.imx6_udoo: https://le-builds.lakka.tv/iMX.arm/Lakka-iMX.arm-3.0-udoo.img.gz
-  nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX.arm/Lakka-iMX.arm-3.0-wandboard.img.gz
+  nxp.imx6_cubox_i: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-cubox-i.img.gz
+  nxp.imx6_udoo: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-udoo.img.gz
+  nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-wandboard.img.gz
   rockchip.miqi: https://le-builds.lakka.tv/MiQi.arm/Lakka-MiQi.arm-3.0-rk3288.img.gz
   rockchip.rk3328_generic_trn9: https://le-builds.lakka.tv/RK3328.arm/Lakka-RK3328.arm-3.0-box-trn9.img.gz
   rockchip.rk3328_generic_z28: https://le-builds.lakka.tv/RK3328.arm/Lakka-RK3328.arm-3.0-box-z28.img.gz
