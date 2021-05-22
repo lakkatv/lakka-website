@@ -38,7 +38,7 @@ Highlights of this release include:
 - Support for new devices/architecture:
   - 64 bit images for Raspberry Pi 4 (no 32 bit release)
   - Odroid Go Advance / Anbernic RG351P/M and V / Gameforce Chi
-  - Nintendo Switch ([instructions](/doc/nintendo-switch/))
+  - Nintendo Switch ([instructions](/doc/Nintendo-Switch/))
   - iMX6 with mainline kernel and MESA
 - New libretro cores:
   - Genesis Plus-GX Wide (widescreen enabled core for SEGA Genesis / MegaDrive)
