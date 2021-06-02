@@ -70,6 +70,7 @@ data_sources:
 
 release:
   x86_64: https://le-builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-3.0.img.gz
+  i386: https://le-builds.lakka.tv/Generic.i386/Lakka-Generic.i386-3.0.img.gz
   allwinner.a64_orangepi_win: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-orangepi-win.img.gz
   allwinner.a64_pine64_lts: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-pine64-lts.img.gz
   allwinner.a64_pine64_plus: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.0-pine64-plus.img.gz
@@ -101,6 +102,7 @@ release:
   rpi.rpi: https://le-builds.lakka.tv/RPi.arm/Lakka-RPi.arm-3.0.img.gz
   rpi.rpi2: https://le-builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-3.0.img.gz
   rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-3.0.img.gz
+  rpi.rpi4-32: https://le-builds.lakka.tv/RPi4.arm/Lakka-RPi4.arm-3.0.img.gz
   nxp.imx6_cubox_i: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-cubox-i.img.gz
   nxp.imx6_udoo: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-udoo.img.gz
   nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.0-wandboard.img.gz
@@ -135,6 +137,7 @@ devel:
   gpicase: https://nightly.builds.lakka.tv/latest/GPICase.arm/
   rpi2: https://nightly.builds.lakka.tv/latest/RPi2.arm/
   rpi4: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
+  rpi4-32: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
   aml-gx: https://nightly.builds.lakka.tv/latest/AMLGX.arm/
   aml-g12: https://nightly.builds.lakka.tv/latest/AMLG12.arm/
   tkb: https://nightly.builds.lakka.tv/latest/TinkerBoard.arm/
