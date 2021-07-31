@@ -23,7 +23,11 @@ Changes since version 3.2:
   - 'Analog to Digital Type' usability improvements
   - Updated translations from Crowdin
 - Cores updated to their most recent versions
-  - Dolpin: added `dolphin-emu/Sys` folder to RetroArch `system` folder
+  - Dolpin: add `dolphin-emu/Sys` folder to RetroArch `system` folder
+  - New: np2kai core (PC-98)
+- Generic: enable MIDI sequencer support
+- Generic: add Gamecon support
+- RPi: disable 4K modes
 
 You can download the latest release from [Lakka download page](/get). If you want to follow the development of Lakka more closely, you can download [latest Lakka nightly builds](https://nightly.builds.lakka.tv/latest).
 
