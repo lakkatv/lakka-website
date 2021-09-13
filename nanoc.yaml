@@ -76,10 +76,7 @@ release:
   allwinner.a64_pine64_plus: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.4-pine64-plus.img.gz
   allwinner.a64_pine64: https://le-builds.lakka.tv/A64.arm/Lakka-A64.arm-3.4-pine64.img.gz
   allwinner.h3_bananapi_m2p: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-bananapi-m2p.img.gz
-  allwinner.h3_bananapi: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-bananapi.img.gz
   allwinner.h3_beelink_x2: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-beelink-x2.img.gz
-  allwinner.h3_cubieboard2: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-cubieboard2.img.gz
-  allwinner.h3_cubietruck: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-cubietruck.img.gz
   allwinner.h3_libretech_h3: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-libretech-h3.img.gz
   allwinner.h3_nanopi_m1_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-nanopi-m1-plus.img.gz
   allwinner.h3_nanopi_m1: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-3.4-nanopi-m1.img.gz
