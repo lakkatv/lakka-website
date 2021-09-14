@@ -137,6 +137,7 @@ devel:
   rpi3-64: https://nightly.builds.lakka.tv/latest/RPi3.aarch64/
   rpi4: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
   rpi4-32: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
+  rpi4-piboydmg-64: https://nightly.builds.lakka.tv/latest/RPi4-PiBoyDmg.aarch64/
   aml-gx: https://nightly.builds.lakka.tv/latest/AMLGX.arm/
   aml-g12: https://nightly.builds.lakka.tv/latest/AMLG12.arm/
   tkb: https://nightly.builds.lakka.tv/latest/TinkerBoard.arm/
