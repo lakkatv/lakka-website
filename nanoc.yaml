@@ -102,8 +102,8 @@ release:
   rpi.rpi3-64: https://le-builds.lakka.tv/RPi3.aarch64/Lakka-RPi3.aarch64-3.5.img.gz
   rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-3.5.img.gz
   rpi.rpi4-32: https://le-builds.lakka.tv/RPi4.arm/Lakka-RPi4.arm-3.5.img.gz
-  rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch-3.5.img.gz
-  rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch-3.5.img.gz
+  rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch64-3.5.img.gz
+  rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch64-3.5.img.gz
   nxp.imx6_cubox_i: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.5-cubox-i.img.gz
   nxp.imx6_udoo: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.5-udoo.img.gz
   nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-3.5-wandboard.img.gz
