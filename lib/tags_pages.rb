@@ -18,7 +18,7 @@ module TagPages
       @items.create(
         '',
         { title: "Tag: #{tag}", tag: tag },
-        "/tags/#{tag}/"
+        "/tags/#{tag}"
       )
     end
   end
