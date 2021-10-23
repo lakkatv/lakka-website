@@ -45,7 +45,7 @@ We don't usually update RetroArch during a release candidate cycle, but this new
 
 ## Installing or upgrading
 
-Images are available here: [http://le.builds.lakka.tv](http://le.builds.lakka.tv) and are named with the version **2.0-rc3**.
+Images are available here: [https://le.builds.lakka.tv](https://le.builds.lakka.tv) and are named with the version **2.0-rc3**.
 
 You can upgrade directly from our menu if you're already using RC1 or RC2.
 

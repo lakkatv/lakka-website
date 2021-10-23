@@ -35,7 +35,7 @@ Be sure to buy and apply a heatsink and upgrade the firmware before installing L
 
 ![GPICase](media/gpi.png)
 
-If you follow the Raspberry Pi retrogaming news, you have certainly heard of the [Retroflag GPI Case](http://retroflag.com/GPi-CASE.html). As you can see on the picture, the GPI Case is a Gameboy inspired case for the Raspberry Pi Zero and Zero W.
+If you follow the Raspberry Pi retrogaming news, you have certainly heard of the [Retroflag GPI Case](https://retroflag.com/GPi-CASE.html). As you can see on the picture, the GPI Case is a Gameboy inspired case for the Raspberry Pi Zero and Zero W.
 
 The case has an integrated IPS display, jack audio port and most importantly, 12 buttons: a DPAD, A/B/Y/X, L/R and START/SELECT. The power button and LED indicator allow you to safely turn on and shutdown your system.
 

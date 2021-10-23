@@ -145,7 +145,7 @@ The joypad profiles has been updated. The following joy pads required specific c
 
 ## Installing or upgrading
 
-Our [installation tutorial](http://www.lakka.tv/get) has been updated with the new images.
+Our [installation tutorial](/get) has been updated with the new images.
 
 Users of Lakka 2.0 Release Candidate can upgrade directly through the graphical interface.
 

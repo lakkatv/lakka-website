@@ -29,7 +29,7 @@ I apologize for not being very present on IRC lately, I will try to make an effo
 
 ![Odroid-XU3](media/odroid-xu3.jpg)
 
-Lakka have been ported to the Odroid-XU3. We currently support installation to the SD card. I've not yet tried the eMMC module, but it could work. The port is not stable yet, so there's no need to release it right now. I prefer to let it mature little bit more. Some vsync bugs need to be fixed, and some cores perform weirdly, however, the most difficult part is done now and you can get the development builds [here](http://sources.lakka.tv/nightly/OdroidXU3.arm/) as usual.
+Lakka have been ported to the Odroid-XU3. We currently support installation to the SD card. I've not yet tried the eMMC module, but it could work. The port is not stable yet, so there's no need to release it right now. I prefer to let it mature little bit more. Some vsync bugs need to be fixed, and some cores perform weirdly, however, the most difficult part is done now and you can get the development builds [here](https://sources.lakka.tv/nightly/OdroidXU3.arm/) as usual.
 
 I would like to thanks the support team of Hardkernel, they helped us with this port and they are trying hard to find a good fix for the vsync issues on the C1 and the XU3.
 

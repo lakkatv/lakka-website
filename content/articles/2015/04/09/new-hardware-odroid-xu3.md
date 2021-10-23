@@ -9,7 +9,7 @@ tags:
   - Odroid-XU3
 ---
 
-Thanks to [Hardkernel](http://hardkernel.com) for donating this [Odroid-XU3](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G140448267127&tab_idx=1)!
+Thanks to [Hardkernel](https://www.hardkernel.com) for donating this [Odroid-XU3](https://www.hardkernel.com/shop/odroid-xu3/)!
 
 ![Odroid-XU3](media/odroid-xu3.jpg)
 

@@ -53,7 +53,7 @@ Lakka 2.0 RC5 is ready to test. The changes are mainly bug fixes and emulator up
 
 ## Installing or upgrading
 
-You can find the latest OS images here: [http://le.builds.lakka.tv/](http://le.builds.lakka.tv/).
+You can find the latest OS images here: [https://le.builds.lakka.tv/](https://le.builds.lakka.tv/).
 
 Users of Lakka 2.0 RC1, RC2, RC3, or RC4 can upgrade directly from the graphical interface.
 

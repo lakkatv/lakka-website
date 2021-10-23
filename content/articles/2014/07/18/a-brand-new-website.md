@@ -13,9 +13,9 @@ social:
 ---
 
 We finally managed to remake our website with a fully static content management
-system - [nanoc](http://nanoc.ws). This allows us many good things.
+system - [nanoc](https://nanoc.app). This allows us many good things.
 
-But first of all, we wish to thank [Evolix](http://www.evolix.com) for offering
+But first of all, we wish to thank [Evolix](https://evolix.com) for offering
 free hosting to this website.
 
 ## Some changes
@@ -52,5 +52,5 @@ without noticeable issues concerning frame rate.
 We also started to port the system to cubieboard. It still has the RGUI menu, but we
 managed to run a few roms.
 
-Here you can get one of [those image](http://sources.lakka.tv/nightly/) if you want to
+Here you can get one of [those image](https://sources.lakka.tv/nightly/) if you want to
 give a try. Just do not forget these are prototypes.

@@ -40,7 +40,7 @@ When booting a fresh installation of Lakka, you will start with 4 tabs:
 
 ![Game details](media/details.png)
 
-The new RetroArch included in Lakka introduces a game database. This database is nothing more than the DAT files from the famous [No-Intro](http://www.no-intro.org/) initiative, converted to binary for performance reasons. It contains metadata about the games, like the publisher and the release date. With this, it becomes easy to browse games made by the same team. This database also contains the checksums of ROMs, and RetroArch uses these checksums to match your ROMs against the database entries.
+The new RetroArch included in Lakka introduces a game database. This database is nothing more than the DAT files from the famous [No-Intro](https://no-intro.org/) initiative, converted to binary for performance reasons. It contains metadata about the games, like the publisher and the release date. With this, it becomes easy to browse games made by the same team. This database also contains the checksums of ROMs, and RetroArch uses these checksums to match your ROMs against the database entries.
 
 ![Game Sorting](media/game-sorting.png)
 

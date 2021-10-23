@@ -62,7 +62,7 @@ The scanning processes have been improved, you can now scan for ScummVM, NXEngin
 
 **@gouchi** found a way to fix 32bit UEFI boot. This should allow Lakka to run on boards like the LattePanda.
 
-UEFI compatible images are not yet exposed on our website, but you can get them from [our server](http://mirror.lakka.tv/nightly/).
+UEFI compatible images are not yet exposed on our website, but you can get them from [our server](https://mirror.lakka.tv/nightly/).
 
 ## New cores
 

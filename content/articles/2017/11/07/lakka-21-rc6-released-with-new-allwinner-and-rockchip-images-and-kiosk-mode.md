@@ -19,7 +19,7 @@ Lakka 2.1 RC6 is available for download. It's a very important update that featu
 
 ![Asus Tinkerboard](media/tkb.jpg)
 
-You can download the builds at [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
+You can download the builds at [https://le.builds.lakka.tv](https://le.builds.lakka.tv)
 
 ## Changelog
 
