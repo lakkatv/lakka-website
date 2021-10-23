@@ -38,7 +38,7 @@ end
 ['/about', '/articles', '/disclaimer', '/powerful', '/lakka-is-low-cost', '/opensource'].each do |it|
   compile it do
     unless item.binary?
-      filter :erb if item[:extension] == 'html'
+      filter :erb if ['html', 'md'].include? item[:extension]
       filter :kramdown if item[:extension] == 'md'
       layout 'page'
     end
@@ -74,8 +74,8 @@ end
 
 compile '/articles/*/' do
   unless item.binary?
+    filter :erb if ['html', 'xml', 'md'].include? item[:extension]
     filter :kramdown if item[:extension] == 'md'
-    filter :erb if ['html', 'xml'].include? item[:extension]
     layout 'articles' unless item[:extension] == 'xml'
   end
 end
@@ -93,6 +93,7 @@ compile '*' do
   elsif item.binary?
     # don’t filter binary items
   elsif item[:extension] == "md"
+    filter :erb
     filter :kramdown
     layout 'lakka'
   else
