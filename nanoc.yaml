@@ -155,6 +155,15 @@ devel:
   switch: https://nightly.builds.lakka.tv/latest/Switch.aarch64/
   all-latest: https://nightly.builds.lakka.tv/latest/
 
+links:
+  discord: https://discordapp.com/invite/27Xxm2h
+  webchat: https://web.libera.chat/#lakkatv
+  facebook: https://www.facebook.com/lakkatv
+  youtube: https://www.youtube.com/c/LakkaTv
+  github: https://github.com/libretro/Lakka-LibreELEC
+  twitter: https://twitter.com/lakkatv
+  forum: https://forums.libretro.com/c/libretro/lakka-tv-general
+
 deploy:
   default:
     kind: rsync
