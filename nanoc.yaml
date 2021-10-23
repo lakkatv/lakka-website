@@ -20,7 +20,7 @@ index_filenames: [ 'index.html' ]
 enable_output_diff: false
 
 # Sitemap requires url to be specified
-base_url: http://www.lakka.tv
+base_url: https://www.lakka.tv
 
 site_name: "Lakka"
 site_slogan: "The DIY open source retrogaming emulation console"

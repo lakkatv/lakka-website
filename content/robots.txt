@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-SITEMAP: http://www.lakka.tv/sitemap.xml
+SITEMAP: https://www.lakka.tv/sitemap.xml
