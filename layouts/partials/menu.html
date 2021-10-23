@@ -13,7 +13,7 @@
       <ul class="nav navbar-nav navbar-right">
       <li><%= link_to 'Get', '/disclaimer' %></li>
       <li><%= link_to 'News', '/articles' %></li>
-      <li><%= link_to 'Forum', 'https://forums.libretro.com/c/libretro/lakka-tv-general' %></li>
+      <li><%= link_to 'Forum', @config[:links][:forum] %></li>
       <li><%= link_to 'FAQ', '/doc/FAQ' %></li>
       <li><%= link_to 'Doc', '/doc/Home' %></li>
       <li><%= link_to 'About', '/about' %></li>

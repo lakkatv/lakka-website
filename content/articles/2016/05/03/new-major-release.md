@@ -85,7 +85,7 @@ The tiny handheld project has made nice progress since our last article.
 
 We got a partnership with 8bitdo, the famous controller brand. They are going to take care of the buttons and the case. With them on the board, we can be sure that the product will be good ergonomically.
 
-Gamegirl needs contributors. If you are interested, join us on [Discord](https://discord.gg/0y3hRkVsItoaCAR1)
+Gamegirl needs contributors. If you are interested, join us on [Discord](<%= @config[:links][:discord] %>)
 
 # Hardware wishlist
 

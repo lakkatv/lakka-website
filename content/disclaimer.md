@@ -8,7 +8,7 @@ In its current state, the project allows you to play most games on most platform
 
 However, expect bugs, missing features or features not working as intended, and hardware that is yet to be supported.
 
-If you find a bug, you can declare it in our [tracker](https://github.com/libretro/Lakka-LibreELEC/issues), unless already reported.
+If you find a bug, you can declare it in our [tracker](<%= @config[:links][:github] %>/issues), unless already reported.
 
 You can also get help from the community. The developers are busy developing! :)
 
