@@ -10,7 +10,7 @@ social:
   thumbnail: media/russian.png
 ---
 
-Lakka 2.1 RC1 is ready to test! You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
+Lakka 2.1 RC1 is ready to test! You can download the builds from [https://le.builds.lakka.tv](https://le.builds.lakka.tv)
 
 Please note that this is a release candidate meant for testers.
 

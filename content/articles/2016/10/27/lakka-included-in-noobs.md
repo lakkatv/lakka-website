@@ -20,7 +20,7 @@ NOOBS, the *New Out Of the Box Software*, is a tool developed by the Raspberry P
 
 ![NOOBS](media/noobs.png)
 
-You can purchase a pre-installed NOOBS SD card from many retailers, such as [Pimoroni](https://shop.pimoroni.com/products/noobs-8gb-sd-card), [Adafruit](https://www.adafruit.com/products/1583) and [The Pi Hut](http://thepihut.com/collections/raspberry-pi-sd-cards-and-adapters/products/noobs-preinstalled-sd-card. You can alternatively download NOOBS from below and follow the [software setup guide](https://www.raspberrypi.org/learning/software-guide/) and [NOOBS setup guide video](https://www.raspberrypi.org/help/videos/#noobs-setup) in the Raspberry Pi help pages.
+You can purchase a pre-installed NOOBS SD card from many retailers, such as [Pimoroni](https://shop.pimoroni.com/products/noobs-8gb-sd-card), [Adafruit](https://www.adafruit.com/products/1583) and [The Pi Hut](https://thepihut.com/collections/raspberry-pi-sd-cards-and-adapters/products/noobs-preinstalled-sd-card). You can alternatively download NOOBS from below and follow the [software setup guide](https://www.raspberrypi.org/learning/software-guide/) and [NOOBS setup guide video](https://www.raspberrypi.org/help/videos/#noobs-setup) in the Raspberry Pi help pages.
 
 When booting your NOOBS SD card for the first time, you will have the choice of Operating Systems to setup. If you choose Lakka, our latest stable release will be downloaded and installed. You could also try out one of the other great OSes included in the list, and even setup two or three at the same time. It's the easiest way to get both RetroArch and Kodi running without technical knowledge.
 

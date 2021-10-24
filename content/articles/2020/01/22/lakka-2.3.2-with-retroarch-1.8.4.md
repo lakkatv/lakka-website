@@ -100,6 +100,6 @@ As time goes by, we are slowly moving forward to Lakka 3.0, which we already tal
 
 The list of all dropped platforms will be made available when we release Lakka 3.0.
 
-In the meantime, you can already try Lakka 3.0 by downloading an image for your device [here](http://nightly.builds.lakka.tv/latest/)! Since this is a major rewrite of the system, we would like to have user feedbacks as we work on it. Don't hesitate to post an issue on [our GitHub repository](https://github.com/libretro/Lakka-LibreELEC/issues).
+In the meantime, you can already try Lakka 3.0 by downloading an image for your device [here](<%= @config[:devel][:'all-latest'] %>)! Since this is a major rewrite of the system, we would like to have user feedbacks as we work on it. Don't hesitate to post an issue on [our GitHub repository](<%= @config[:links][:github] %>/issues).
 
-You are also welcome to join our [Discord server](https://discordapp.com/invite/27Xxm2h) (`#lakkatv` channel) to contribute to the project, report your findings, ask for support or just hang out with retrogaming and DIY enthusiasts around the globe!
+You are also welcome to join our [Discord server](<%= @config[:links][:discord] %>) (`#lakkatv` channel) to contribute to the project, report your findings, ask for support or just hang out with retrogaming and DIY enthusiasts around the globe!

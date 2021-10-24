@@ -55,7 +55,7 @@ Lakka 2.0 RC4 is now available. This is the last planned Release Candidate befor
 
 ## Installing or upgrading
 
-You can find the latest OS images here: [http://le.builds.lakka.tv/](http://le.builds.lakka.tv/).
+You can find the latest OS images here: [https://le.builds.lakka.tv/](https://le.builds.lakka.tv/).
 
 Users of Lakka 2.0 RC1, RC2 or RC3 can upgrade directly from the graphical interface.
 

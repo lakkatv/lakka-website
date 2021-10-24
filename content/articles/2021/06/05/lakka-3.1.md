@@ -44,10 +44,10 @@ Noteworthy changes since version 3.0:
   - snes9x2005
   - snes9x2005_plus
 
-You can download the latest release from [Lakka download page](/get). If you want to follow the development of Lakka more closely, you can download [latest Lakka nightly builds](https://nightly.builds.lakka.tv/latest).
+You can download the latest release from [Lakka download page](/get). If you want to follow the development of Lakka more closely, you can download [latest Lakka nightly builds](<%= @config[:devel][:'all-latest'] %>).
 
 Many thanks to all the contributors, as well as to the whole community for your long-lasting support. We are grateful to all testers of the nighly builds for finding bugs and testing our attempts to fix them. We would not be able to support so many devices if there wasn't you. Your feedback is always appreciated.
 
-If you want to show your support for further development of the Libretro projects and ecosystem, you can learn more [here](http://retroarch.com/index.php?page=donate).
+If you want to show your support for further development of the Libretro projects and ecosystem, you can learn more [here](https://retroarch.com/index.php?page=donate).
 
 Happy retro-gaming!

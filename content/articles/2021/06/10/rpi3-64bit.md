@@ -15,8 +15,8 @@ social:
 
 Before next release here is a quick update on our progress.
 
-Thanks to our fellow contributor dmrlawson we have nightly builds for Rasberry Pi 3 with 64 bit support. You can grab it [here](https://nightly.builds.lakka.tv/latest/RPi3.aarch64/). Nintendo 64 cores will be included in the next nightly build. PCSX ReARMed will probably not perform well (dynarec is not available). Credit for the aarch64 kernel config goes to antonlacon.
+Thanks to our fellow contributor dmrlawson we have nightly builds for Rasberry Pi 3 with 64 bit support. You can grab it [here](<%= @config[:devel][:'all-latest'] %>RPi3.aarch64/). Nintendo 64 cores will be included in the next nightly build. PCSX ReARMed will probably not perform well (dynarec is not available). Credit for the aarch64 kernel config goes to antonlacon.
 
-And thanks to our another fellow contributor SethBarberee for the fixed GPICase port - the rotation bug is fixed. Get the latest nightly build [here](https://nightly.builds.lakka.tv/latest/GPICase.arm/).
+And thanks to our another fellow contributor SethBarberee for the fixed GPICase port - the rotation bug is fixed. Get the latest nightly build [here](<%= @config[:devel][:'all-latest'] %>GPICase.arm/).
 
 We are looking forward to the next RetroArch release. Please stay tuned for the next version of Lakka.

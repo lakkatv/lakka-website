@@ -19,7 +19,7 @@ This version required a lot of teamwork. We merged in LibreELEC 8.2 Bêta change
 
 Ntemis added support for some Rockchip boards, including the ASUS Tinkerboard. These new images are still experimental.
 
-You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv)
+You can download the builds from [https://le.builds.lakka.tv](https://le.builds.lakka.tv)
 
 ![Citra](media/dolphin.jpg)
 

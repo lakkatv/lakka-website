@@ -20,7 +20,7 @@ index_filenames: [ 'index.html' ]
 enable_output_diff: false
 
 # Sitemap requires url to be specified
-base_url: http://www.lakka.tv
+base_url: https://www.lakka.tv
 
 site_name: "Lakka"
 site_slogan: "The DIY open source retrogaming emulation console"
@@ -154,6 +154,15 @@ devel:
   oxu3: https://nightly.builds.lakka.tv/latest/OdroidXU3.arm/
   switch: https://nightly.builds.lakka.tv/latest/Switch.aarch64/
   all-latest: https://nightly.builds.lakka.tv/latest/
+
+links:
+  discord: https://discordapp.com/invite/27Xxm2h
+  webchat: https://web.libera.chat/#lakkatv
+  facebook: https://www.facebook.com/lakkatv
+  youtube: https://www.youtube.com/c/LakkaTv
+  github: https://github.com/libretro/Lakka-LibreELEC
+  twitter: https://twitter.com/lakkatv
+  forum: https://forums.libretro.com/c/libretro/lakka-tv-general
 
 deploy:
   default:

@@ -23,7 +23,7 @@ This release is a huge step forward in many aspects: UI, emulator cores, and sup
 
 ![lakka.png](media/lakka.png)
 
-You can download the builds from our installation [tutorial](http://www.lakka.tv/get/).
+You can download the builds from our installation [tutorial](/get).
 
 ## Changelog
 

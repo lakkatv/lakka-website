@@ -11,7 +11,7 @@ tags:
 
 ## We received a package
 
-Lately we had several request for an odroid port, so we asked [Hardkernel](http://hardkernel.com/) if they'd like to provide us with some of their awesome boards.
+Lately we had several request for an odroid port, so we asked [Hardkernel](https://hardkernel.com/) if they'd like to provide us with some of their awesome boards.
 
 And then, yesterday we received this package :
 
@@ -19,7 +19,7 @@ And then, yesterday we received this package :
 
 Here is what we found inside :
 
-Two [Odroid C1](http://odroid.com/dokuwiki/doku.php?id=en:odroid-c1) boards and everything needed to run them:
+Two [Odroid C1](https://odroid.com/dokuwiki/doku.php?id=en:odroid-c1) boards and everything needed to run them:
 
 ![Package content](media/content.jpg)
 

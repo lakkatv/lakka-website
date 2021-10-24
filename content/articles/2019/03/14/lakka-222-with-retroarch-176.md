@@ -19,6 +19,6 @@ Changelog:
  - RetroArch 1.7.6 with important improvements on the Ozone menu
  - Almost all the libretro cores are updated, including a fix for mupen64plus
 
-You can download the builds from [http://le.builds.lakka.tv](http://le.builds.lakka.tv) or update your existing installation through the Online Updater.
+You can download the builds from [https://le.builds.lakka.tv](https://le.builds.lakka.tv) or update your existing installation through the Online Updater.
 
 Happy retro gaming!

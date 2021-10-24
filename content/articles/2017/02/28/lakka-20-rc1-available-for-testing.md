@@ -28,7 +28,7 @@ RetroArch 1.4.1 features an new **intuitive netplay** mode, which doesn't requir
 
 Since it is a Release Candidate, we've not yet updated the links in the installation tutorials nor the documentation pages.
 
-These 2.0 builds are available here [http://le.builds.lakka.tv](http://le.builds.lakka.tv). Testers need to do a clean install from scratch. And bugs can be reported on this [new dedicated tracker](https://github.com/lakkatv/Lakka-LibreELEC/issues). Please avoid feature requests for now, we're focusing on fixing regressions first.
+These 2.0 builds are available here [https://le.builds.lakka.tv](https://le.builds.lakka.tv). Testers need to do a clean install from scratch. And bugs can be reported on this [new dedicated tracker](<%= @config[:links][:github] %>/issues). Please avoid feature requests for now, we're focusing on fixing regressions first.
 
 We hope to be able to release this Lakka 2.0 as the new stable version during march. And we will push new release candidates once or twice per week during that time.
 

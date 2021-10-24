@@ -19,7 +19,7 @@ Unfortunately, these drivers are nowhere as complete as Intel or AMD ones, so wh
   - no support for recent GPUs
   - no Vulkan
 
-Because of the above, PCs with nvidia GPUs were not a good target for Lakka. To overcome the limitations and unleash full potential of these GPUs, the following new experimental builds of Lakka for x86_64 are now available from [here](http://le.builds.lakka.tv/exp/):
+Because of the above, PCs with nvidia GPUs were not a good target for Lakka. To overcome the limitations and unleash full potential of these GPUs, the following new experimental builds of Lakka for x86_64 are now available from [here](https://le.builds.lakka.tv/exp/):
 
 ## Generic_VK_nvidia
 

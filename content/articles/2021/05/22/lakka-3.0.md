@@ -56,4 +56,4 @@ We are also preparing for next major release, which will be based on LibreELEC 1
 
 We thank all contributors, who made this release possible, notably to Natinusala, Demetris and davidgf for the Odroid Go Advance ports, and shoutout to Team LibreELEC for their work as well. Special thanks goes to the Switchroot Team - CTCaer, Azkali, Natinusala, M4XW, Plaidman and gavin_darkglider to name a few - for the port to Nintendo Switch.
 
-You are welcome to join our [Discord server](https://discordapp.com/invite/27Xxm2h) (`#lakkatv` channel) to contribute to the project, report your findings, ask for support or just hang out with retrogaming and DIY enthusiasts around the globe!
+You are welcome to join our [Discord server](<%= @config[:links][:discord] %>) (`#lakkatv` channel) to contribute to the project, report your findings, ask for support or just hang out with retrogaming and DIY enthusiasts around the globe!

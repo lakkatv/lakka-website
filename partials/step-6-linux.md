@@ -1,57 +1,57 @@
-## Adding and launching a game
+<h2>Adding and launching a game</h2>
 
-### Adding a game using network share
+<h3>Adding a game using network share</h3>
 
-Your Lakka Box and your Computer must be connected to the same Network. Please use an Ethernet wire or configure the Wi-Fi connection. You also need to enable SAMBA in Settings->Services:
+<p>Your Lakka Box and your Computer must be connected to the same Network. Please use an Ethernet wire or configure the Wi-Fi connection. You also need to enable SAMBA in Settings &rarr; Services:</p>
 
-![Enabling SAMBA](/images/lakkamenuenablesamba.png)
+<p><img src="/images/lakkamenuenablesamba.png" alt="Enabling SAMBA" /></p>
 
-Open your File Browser.
+<p>Open your File Browser.</p>
 
-In the left column, you should see a *Network* icon:
+<p>In the left column, you should see a <em>Network</em> icon:</p>
 
-![Share](/images/linuxsamba1.png)
+<p><img src="/images/linuxsamba1.png" alt="Share" /></p>
 
-Unfold this Network icon, and see if *Lakka* shows up.
+<p>Unfold this Network icon, and see if <em>Lakka</em> shows up.</p>
 
-If Lakka is there, clicking on it will lead you to a list of folders:
+<p>If Lakka is there, clicking on it will lead you to a list of folders:</p>
 
-![Share](/images/linuxsamba2.png)
+<p><img src="/images/linuxsamba2.png" alt="Share" /></p>
 
-Copy your games under the **roms** folder. This step can take some time, as the games are transferred to the Lakka Box through your local network.
+<p>Copy your games under the <strong>roms</strong> folder. This step can take some time, as the games are transferred to the Lakka Box through your local network.</p>
 
-It is a good idea to start testing a Super Nintendo game, because they require no BIOS to run.
+<p>It is a good idea to start testing a Super Nintendo game, because they require no BIOS to run.</p>
 
-We recommend games from the **no-intro** sets, because they are clean, tested, and will scan properly.
+<p>We recommend games from the <strong>no-intro</strong> sets, because they are clean, tested, and will scan properly.</p>
 
-### Scanning your games
+<h3 id="scanning-your-games">Scanning your games</h3>
 
-Using your joypad, go to the last tab with the + icon.
+<p>Using your joypad, go to the last tab with the + icon.</p>
 
-Choose the directory to scan. If you added your game directly to the *roms* folder, then just choose **Scan This Directory**.
+<p>Choose the directory to scan. If you added your game directly to the <em>roms</em> folder, then just choose <strong>Scan This Directory</strong>.</p>
 
-![Scanning content](/images/lakkamenuscan.png)
+<p><img src="/images/lakkamenuscan.png" alt="Scanning content" /></p>
 
-Yellow messages will appear at the bottom of the screen, informing you about the progress of the scanning task.
+<p>Yellow messages will appear at the bottom of the screen, informing you about the progress of the scanning task.</p>
 
-Once finished, you will see a new tab at the right end of the menu.
+<p>Once finished, you will see a new tab at the right end of the menu.</p>
 
-### Launching a game
+<h3 id="launching-a-game">Launching a game</h3>
 
-Go to the new tab you just created. You should see your games in the list.
+<p>Go to the new tab you just created. You should see your games in the list.</p>
 
-![Browse roms](/images/lakkamenufindrom.png)
+<p><img src="/images/lakkamenufindrom.png" alt="Browse roms" /></p>
 
-Select the rom you want to run:
+<p>Select the rom you want to run:</p>
 
-![Run](/images/lakkamenurunrom.png)
+<p><img src="/images/lakkamenurunrom.png" alt="Run" /></p>
 
-The game should be starting:
+<p>The game should be starting:</p>
 
-![Game start](/images/rguiromlaunched.png)
+<p><img src="/images/rguiromlaunched.png" alt="Game start" /></p>
 
-If you need more information, please read our [FAQ](/doc/FAQ) and our [documentation](/doc/Home).
+<p>If you need more information, please read our <a href="/doc/FAQ">FAQ</a> and our <a href="/doc/Home">documentation</a>.</p>
 
-If you need help, join us on [IRC](irc://irc.freenode.org/#lakkatv), or register on our [forum](https://forums.libretro.com/c/libretro/lakka-tv-general).
+<p>If you need help, join us on <a href="<%= @config[:links][:discord] %>">Discord</a>, <a href="<%= @config[:links][:webchat] %>">IRC</a>, or register on our <a href="<%= @config[:links][:forum] %>">forum</a>.</p>
 
-Happy gaming!
+<p>Happy gaming!</p>
