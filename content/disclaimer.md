@@ -14,4 +14,4 @@ You can also get help from the community. The developers are busy developing! :)
 
 We need help to improve our documentation, so if you believe you can contribute, please get in touch with us.
 
-<p class="dl"><a href="/get" class="button">Get Lakka</a></p>
+<p class="dl"><a href="/get/" class="button">Get Lakka</a></p>
