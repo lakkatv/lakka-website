@@ -8,6 +8,7 @@ class DocLinksFilter < Nanoc::Filter
     needles.each do |needle|
       if needle[6,1] != '#'
         replacement = needle.sub '="', '="/doc/'
+        replacement = replacement[0...-1] << '/"'
       else
         replacement = needle
       end

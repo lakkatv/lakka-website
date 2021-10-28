@@ -23,7 +23,7 @@ Changes since version 3.5:
 - Updated Kernel/Firmware
    - fixed Analog / CRT output on Raspberry Pi (thanks to [kFYatek](https://github.com/kFYatek), see [examples](/doc/Raspberry-Pi/#composite-output))
 
-You can download the latest release from [Lakka download page](/get). If you want to follow the development of Lakka more closely, you can download [latest Lakka nightly builds](<%= @config[:devel][:'all-latest'] %>).
+You can download the latest release from [Lakka download page](/get/). If you want to follow the development of Lakka more closely, you can download [latest Lakka nightly builds](<%= @config[:devel][:'all-latest'] %>).
 
 If you want to show your support for further development of the Libretro projects and ecosystem, you can learn more [here](https://retroarch.com/index.php?page=donate).
 

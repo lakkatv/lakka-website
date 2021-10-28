@@ -29,7 +29,7 @@ same source code, from the same place.
 replaced it by instruction to contact us. Don't worry though, it will be back
 soon.
 * [About](/about) contains legal and miscellaneous information.
-* We also refactored the [installation tutorial](/get) and cleaned up W3C validations
+* We also refactored the [installation tutorial](/get/) and cleaned up W3C validations
 issues on it.
 
 Of course are working on improving your walk here and by the way we would
