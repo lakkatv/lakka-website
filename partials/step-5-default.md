@@ -1,6 +1,14 @@
 ## First boot
 
+
 Follow the following steps:
+
+### Handheld devices
+
+1.  Insert the SD card into your console
+2.  Power on your console
+
+### SBCs / TV Boxes
 
 1.  Insert the SD card into your device
 2.  Connect a HDMI wire from your device to your display device
@@ -9,7 +17,8 @@ Follow the following steps:
 5.  Plug in a supported joypad into one of the USB ports on your device
 6.  Plug in the power supply of your device / turn your device on
 
-You should see our splash screen:
+
+After your device turns on you should see our splash screen:
 
 ![Splash Screen](/images/splash.png)
 
