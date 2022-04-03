@@ -71,7 +71,7 @@ To auto-connect your paired game controller after boot, make sure that Bluetooth
 You can download this release candidate:
 
 - Use the Online Updater in RetroArch (recommended; for devices with 2 GB RAM or more)
-- Use the command line update script `lakka-update.sh` (in case your device has 1 GB of RAM or less)
+- Use the command line update script `lakka-update` (in case your device has 1 GB of RAM or less)
 - [Download update .tar file](https://le-builds.lakka.tv/.Lakka-4.1-rc) and transfer the file:
   - to `/storage/.update` using SCP / SFTP
   - to the share `Updater` using SAMBA
