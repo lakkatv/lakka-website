@@ -29,7 +29,7 @@ Changes since version 4.2:
   - `puae2021`: added new libretro core (Amiga, less demanding version of the core)
 - Mesa updated to [22.1.7](https://docs.mesa3d.org/relnotes/22.1.7.html)
 - Added image for Orange Pi 4 LTS (Rockchip RK3399)
-- Added support for more Nintendo Switch variants (Hekate 5.0.1+ is required, on Nintento Switch Lite use touchscreen to change the default input device: Settings &rarr; Input &rarr; Port 1 Controls &rarr; Device Index &rarr; top most item)
+- Added support for more Nintendo Switch variants (Hekate 6.0.1+ is required, on Nintento Switch Lite use touchscreen to change the default input device: Settings &rarr; Input &rarr; Port 1 Controls &rarr; Device Index &rarr; top most item)
 - Updated Linux kernel
   - mainline: 5.10.123
   - raspberry: 5.10.110
