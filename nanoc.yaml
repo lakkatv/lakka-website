@@ -69,126 +69,149 @@ data_sources:
     allow_periods_in_identifiers: true
 
 release:
-  x86_64: https://le-builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-4.3.img.gz
-  i386:   https://le-builds.lakka.tv/Generic.i386/Lakka-Generic.i386-4.3.img.gz
+  x86_64: https://le-builds.lakka.tv/Generic.x86_64/Lakka-Generic.x86_64-5.0.img.gz
+  i386:   https://le-builds.lakka.tv/Generic.i386/Lakka-Generic.i386-5.0.img.gz
+  x11:    https://le-builds.lakka.tv/x11.x86_64/Lakka-x11.x86_64-5.0.img.gz
+  waylnd: https://le-builds.lakka.tv/wayland.x86_64/Lakka-wayland.x86_64-5.0.img.gz
 
-  allwinner.a64_orangepi_win: https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-4.3-orangepi-win.img.gz
-  allwinner.a64_pine64_lts:   https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-4.3-pine64-lts.img.gz
-  allwinner.a64_pine64_plus:  https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-4.3-pine64-plus.img.gz
-  allwinner.a64_pine64:       https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-4.3-pine64.img.gz
+  allwinner.a64_orangepi_win: https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-5.0-orangepi-win.img.gz
+  allwinner.a64_pine64_lts:   https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-5.0-pine64-lts.img.gz
+  allwinner.a64_pine64_plus:  https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-5.0-pine64-plus.img.gz
+  allwinner.a64_pine64:       https://le-builds.lakka.tv/A64.aarch64/Lakka-A64.aarch64-5.0-pine64.img.gz
 
-  allwinner.h2plus_bananapi_m2_zero: https://le-builds.lakka.tv/H2-plus.arm/Lakka-H2-plus.arm-4.3-bananapi-m2-zero.img.gz
+  allwinner.h2plus_bananapi_m2_zero: https://le-builds.lakka.tv/H2-plus.arm/Lakka-H2-plus.arm-5.0-bananapi-m2-zero.img.gz
 
-  allwinner.h3_bananapi_m2p:     https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-bananapi-m2p.img.gz
-  allwinner.h3_beelink_x2:       https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-beelink-x2.img.gz
-  allwinner.h3_libretech_h3:     https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-libretech-h3.img.gz
-  allwinner.h3_nanopi_m1:        https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-nanopi-m1.img.gz
-  allwinner.h3_orangepi_2:       https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-orangepi-2.img.gz
-  allwinner.h3_orangepi_pc_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-orangepi-pc-plus.img.gz
-  allwinner.h3_orangepi_pc:      https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-orangepi-pc.img.gz
-  allwinner.h3_orangepi_plus:    https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-orangepi-plus.img.gz
-  allwinner.h3_orangepi_plus2e:  https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-orangepi-plus2e.img.gz
+  allwinner.h3_bananapi_m2p:     https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-bananapi-m2p.img.gz
+  allwinner.h3_beelink_x2:       https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-beelink-x2.img.gz
+  allwinner.h3_libretech_h3:     https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-libretech-h3.img.gz
+  allwinner.h3_nanopi_m1:        https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-nanopi-m1.img.gz
+  allwinner.h3_orangepi_2:       https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-orangepi-2.img.gz
+  allwinner.h3_orangepi_pc_plus: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-orangepi-pc-plus.img.gz
+  allwinner.h3_orangepi_pc:      https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-orangepi-pc.img.gz
+  allwinner.h3_orangepi_plus:    https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-orangepi-plus.img.gz
+  allwinner.h3_orangepi_plus2e:  https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-orangepi-plus2e.img.gz
 
-  capcom-home-arcade: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-4.3-capcom-home-arcade.img.gz
+  capcom-home-arcade: https://le-builds.lakka.tv/H3.arm/Lakka-H3.arm-5.0-capcom-home-arcade.img.gz
 
-  allwinner.h5_orangepi_pc2: https://le-builds.lakka.tv/H5.aarch64/Lakka-H5.aarch64-4.3-orangepi-pc2.img.gz
-  allwinner.h5_tritium_h5:   https://le-builds.lakka.tv/H5.aarch64/Lakka-H5.aarch64-4.3-tritium-h5.img.gz
+  allwinner.h5_orangepi_pc2: https://le-builds.lakka.tv/H5.aarch64/Lakka-H5.aarch64-5.0-orangepi-pc2.img.gz
+  allwinner.h5_tritium_h5:   https://le-builds.lakka.tv/H5.aarch64/Lakka-H5.aarch64-5.0-tritium-h5.img.gz
 
-  allwinner.h6_beeling_gs1:       https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-beeling-gs1.img.gz
-  allwinner.h6_orangepi_3:        https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-orangepi-3.img.gz
-  allwinner.h6_orangepi_lite2:    https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-orangepi-lite2.img.gz
-  allwinner.h6_orangepi_one_plus: https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-orangepi-one-plus.img.gz
-  allwinner.h6_pine_h64_model_b:  https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-pine-h64-model-b.img.gz
-  allwinner.h6_pine_h64:          https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-pine-h64.img.gz
-  allwinner.h6_tanix_tx6:         https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-4.3-tanix-tx6.img.gz
+  allwinner.h6_beelink_gs1:       https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-beelink-gs1.img.gz
+  allwinner.h6_orangepi_3:        https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-orangepi-3.img.gz
+  allwinner.h6_orangepi_lite2:    https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-orangepi-lite2.img.gz
+  allwinner.h6_orangepi_one_plus: https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-orangepi-one-plus.img.gz
+  allwinner.h6_pine_h64_model_b:  https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-pine-h64-model-b.img.gz
+  allwinner.h6_pine_h64:          https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-pine-h64.img.gz
+  allwinner.h6_tanix_tx6:         https://le-builds.lakka.tv/H6.aarch64/Lakka-H6.aarch64-5.0-tanix-tx6.img.gz
 
-  allwinner.r40_bananapi_m2u: https://le-builds.lakka.tv/R40.arm/Lakka-R40.arm-4.3-bananapi-m2u.img.gz
+  allwinner.h616_orangepi_zero2: https://le-builds.lakka.tv/H616.aarch64/Lakka-H616.aarch64-5.0-orangepi-zero2.img.gz
 
-  aml.gx_generic:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-box.img.gz
-  aml.gx_khadas_vim:   https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-khadas-vim.img.gz
-  aml.gx_khadas_vim2:  https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-khadas-vim2.img.gz
-  aml.gx_khadas_vim3:  https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-khadas-vim3.img.gz
-  aml.gx_khadas_vim3l: https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-khadas-vim3l.img.gz
-  aml.gx_lafrite:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-lafrite.img.gz
-  aml.gx_lepotato:     https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-lepotato.img.gz
-  aml.gx_nanopi_k2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-nanopi-k2.img.gz
-  aml.gx_odroid_c2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-odroid-c2.img.gz
-  aml.gx_odroid_c4:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-odroid-c4.img.gz
-  aml.gx_odroid_hc4:   https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-odroid-hc4.img.gz
-  aml.gx_odroid_n2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-4.3-odroid-n2.img.gz
+  allwinner.r40_bananapi_m2u: https://le-builds.lakka.tv/R40.arm/Lakka-R40.arm-5.0-bananapi-m2u.img.gz
 
-  rpi.gpicase: https://le-builds.lakka.tv/GPICase.arm/Lakka-GPICase.arm-4.3.img.gz
-  rpi.pi02gpi: https://le-builds.lakka.tv/Pi02GPi.arm/Lakka-Pi02GPi.arm-4.3.img.gz
-  rpi.rpi: https://le-builds.lakka.tv/RPi.arm/Lakka-RPi.arm-4.3.img.gz
-  rpi.rpi2: https://le-builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-4.3.img.gz
-  rpi.rpi3-64: https://le-builds.lakka.tv/RPi3.aarch64/Lakka-RPi3.aarch64-4.3.img.gz
-  rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-4.3.img.gz
-  rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch64-4.3.img.gz
-  rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch64-4.3.img.gz
+  aml.gx_generic:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-box.img.gz
+  aml.gx_khadas_vim:   https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-khadas-vim.img.gz
+  aml.gx_khadas_vim2:  https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-khadas-vim2.img.gz
+  aml.gx_khadas_vim3:  https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-khadas-vim3.img.gz
+  aml.gx_khadas_vim3l: https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-khadas-vim3l.img.gz
+  aml.gx_lafrite:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-lafrite.img.gz
+  aml.gx_lepotato:     https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-lepotato.img.gz
+  aml.gx_nanopi_k2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-nanopi-k2.img.gz
+  aml.gx_odroid_c2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-odroid-c2.img.gz
+  aml.gx_odroid_c4:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-odroid-c4.img.gz
+  aml.gx_odroid_hc4:   https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-odroid-hc4.img.gz
+  aml.gx_odroid_n2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-odroid-n2.img.gz
+  aml.gx_bpi_cm4io:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-bananapi-cm4io.img.gz
+  aml.gx_bpi_m2pro:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-bananapi-m2-pro.img.gz
+  aml.gx_bpi_m2s:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-bananapi-m2s.img.gz
+  aml.gx_bpi_m5:       https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-bananapi-m5.img.gz
+  aml.gx_rdx_zero2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-radxa-zero2.img.gz
+  aml.gx_rdx_zero:     https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-radxa-zero.img.gz
+  aml.gx_wtk_core2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-wetek-core2.img.gz
+  aml.gx_wtk_hub:      https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-wetek-hub.img.gz
+  aml.gx_wtk_play2:    https://le-builds.lakka.tv/AMLGX.aarch64/Lakka-AMLGX.aarch64-5.0-wetek-play2.img.gz
 
-  nxp.imx6_cubox:     https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-4.3-cubox.img.gz
-  nxp.imx6_udoo:      https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-4.3-udoo.img.gz
-  nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-4.3-wandboard.img.gz
+  rpi.gpicase: https://le-builds.lakka.tv/GPICase.arm/Lakka-GPICase.arm-5.0.img.gz
+  rpi.pi02gpi: https://le-builds.lakka.tv/Pi02GPi.arm/Lakka-Pi02GPi.arm-5.0.img.gz
+  rpi.piz2gpi: https://le-builds.lakka.tv/RPiZero2-GPiCASE2W.aarch64/Lakka-RPiZero2-GPiCASE2W-5.0.img.gz
+  rpi.rpi: https://le-builds.lakka.tv/RPi.arm/Lakka-RPi.arm-5.0.img.gz
+  rpi.rpi2: https://le-builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-5.0.img.gz
+  rpi.rpi3-64: https://le-builds.lakka.tv/RPi3.aarch64/Lakka-RPi3.aarch64-5.0.img.gz
+  rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-5.0.img.gz
+  rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch64-5.0.img.gz
+  rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch64-5.0.img.gz
+  rpi.rpi4-gpicase2: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4-GPICase2.aarch64-5.0.img.gz
 
-  nxp.imx8_mq_evk:  https://le-builds.lakka.tv/iMX8.aarch64/Lakka-iMX8.aarch-4.3-mq-evk.img.gz
-  nxp.imx8_pico_mq: https://le-builds.lakka.tv/iMX8.aarch64/Lakka-iMX8.aarch-4.3-pico-mq.img.gz
+  nxp.imx6_cubox:     https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-5.0-cubox.img.gz
+  nxp.imx6_udoo:      https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-5.0-udoo.img.gz
+  nxp.imx6_wandboard: https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-5.0-wandboard.img.gz
 
-  rockchip.rk3288_miqi:   https://le-builds.lakka.tv/RK3288.arm/Lakka-RK3288.arm-4.3-miqi.img.gz
-  rockchip.rk3288_tinker: https://le-builds.lakka.tv/RK3288.arm/Lakka-RK3288.arm-4.3-tinker.img.gz
+  nxp.imx8_mq_evk:  https://le-builds.lakka.tv/iMX8.aarch64/Lakka-iMX8.aarch-5.0-mq-evk.img.gz
+  nxp.imx8_pico_mq: https://le-builds.lakka.tv/iMX8.aarch64/Lakka-iMX8.aarch-5.0-pico-mq.img.gz
 
-  rockchip.rk3328_a1:      https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-4.3-a1.img.gz
-  rockchip.rk3328_roc_cc:  https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-4.3-roc-cc.img.gz
-  rockchip.rk3328_rock64:  https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-4.3-rock64.img.gz
+  rockchip.rk3288_miqi:   https://le-builds.lakka.tv/RK3288.arm/Lakka-RK3288.arm-5.0-miqi.img.gz
+  rockchip.rk3288_tinker: https://le-builds.lakka.tv/RK3288.arm/Lakka-RK3288.arm-5.0-tinker.img.gz
 
-  rockchip.rk3399_hugsun_x99:   https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-hugsung_x99.img.gz
-  rockchip.rk3399_khadas_edge:  https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-khadas-edge.img.gz
-  rockchip.rk3399_nanopc_t4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-nanopc-t4.img.gz
-  rockchip.rk3399_nanopi_m4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-nanopi-m4.img.gz
-  rockchip.rk3399_orangepi:     https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-orangepi.img.gz
-  rockchip.rk3399_orangepi4lts: https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-orangepi-4-lts.img.gz
-  rockchip.rk3399_roc_pc:       https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-roc_pc.img.gz
-  rockchip.rk3399_rock_pi_4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-rock-pi-4.img.gz
-  rockchip.rk3399_rock_pi_n10:  https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-rock-pi-n10.img.gz
-  rockchip.rk3399_rock960:      https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-rock960.img.gz
-  rockchip.rk3399_rockpro64:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-rockpro64.img.gz
-  rockchip.rk3399_sapphire:     https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-4.3-sapphire.img.gz
+  rockchip.rk3328_a1:      https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-5.0-a1.img.gz
+  rockchip.rk3328_roc_cc:  https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-5.0-roc-cc.img.gz
+  rockchip.rk3328_rock64:  https://le-builds.lakka.tv/RK3328.aarch64/Lakka-RK3328.aarch64-5.0-rock64.img.gz
 
-  switch: https://le-builds.lakka.tv/Switch.aarch64/Lakka-Switch.aarch64-4.3.7z
+  rockchip.rk3399_hugsun_x99:   https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-hugsung_x99.img.gz
+  rockchip.rk3399_khadas_edge:  https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-khadas-edge.img.gz
+  rockchip.rk3399_nanopc_t4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-nanopc-t4.img.gz
+  rockchip.rk3399_nanopi_m4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-nanopi-m4.img.gz
+  rockchip.rk3399_orangepi:     https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-orangepi.img.gz
+  rockchip.rk3399_orangepi4lts: https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-orangepi-4-lts.img.gz
+  rockchip.rk3399_roc_pc:       https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-roc-pc.img.gz
+  rockchip.rk3399_roc_pcp:      https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-roc-pc-plus.img.gz
+  rockchip.rk3399_rock_pi_4:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rock-pi-4.img.gz
+  rockchip.rk3399_rock_pi_4p:   https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rock-pi-4-plus.img.gz
+  rockchip.rk3399_rock_pi_4cp:  https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rock-pi-4c-plus.img.gz
+  rockchip.rk3399_rock_pi_n10:  https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rock-pi-n10.img.gz
+  rockchip.rk3399_rock960:      https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rock960.img.gz
+  rockchip.rk3399_rockpro64:    https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-rockpro64.img.gz
+  rockchip.rk3399_sapphire:     https://le-builds.lakka.tv/RK3399.aarch64/Lakka-RK3399.aarch64-5.0-sapphire.img.gz
+
+  switch: https://le-builds.lakka.tv/Switch.aarch64/Lakka-Switch.aarch64-5.0.7z
 
   rockchip.rk3326_odroidgo2: https://le-builds.lakka.tv/OdroidGoAdvance.arm/Lakka-OdroidGoAdvance.arm-3.7.4-odroidgo2.img.gz
   rockchip.rk3326_chi:       https://le-builds.lakka.tv/OdroidGoAdvance.arm/Lakka-OdroidGoAdvance.arm-3.7.4-gameforce-chi.img.gz
   rockchip.rk3326_rg351p:    https://le-builds.lakka.tv/OdroidGoAdvance.arm/Lakka-OdroidGoAdvance.arm-3.7.4-rg351p.img.gz
   rockchip.rk3326_rg351v:    https://le-builds.lakka.tv/OdroidGoAdvance.arm/Lakka-OdroidGoAdvance.arm-3.7.4-rg351v.img.gz
   rockchip.rk3326_rg351mp:   https://le-builds.lakka.tv/OdroidGoAdvance.arm/Lakka-OdroidGoAdvance.arm-3.7.4-rg351mp.img.gz
-  
-  odroidxu3: https://le-builds.lakka.tv/OdroidXU3.arm/Lakka-OdroidXU3.arm-3.7.4.img.gz
+
+  exynos.xu3: https://le-builds.lakka.tv/Exynos.arm/Lakka-Exynos.arm-5.0-odroid-xu3.img.gz
+  exynos.xu4: https://le-builds.lakka.tv/Exynos.arm/Lakka-Exynos.arm-5.0-odroid-xu4.img.gz
 
 devel:
   i386: https://nightly.builds.lakka.tv/latest/Generic.i386/
   x86_64: https://nightly.builds.lakka.tv/latest/Generic.x86_64/
+  waylnd: https://nightly.builds.lakka.tv/latest/wayland.x86_64/
+  x11: https://nightly.builds.lakka.tv/latest/x11.x86_64/
   allwinner-a64: https://nightly.builds.lakka.tv/latest/A64.aarch64/
   allwinner-h2plus: https://nightly.builds.lakka.tv/latest/H2-plus.arm/
   allwinner-h3: https://nightly.builds.lakka.tv/latest/H3.arm/
   allwinner-h5: https://nightly.builds.lakka.tv/latest/H5.aarch64/
   allwinner-h6: https://nightly.builds.lakka.tv/latest/H6.aarch64/
+  allwinner-h616: https://nightly.builds.lakka.tv/latest/H616.aarch64/
   allwinner-r40: https://nightly.builds.lakka.tv/latest/R40.arm/
   imx6: https://nightly.builds.lakka.tv/latest/iMX6.arm/
   imx8: https://nightly.builds.lakka.tv/latest/iMX8.aarch64/
   rpi: https://nightly.builds.lakka.tv/latest/RPi.arm/
   gpicase: https://nightly.builds.lakka.tv/latest/GPICase.arm/
   pi02gpi: https://nightly.builds.lakka.tv/latest/Pi02GPi.arm/
+  rpiz2gpi: https://nightly.builds.lakka.tv/latest/RPiZero2-GPiCASE2W.aarch64/
   rpi2: https://nightly.builds.lakka.tv/latest/RPi2.arm/
   rpi3-64: https://nightly.builds.lakka.tv/latest/RPi3.aarch64/
   rpi4: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
-  rpi4-32: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
   rpi4-retrodreamer-64: https://nightly.builds.lakka.tv/latest/RPi4-RetroDreamer.aarch64/
   rpi4-piboydmg-64: https://nightly.builds.lakka.tv/latest/RPi4-PiBoyDmg.aarch64/
+  rpi4-gpicase2-64: https://nightly.builds.lakka.tv/latest/RPi4-GPICase2.aarch64/
   aml-gx: https://nightly.builds.lakka.tv/latest/AMLGX.arm/
   rk3288: https://nightly.builds.lakka.tv/latest/RK3288.arm/
   rk3328: https://nightly.builds.lakka.tv/latest/RK3328.aarch64/
   rk3399: https://nightly.builds.lakka.tv/latest/RK3399.aarch64/
   oga: https://nightly.builds.lakka.tv/latest/OdroidGoAdvance.arm/
-  oxu3: https://nightly.builds.lakka.tv/latest/OdroidXU3.arm/
+  exynos: https://nightly.builds.lakka.tv/latest/Exynos.arm/
   switch: https://nightly.builds.lakka.tv/latest/Switch.aarch64/
   all-latest: https://nightly.builds.lakka.tv/latest/
 
