@@ -137,6 +137,7 @@ release:
   rpi.rpi2: https://le-builds.lakka.tv/RPi2.arm/Lakka-RPi2.arm-5.0.img.gz
   rpi.rpi3-64: https://le-builds.lakka.tv/RPi3.aarch64/Lakka-RPi3.aarch64-5.0.img.gz
   rpi.rpi4: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4.aarch64-5.0.img.gz
+  rpi.rpi5: https://le-builds.lakka.tv/RPi5.aarch64/Lakka-RPi5.aarch64-5.0.img.gz
   rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch64-5.0.img.gz
   rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch64-5.0.img.gz
   rpi.rpi4-gpicase2: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4-GPICase2.aarch64-5.0.img.gz
@@ -203,6 +204,7 @@ devel:
   rpi2: https://nightly.builds.lakka.tv/latest/RPi2.arm/
   rpi3-64: https://nightly.builds.lakka.tv/latest/RPi3.aarch64/
   rpi4: https://nightly.builds.lakka.tv/latest/RPi4.aarch64/
+  rpi5: https://nightly.builds.lakka.tv/latest/RPi5.aarch64/
   rpi4-retrodreamer-64: https://nightly.builds.lakka.tv/latest/RPi4-RetroDreamer.aarch64/
   rpi4-piboydmg-64: https://nightly.builds.lakka.tv/latest/RPi4-PiBoyDmg.aarch64/
   rpi4-gpicase2-64: https://nightly.builds.lakka.tv/latest/RPi4-GPICase2.aarch64/
