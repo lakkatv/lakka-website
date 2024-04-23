@@ -140,7 +140,7 @@ release:
   rpi.rpi5: https://le-builds.lakka.tv/RPi5.aarch64/Lakka-RPi5.aarch64-5.0.img.gz
   rpi.rpi4-retrodreamer-64: https://le-builds.lakka.tv/RPi4-RetroDreamer.aarch64/Lakka-RPi4-RetroDreamer.aarch64-5.0.img.gz
   rpi.rpi4-piboydmg-64: https://le-builds.lakka.tv/RPi4-PiBoyDmg.aarch64/Lakka-RPi4-PiBoyDmg.aarch64-5.0.img.gz
-  rpi.rpi4-gpicase2: https://le-builds.lakka.tv/RPi4.aarch64/Lakka-RPi4-GPICase2.aarch64-5.0.img.gz
+  rpi.rpi4-gpicase2: https://le-builds.lakka.tv/RPi4-GPICase2.aarch64/Lakka-RPi4-GPICase2.aarch64-5.0.img.gz
 
   nxp.imx6_cubox:     https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-5.0-cubox.img.gz
   nxp.imx6_udoo:      https://le-builds.lakka.tv/iMX6.arm/Lakka-iMX6.arm-5.0-udoo.img.gz
