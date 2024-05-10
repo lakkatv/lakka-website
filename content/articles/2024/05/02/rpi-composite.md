@@ -37,7 +37,7 @@ You can download the images from below links:
 - [Raspberry Pi 4](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi4-Composite.aarch64/Lakka-RPi4-Composite.aarch64-20240510-7a626a4.img.gz)
 - [Raspberry Pi 5](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi5-Composite.aarch64/Lakka-RPi5-Composite.aarch64-20240510-7a626a4.img.gz)
 
-Once updated images will be released with community fixes and updates, use the built-in online updater to download new udpates.
+Once updated images will be released with community fixes and updates, use the built-in online updater to download new updates.
 
 Remember to configure each core individually to have an integer vertical height, which varies per core (like 224 or 240 for NES). And mainly use a tvout shader to horizontally even out / blur pixels and alleviate composite artifacting.
 
