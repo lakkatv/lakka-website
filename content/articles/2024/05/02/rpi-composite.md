@@ -19,7 +19,7 @@ _Thumbnail by MegaManGB_
 
 Special community version of Lakka has been released!
 
-This special version is aimed at Raspberry Pi SBCs, namely Pi 3, Pi 4 and Pi 5. Out of the box these builds work with the composite video and analog audio outputs of these SBCs. In case of Pi 5 some soldering and a USB to 3,5" jack soundcard/dongle are required.
+This special version is aimed at Raspberry Pi SBCs, namely Pi 3, Pi 4 and Pi 5. Out of the box these builds work with the composite video and analog audio outputs of these SBCs. In case of Pi 5 some soldering and a USB to 3,5 mm jack soundcard/dongle are required.
 
 # Release summary
 
