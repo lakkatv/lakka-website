@@ -65,7 +65,7 @@ If you are using a PAL TV, you will need to edit and modify following files in t
     - change `video=Composite-1:720x480,tv_mode=NTSC-J` to `video=Composite-1:720x576,tv_mode=PAL`
     - change `drm_rp1_vec.cmode=27000:721/16/64/58,480/6/6/34` to `drm_rp1_vec.cmode=27000,721/12/64/68,576/4/6/38`
 - `retroarch-overrides.txt`: (this must be done after flashing the image and before the first boot!)
-  - RPi3/RPi4/RPi5: add a new line with text `video_refresh_rate = "50.000000"`
+  - RPi3/RPi4/RPi5: add a new line with text `video_refresh_rate = "50.099998"`
   - only RPi5: add a new line with text `video_fullscreen_y = "576"`
 
 # Known issues
