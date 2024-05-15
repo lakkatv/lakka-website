@@ -33,15 +33,15 @@ Currently only images with NTSC preset are available, but we will update this ar
 
 You can download the images from below links:
 
-- [Raspberry Pi 3](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi3-Composite.aarch64/Lakka-RPi3-Composite.aarch64-20240510-7a626a4.img.gz)
-- [Raspberry Pi 4](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi4-Composite.aarch64/Lakka-RPi4-Composite.aarch64-20240510-7a626a4.img.gz)
-- [Raspberry Pi 5](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi5-Composite.aarch64/Lakka-RPi5-Composite.aarch64-20240510-7a626a4.img.gz)
+- [Raspberry Pi 3](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi3-Composite.aarch64/Lakka-RPi3-Composite.aarch64-20240515-90d524d.img.gz)
+- [Raspberry Pi 4](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi4-Composite.aarch64/Lakka-RPi4-Composite.aarch64-20240515-90d524d.img.gz)
+- [Raspberry Pi 5](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi5-Composite.aarch64/Lakka-RPi5-Composite.aarch64-20240515-90d524d.img.gz)
 
 Once updated images will be released with community fixes and updates, use the built-in online updater to download new updates.
 
 Remember to configure each core individually to have an integer vertical height, which varies per core (like 224 or 240 for NES). And mainly use a tvout shader to horizontally even out / blur pixels and alleviate composite artifacting.
 
-## Update May 10th, 2024
+## Update May 10th, 2024 / May 15th, 2024
 
 We now include shader specially crafted for CRT televisions using composite input. Also most of the libretro cores are now preconfigured to run at the correct aspect ratio.
 
@@ -55,18 +55,46 @@ You can edit `wifi-config.txt` to setup Wi-Fi network access after flashing the 
 
 ### PAL users
 
-If you are using a PAL TV, you will need to edit and modify following files in the FAT32 partition:
+If you are using a PAL TV, you will need to edit and modify `cmdline.txt` and `retroarch-overrides.txt` in the FAT32 partition. Below are instructions for individual devices. These instructions are also included in the files as comments. In case of `retroarch-overrides.txt` you just need to uncomment those lines. In `cmdline.txt` the very first line has to be modified according to the instructions. Please keep in mind that no line breaks are allowed between the arguments - all arguments must be in single line.
 
-- `cmdline.txt`:
-  - RPi3 and RPi4:
-    - change `video=Composite-1:720x480@60e` to `video=Composite-1:720x576@50e`
-    - remove `vc4.tv_norm=NTSC-J`
-  - RPi5:
-    - change `video=Composite-1:720x480,tv_mode=NTSC-J` to `video=Composite-1:720x576,tv_mode=PAL`
-    - change `drm_rp1_vec.cmode=27000:721/16/64/58,480/6/6/34` to `drm_rp1_vec.cmode=27000,721/12/64/68,576/4/6/38`
-- `retroarch-overrides.txt`: (this must be done after flashing the image and before the first boot!)
-  - RPi3/RPi4/RPi5: add a new line with text `video_refresh_rate = "50.099998"`
-  - only RPi5: add a new line with text `video_fullscreen_y = "576"`
+#### RPi3 and RPi4:
+
+In `cmdline.txt` change
+
+    video=Composite-1:720x480@60e vc4.tv_norm=NTSC-J
+
+to
+
+    video=Composite-1:720x576@50e
+
+In `retroarch-overrides.txt` add / uncomment following lines:
+
+    video_autoswitch_refresh_rate = "3"
+    video_refresh_rate = "50.08"
+
+If you already installed Lakka (i.e. the first boot with partition resizing is already done), modify these options:
+
+- Settings &rarr; Video &rarr; Output &rarr;
+  - change Vertical Refresh rate to 50.080 using left/right D-PAD on your gamepad or use the on-screen keyboard
+  - change Automatic Refresh Rate Switch to OFF
+
+Then save the settings (not needed if saving of settings on exit is enabled - default behavior) and restart RetroArch.
+
+#### RPi5:
+
+In `cmdline.txt` change
+
+    video=Composite-1:720x480,tv_mode=NTSC-J drm_rp1_vec.cmode=27000:721/16/64/58,480/6/6/34
+
+to
+
+    video=Composite-1:720x576,tv_mode=PAL drm_rp1_vec.cmode=27000,721/12/64/68,576/4/6/38
+
+In `retroarch-overrides.txt` add / uncomment following line:
+
+    video_fullscreen_y = "576"
+
+It is very important to change the Y resolution before first boot, otherwise RetroArch will be not able start normally. If you happen to be in this situation, you have to edit the configuration file in `/storage/.config/retroarch/retroarch.cfg` (via ssh) or `\\lakka-ip\Configfiles\retroarch\retroarch.cfg` (via network share) and change the value of the key `video_fullscreen_y` to `576`. After saving the file RetroArch should pick up the updated file and start normally.
 
 # Known issues
 
