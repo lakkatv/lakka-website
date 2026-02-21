@@ -2,7 +2,7 @@
 title: News
 ---
 
-<h2>Latest articles <a href="feed.xml"><i class="fa fa-rss"></i></a></h2>
+<h2>Latest articles <a href="feed.xml"><i class="fas fa-rss"></i></a></h2>
 
 <div class="row">
 <% sorted_articles[0..8].each do |article| %>
@@ -12,7 +12,7 @@ title: News
       
       <h4><%= article[:title] %></h4>
 
-      <div class="article-infos"><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></div>
+      <div class="article-infos"><i class="far fa-clock"></i> <%= date_for article[:created_at] %></div>
     </a>
   </div>
 <% end %>
@@ -22,7 +22,7 @@ title: News
 
 <% sorted_articles[9..-1].each do |article| %>
   <p>
-    <span><i class="fa fa-clock-o"></i> <%= date_for article[:created_at] %></span> - 
+    <span><i class="far fa-clock"></i> <%= date_for article[:created_at] %></span> - 
     <a href="<%= article.identifier %>"><%= article[:title] %></a>
   </p>
 <% end %>
