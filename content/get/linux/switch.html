@@ -10,14 +10,18 @@ next: install
 <p>This step is independent of your OS choice, the downloaded image can be used on any OS.</p> 
 <p>However, the image is specific to the target hardware, as its name should reflect it.</p>
 
-<p class="dl">
-    <a href="<%= @config[:release][:switch] %>">Download Lakka
-    <span class="details">for Nintendo Switch</span></a>
-</p>
+<% @config[:release][:switch].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <p>Download links for development images:</p>
 
-<p class="dl">
-  <a href="<%= @config[:devel][:'switch'] %>">Download Lakka
-  <span class="details">for Nintendo Switch</span></a>
-</p>
+<% @config[:devel][:switch].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:devel_descriptions][key]}" %>
+<% end %>

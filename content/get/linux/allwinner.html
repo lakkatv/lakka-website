@@ -12,181 +12,72 @@ next: install
 
 <h3>A64 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.a64_orangepi_win'] %>">Download Lakka
-  <span class="details">for Orange Pi Win</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.a64_pine64'] %>">Download Lakka
-  <span class="details">for Pine64</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.a64_pine64_lts'] %>">Download Lakka
-  <span class="details">for Pine64 LTS</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.a64_pine64_plus'] %>">Download Lakka
-  <span class="details">for Pine64 Plus</span></a>
-</p>
+<% @config[:release][:allwinner][:a64].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>H2-plus Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h2plus_bananapi_m2_zero'] %>">Download Lakka
-  <span class="details">for Banana Pi M2 Zero</span></a>
-</p>
+<% @config[:release][:allwinner][:h2plus].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>H3 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'capcom-home-arcade'] %>">Download Lakka
-  <span class="details">for Capcom Home Arcade</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_bananapi_m2p'] %>">Download Lakka
-  <span class="details">for Banana Pi M2 Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_beelink_x2'] %>">Download Lakka
-  <span class="details">for Beelink X2</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_libretech_h3'] %>">Download Lakka
-  <span class="details">for Libretech H3</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_nanopi_m1'] %>">Download Lakka
-  <span class="details">for NanoPi M1</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_orangepi_2'] %>">Download Lakka
-  <span class="details">for Orange Pi 2</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_orangepi_pc_plus'] %>">Download Lakka
-  <span class="details">for Orange Pi PC Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_orangepi_pc'] %>">Download Lakka
-  <span class="details">for Orange Pi PC</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_orangepi_plus'] %>">Download Lakka
-  <span class="details">for Orange Pi Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h3_orangepi_plus2e'] %>">Download Lakka
-  <span class="details">for Orange Pi Plus 2E</span></a>
-</p>
+<% @config[:release][:allwinner][:h3].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>H5 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h5_orangepi_pc2'] %>">Download Lakka
-  <span class="details">for Orange Pi PC 2</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h5_tritium_h5'] %>">Download Lakka
-  <span class="details">for Tritium H5</span></a>
-</p>
+<% @config[:release][:allwinner][:h5].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>H6 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_beelink_gs1'] %>">Download Lakka
-  <span class="details">for Beelink GS1</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_orangepi_3'] %>">Download Lakka
-  <span class="details">for Orange Pi 3</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_orangepi_lite2'] %>">Download Lakka
-  <span class="details">for Orange Pi Lite 2</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_orangepi_one_plus'] %>">Download Lakka
-  <span class="details">for Orange Pi One Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_pine_h64'] %>">Download Lakka
-  <span class="details">for Pine H64</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_pine_h64_model_b'] %>">Download Lakka
-  <span class="details">for Pine H64 (Model B)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h6_tanix_tx6'] %>">Download Lakka
-  <span class="details">for Tanix TX6</span></a>
-</p>
+<% @config[:release][:allwinner][:h6].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>H616 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.h616_orangepi_zero2'] %>">Download Lakka
-  <span class="details">for OrangePi Zero 2</span></a>
-</p>
+<% @config[:release][:allwinner][:h616].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>R40 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'allwinner.r40_bananapi_m2u'] %>">Download Lakka
-  <span class="details">for Bananapi M2U</span></a>
-</p>
+<% @config[:release][:allwinner][:r40].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <p>Download links for development images:</p>
 
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-a64'] %>">Download Lakka
-  <span class="details">for A64 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-h3'] %>">Download Lakka
-  <span class="details">for H3 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-h2plus'] %>">Download Lakka
-  <span class="details">for H2-plus devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-h5'] %>">Download Lakka
-  <span class="details">for H5 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-h6'] %>">Download Lakka
-  <span class="details">for H6 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-h616'] %>">Download Lakka
-  <span class="details">for H616 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'allwinner-r40'] %>">Download Lakka
-  <span class="details">for R40 devices</span></a>
-</p>
+<% @config[:devel][:allwinner].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:devel_descriptions][key]}" %>
+<% end %>

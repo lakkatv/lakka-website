@@ -12,44 +12,18 @@ next: install
 <p>Please note that due to the wide variety of PC hardware, Lakka may not work on your hardware.</p>
 <p>This image is USB image, not CD or DVD images, those installation mediums are unsupported. Also, we don't support virtualization and dualboot. Lakka is meant to be installed on real hardware.</p>
 
-<p class="dl">
-  <a href="<%= @config[:release][:x86_64] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel GPU (GBM)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:waylnd] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel GPU (Wayland)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:x11] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel, nVidia GPU (X11)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:i386] %>">Download Lakka
-  <span class="details">for 32-bit CPU</span></a>
-</p>
+<% @config[:release][:generic].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <p>Download links for development images:</p>
 
-<p class="dl">
-  <a href="<%= @config[:devel][:x86_64] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel GPU (GBM)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:waylnd] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel GPU (Wayland)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:x11] %>">Download Lakka
-  <span class="details">for 64-bit CPU / AMD, Intel, nVidia GPU (X11)</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:i386] %>">Download Lakka
-  <span class="details">for 32-bit CPU</span></a>
-</p>
+<% @config[:devel][:generic].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:devel_descriptions][key]}" %>
+<% end %>

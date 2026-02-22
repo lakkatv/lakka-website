@@ -12,161 +12,46 @@ next: install
 
 <h3>RK3288 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3288_miqi'] %>">Download Lakka
-  <span class="details">for Mqmaker MiQi</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3288_tinker'] %>">Download Lakka
-  <span class="details">for ASUS Tinker Board</span></a>
-</p>
+<% @config[:release][:rockchip][:rk3288].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>RK3326 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3326_odroidgo2'] %>">Download Lakka
-  <span class="details">for Hardkernel ODROID Go Advance / Super</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3326_rg351mp'] %>">Download Lakka
-  <span class="details">for Anbernic RG351MP</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3326_rg351p'] %>">Download Lakka
-  <span class="details">for Anbernic RG351P/M</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3326_rg351v'] %>">Download Lakka
-  <span class="details">for Anbernic RG351V</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3326_chi'] %>">Download Lakka
-  <span class="details">for Gameforce Chi</span></a>
-</p>
+<% @config[:release][:rockchip][:rk3326].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>RK3328 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3328_a1'] %>">Download Lakka
-  <span class="details">for Beelink A1</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3328_roc_cc'] %>">Download Lakka
-  <span class="details">for Firefly ROC-RK3328-CC</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3328_rock64'] %>">Download Lakka
-  <span class="details">for Popcorn Hour Transformer</span></a>
-</p>
+<% @config[:release][:rockchip][:rk3328].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>RK3399 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_hugsun_x99'] %>">Download Lakka
-  <span class="details">for Hugsun X99</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_khadas_edge'] %>">Download Lakka
-  <span class="details">for Khadas Edge</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_nanopc_t4'] %>">Download Lakka
-  <span class="details">for FriendlyElec NanoPC T4</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_nanopi_m4'] %>">Download Lakka
-  <span class="details">for FriendlyElec NanoPi M4</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_orangepi'] %>">Download Lakka
-  <span class="details">for Orange Pi</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_orangepi4lts'] %>">Download Lakka
-  <span class="details">for Orange Pi 4 LTS</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_roc_pc'] %>">Download Lakka
-  <span class="details">for Firefly ROC-PC</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_roc_pcp'] %>">Download Lakka
-  <span class="details">for Firefly ROC-PC Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_pi_4'] %>">Download Lakka
-  <span class="details">for Radxa ROCK Pi 4</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_pi_4p'] %>">Download Lakka
-  <span class="details">for Radxa ROCK Pi 4 Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_pi_4cp'] %>">Download Lakka
-  <span class="details">for Radxa ROCK Pi 4 C Plus</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_pi_n10'] %>">Download Lakka
-  <span class="details">for Radxa ROCK Pi N10</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_4c_plus'] %>">Download Lakka
-  <span class="details">for Radxa ROCK 4C+</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock_4se'] %>">Download Lakka
-  <span class="details">for Radxa ROCK 4SE</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rock960'] %>">Download Lakka
-  <span class="details">for 96rocks ROCK960</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_rockpro64'] %>">Download Lakka
-  <span class="details">for PINE64 RockPro64</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'rockchip.rk3399_sapphire'] %>">Download Lakka
-  <span class="details">for Sapphire Board</span></a>
-</p>
+<% @config[:release][:rockchip][:rk3399].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <p>Download links for development images:</p>
 
-<p class="dl">
-  <a href="<%= @config[:devel][:'rk3288'] %>">Download Lakka
-  <span class="details">for RK3288 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'rk3328'] %>">Download Lakka
-  <span class="details">for RK3328 devices</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'rk3399'] %>">Download Lakka
-  <span class="details">for RK3399 devices</span></a>
-</p>
+<% @config[:devel][:rockchip].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:devel_descriptions][key]}" %>
+<% end %>
 

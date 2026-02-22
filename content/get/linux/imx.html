@@ -12,46 +12,27 @@ next: install
 
 <h3>iMX6 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx6_cubox'] %>">Download Lakka
-  <span class="details">for CuBox</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx6_udoo'] %>">Download Lakka
-  <span class="details">for UDOO</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx6_wandboard'] %>">Download Lakka
-  <span class="details">for Wandboard</span></a>
-</p>
+<% @config[:release][:nxp][:imx6].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <h3>iMX8 Devices</h3>
 
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx8_mq_evk'] %>">Download Lakka
-  <span class="details">MQ EVK</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx8_pico_mq'] %>">Download Lakka
-  <span class="details">PICO MQ</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:release][:'nxp.imx8_phanbell'] %>">Download Lakka
-  <span class="details">MQ Phanbell</span></a>
-</p>
+<% @config[:release][:nxp][:imx8].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:release_descriptions][key]}" %>
+<% end %>
 
 <p>Download links for development images:</p>
 
-<p class="dl">
-  <a href="<%= @config[:devel][:'imx6'] %>">Download Lakka
-  <span class="details">for iMX6</span></a>
-</p>
-
-<p class="dl">
-  <a href="<%= @config[:devel][:'imx8'] %>">Download Lakka
-  <span class="details">for iMX8</span></a>
-</p>
+<% @config[:devel][:nxp].each do |key, url| %>
+  <%= render 'partials/dl-button',
+        url: url,
+        what: 'Lakka',
+	detail: "for #{@config[:devel_descriptions][key]}" %>
+<% end %>
