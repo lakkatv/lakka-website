@@ -13,7 +13,7 @@ social:
 ---
 
 ![Thumbnail](media/thumb.png)
-_Thumbnail by [jdalmanza](https://www.instagram.com/jdalmanza/)_
+_Thumbnail by jdalmanza_
 
 
 We are proud to announce a release canditate for the upcoming release of Lakka 4.1. This release candidate is considered to be stable. Before we release final 4.1 version, we want to give it a good test drive by a broader audience. We thank all testers in the community who give us valuable feedback on the nightly development builds.

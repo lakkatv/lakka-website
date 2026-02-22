@@ -10,7 +10,7 @@ social:
 ---
 
 ![Thumbnail](media/thumb.png)
-_Thumbnail by [jdalmanza](https://www.instagram.com/jdalmanza/)_
+_Thumbnail by jdalmanza_
 
 
 New version of Lakka has been released!
