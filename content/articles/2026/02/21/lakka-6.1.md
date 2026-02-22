@@ -48,7 +48,7 @@ Just like previous releases, all existing cores have been updated to their lates
 - `gam4980` - Handheld LCD electronic games
 - `geargrafx` - PC Engine / TurboGrafx‑16
 - `gearlynx` - Atari Lynx
-- `holani` - Nintendo DS
+- `holani` - Alari Lynx
 - `lrps2` - Sony Playstation 2 (supersedes `pcsx2`)
 - `m2000` - Casio PV-1000 / PV-2000
 - `melondsds` - Nintendo DS
