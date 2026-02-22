@@ -175,7 +175,7 @@ As usual all cores, databases, controller mappings and assets have been updated.
   - New platform: Raspberry Pi 4
   - New Raspberry Pi accessory: GPICase
   - New Raspberry Pi accessory: Game HAT
-    - The Game HAT driver can be enabled manually from any existing Raspberry Pi Lakka installation by following the instructions [here](https://github.com/libretro/Lakka-LibreELEC/blob/master/packages/linux-drivers/game-hat/README.md)
+    - The Game HAT driver can be enabled manually from any existing Raspberry Pi Lakka installation by following the instructions [here](<%= config[:links][:github] %>/blob/master/packages/linux-drivers/game-hat/README.md)
   - New platform: ROCKPro64
   - New plaform: Vulkan-only Nvidia computers
     - This variant of the Generic platform only supports Vulkan on computers with Nvidia-powered GPUs. While it runs some cores better (such as Dolphin), it also has a lot of incompatibles, removed cores

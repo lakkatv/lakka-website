@@ -38,7 +38,7 @@ Once downloaded, thumbnails will display in the bottom right corner of your scre
 
 There are 3 types of thumbnails, and you can switch over those either in the **Menu Settings** or by using the **Y Button** (left) of the RetroPad.
 
-You can find more information about this on our [wiki](https://github.com/libretro/Lakka/wiki/Game-Thumbnails)
+You can find more information about this on our [documentation](/doc/Game-Thumbnails/)
 
 # Icon theme switching 
 

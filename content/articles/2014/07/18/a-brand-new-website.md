@@ -22,13 +22,13 @@ free hosting to this website.
 
 You might have noticed new pages form the navigation bar:
 
-* [Documentation](/doc/Home) is actually the same content in our
-[Github Wiki](https://github.com/lakkatv/Lakka/wiki), actually we use the very
+* [Documentation](/doc/Home/) is actually the same content in our
+[Github Wiki](<%= config[:links][:github] %>/wiki), actually we use the very
 same source code, from the same place.
-* [Contact](/contact) has changed. We temporarily removed the contact form and
+* [Contact](/contact/) has changed. We temporarily removed the contact form and
 replaced it by instruction to contact us. Don't worry though, it will be back
 soon.
-* [About](/about) contains legal and miscellaneous information.
+* [About](/about/) contains legal and miscellaneous information.
 * We also refactored the [installation tutorial](/get/) and cleaned up W3C validations
 issues on it.
 

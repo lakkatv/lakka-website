@@ -21,10 +21,10 @@ least amount of problems possible for the end user.
 
 You have several ways to get help:
 
- * Reading the [FAQ](/doc/FAQ)
- * Reading the [documentation](/doc/Home)
+ * Reading the [FAQ](/doc/FAQ/)
+ * Reading the [documentation](/doc/Home/)
  * Using social networks ([twitter](https://twitter.com/lakkatv), [facebook](https://www.facebook.com/lakkatv), [G+](https://plus.google.com/+LakkaTv/posts), [diaspora / framasphère](https://framasphere.org/people/a7eb87705944013249142a0000053625))
- * Using the [contact form](/contact)
+ * Using the [contact form](/contact/)
  * Using [IRC](irc://irc.freenode.org/#lakkatv)
 
 For IRC, please keep in mind that most of our developers live in Western Europe time zone.
