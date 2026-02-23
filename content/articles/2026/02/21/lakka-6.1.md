@@ -35,30 +35,30 @@ We also ship with the latest stable RetroArch 1.22.2, including all its new UI i
 
 Just like previous releases, all existing cores have been updated to their latest upstream versions. But Lakka 6.1 also introduces a fresh batch of newly added libretro cores, expanding the range of systems and experiences you can emulate.
 
-- `amiarcadia` - Arcadia 2001 / Interton / Emerson consoles
+- `amiarcadia` - Emerson Arcadia 2001 / Interton VC 4000 / Elektor TV Games Computer / Arcade coin-ops Zaccaria and Malzak
 - `amiberry` - Commodore Amiga / CD32
-- `anarch` - Doom-engine
-- `ardens` - Arduboy
+- `anarch` - Doom clone engine
+- `ardens` - Arduboy FX
 - `b2` - BBC Micro
 - `bsnes_jg` - Super Nintendo
 - `clownmdemu` - Sega Mega Drive / Genesis
 - `dice` - Early CPU‑less arcade machines
 - `doublecherrygb` - Nintendo Game Boy / Game Boy Color
 - `doukutsu_rs` - Cave Story
-- `gam4980` - Handheld LCD electronic games
+- `gam4980` - BBK Longman 4980 electronic dictionary
 - `geargrafx` - PC Engine / TurboGrafx‑16
 - `gearlynx` - Atari Lynx
-- `holani` - Alari Lynx
+- `holani` - Atari Lynx
 - `lrps2` - Sony Playstation 2 (supersedes `pcsx2`)
-- `m2000` - Casio PV-1000 / PV-2000
+- `m2000` - Philips P2000T
 - `melondsds` - Nintendo DS
 - `noods` - Nintendo DS
 - `panda3ds` - Nintendo 3DS
-- `pd777` - Bandai Pippin / PD‑series hardware
-- `pzretro` - PZ Retro
-- `skyemu` - Nintendo Game Boy Advance / DS
+- `pd777` - Epoch - Cassette Vision
+- `pzretro` - PuzzleScript engine
+- `skyemu` - Nintendo Game Boy / Game Boy Color / Game Boy Advance / DS
 - `tamalibretro` - Tamagotchi
-- `virtualxt` - IBM PC/XT
+- `virtualxt` - Turbo PC/XT
 
 ## Raspberry Pi Composite Optimized Images
 
