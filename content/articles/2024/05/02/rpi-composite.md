@@ -33,9 +33,9 @@ Currently only images with NTSC preset are available, but we will update this ar
 
 You can download the images from below links:
 
-- [Raspberry Pi 3](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi3-Composite.aarch64/Lakka-RPi3-Composite.aarch64-20240515-90d524d.img.gz)
-- [Raspberry Pi 4](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi4-Composite.aarch64/Lakka-RPi4-Composite.aarch64-20240515-90d524d.img.gz)
-- [Raspberry Pi 5](https://nightly.builds.lakka.tv/members/vudiq/RPi-Composite/RPi5-Composite.aarch64/Lakka-RPi5-Composite.aarch64-20240515-90d524d.img.gz)
+- [Raspberry Pi 3](https://le-builds.lakka.tv/RPi3-Composite.aarch64/Lakka-RPi3-Composite.aarch64-6.1.img.gz)
+- [Raspberry Pi 4](https://le-builds.lakka.tv/RPi4-Composite.aarch64/Lakka-RPi4-Composite.aarch64-6.1.img.gz)
+- [Raspberry Pi 5](https://le-builds.lakka.tv/RPi5-Composite.aarch64/Lakka-RPi5-Composite.aarch64-6.1.img.gz)
 
 Once updated images will be released with community fixes and updates, use the built-in online updater to download new updates.
 
